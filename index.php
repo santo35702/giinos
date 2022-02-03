@@ -546,6 +546,80 @@
             </div>
         </section>
 
+        <!-- start speech section-->
+        <section class="speech-section">
+            <h2><span class="colon">“</span>At Giinos, We perceive team & customer <span class="speech"> holistic values</span> holistic values by achiving <br>missions together, We humbly stand behind great success of our <br>customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span><span class="colon">”</span> </h2>
+            <div class="row">
+                <img src="resource/img/Group%207018.png" alt="">
+            </div>
+        </section>
+
+        <!-- start contact section-->
+        <section class="contact-section">
+            <div class="col span_1_of_1 mission">
+                <div class="col span_1_of_2">
+                    <img src="resource/img/Group%20764.png" alt="Map">
+                </div>
+                <div class="col span_1_of_2 form">
+                    <h6>Contact us</h6>
+                    <h8><br><br>Email us to discuss investment, PR or any other question.</h8>
+                    <div class="container">
+                        <form action="#">
+
+                            <label for="company"></label>
+                            <input type="text" id="company" name="company" placeholder="company*" class="required">
+
+                            <label for="email"></label>
+                            <input type="text" id="email" name="Email_address" placeholder="Email address*" class="required">
+
+                            <label for="number"></label>
+                            <input type="text" id="number" name="tel" placeholder="Tel*.." class="required">
+
+                            <label for="software" class="required"></label>
+                            <select id="software" name="Select Softwear*">
+                                <option value="software1">Select Softwear*</option>
+                                <option value="software2">software2</option>
+                                <option value="software3">software3</option>
+                            </select>
+
+                            <label for="Message"></label>
+                            <textarea id="Message" name="Message*" placeholder="Message*.." style="height:200px" required></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start footer section-->
+        <section class="footer-section">
+            <nav>
+                <div class="row">
+                    <a href="#">
+                        <img src="resource/img/Group%20499.png" alt="Giinos" class="footer-logo">
+                    </a>
+                    <ul class="footer">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#service">What we do</a></li>
+                        <li><a href="#success">Success Story</a></li>
+                        <li><a href="#team">Team and Culture</a></li>
+                        <li><a href="#hire">🔥We’re hiring</a></li>
+                        <li><a href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <!-- js section-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="vendor/js/html5shiv.min.js"></script>
+        <script src="vendor/js/respond.min.js"></script>
+        <script src="vendor/js/selectivizr.js"></script>
+        <script src="vendor/js/animated.circle.js"></script>
+        <script src="resource/js/main.js"></script>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
     </body>
