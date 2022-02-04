@@ -1,10 +1,14 @@
+<?php
+    include 'language.php';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-xcompatible" content="IE-edge">
-        <title>GIINOS-Software Intelligence</title>
+        <title><?php echo $title[$ln] ?></title>
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,22 +30,22 @@
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#"><?php echo $navbar[$ln][0] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#service">What we do</a>
+                            <a class="nav-link" href="#service"><?php echo $navbar[$ln][1] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#success">Success Story</a>
+                            <a class="nav-link" href="#success"><?php echo $navbar[$ln][2] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">Team and Culture</a>
+                            <a class="nav-link" href="#team"><?php echo $navbar[$ln][3] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#hire">🔥We’re hiring</a>
+                            <a class="nav-link" href="#hire">🔥<?php echo $navbar[$ln][4] ?></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
+                            <a class="nav-link" href="#contact"><?php echo $navbar[$ln][5] ?></a>
                         </li>
                     </ul>
                     <!-- <form class="d-flex">
@@ -54,9 +58,9 @@
                         <li class="nav-item input-group">
                             <a class="nav-link"><img src="resource/img/Vector.png" alt=""></a>
                             <select class="form-select" onchange="set_language()" name="ln" id="language">
-                                <option value="bn"> বাংলা</option>
-                                <option value="en"> English</option>
-                                <option value="th"> ไทย</option>
+                                <option value="bn" <?php echo $bn_selected; ?>> বাংলা</option>
+                                <option value="en" <?php echo $en_selected; ?>> English</option>
+                                <option value="th" <?php echo $th_selected; ?>> ไทย</option>
                             </select>
                         </li>
                     </ul>
@@ -67,8 +71,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
-                    <h1>Intelligent <span class="fluid">Fluid</span> <br> Process Flow <br>Management <br> Platform</h1>
-                    <p class="hero-description">for maximizing <br> <span class="hero-p"> holistic values</span></p>
+                    <h1><?php echo $homeContent[$ln]['title'] ?></h1>
+                    <p class="hero-description"><?php echo $homeContent[$ln]['description'] ?></p>
                 </div>
                 <div class="col-8">
                     <img class="hero_img img-fluid" src="resource/img/Group_810.png" alt="hero">
@@ -121,10 +125,19 @@
             </div>
         </section>
 
+        <h1>Suvo test</h1>
+
 
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" charset="utf-8"></script>
+
+        <script type="text/javascript">
+            function set_language() {
+                var language=jQuery('#language').val();
+                window.location.href='http://giinos.com/?ln='+language;
+            }
+        </script>
     </body>
 </html>
