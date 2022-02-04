@@ -84,10 +84,10 @@
         <section class="customer-section container-fluid py-5">
             <div class="d-flex flex-column justify-content-center pt-3">
                 <div class="text-center">
-                    <h2>Some of Our Great Customers</h2>
+                    <h2><?php echo $customerContent[$ln]['h2'] ?></h2>
                 </div>
                 <div class="text-center">
-                    <h3>Some of the companies we have worked with</h3>
+                    <h3><?php echo $customerContent[$ln]['h3'] ?></h3>
                 </div>
             </div>
             <div class="pb-3">
@@ -101,31 +101,30 @@
                 <div class="row">
                     <div class="col">
                         <div class="">
-                            <h2>Mission</h2>
-                            <h5 class="little-description"> Maximizing Value Holistic Values is our core mission which is base on these three values. </h5>
+                            <h2><?php echo $missionContent[$ln]['mission']['title'] ?></h2>
+                            <h5 class="little-description"><?php echo $missionContent[$ln]['mission']['description'] ?></h5>
                         </div>
                     </div>
                     <div class="col mission">
                         <img src="resource/img/d.png" alt="" class="services-icon">
-                        <h3>Customer Holistic <br>Values</h3>
-                        <p>We keep delivering customer value in many forms beyond the solutiom,for example, care, consultation, or whatever we can do for our customers, we will.</p>
+                        <h3><?php echo $missionContent[$ln]['customer']['title'] ?></h3>
+                        <p><?php echo $missionContent[$ln]['customer']['description'] ?></p>
                     </div>
                     <div class="col mission">
                         <img src="resource/img/Group%207071.png" alt="" class="services-icon">
-                        <h3>Team Holistic <br>Values</h3>
-                        <p>We also making sure that all teams also percieve the value while they work together to achive the first mission. Team suppose to support each other to make us “better”. Atmosphere at workplace & culture are one of responsibility for
-                            team to keep it good all the time in order to achive overall mission.</p>
+                        <h3><?php echo $missionContent[$ln]['team']['title'] ?></h3>
+                        <p><?php echo $missionContent[$ln]['team']['description'] ?></p>
                     </div>
                     <div class="col mission">
                         <img src="resource/img/hand.png" alt="" class="services-icon">
-                        <h3>Individual Holistic <br>Values</h3>
-                        <p>This mission is not about “yourself” but tt’s for “everyone”. As a team member, everybody has mission to take care team member’s holistic values including yours.</p>
+                        <h3><?php echo $missionContent[$ln]['other']['title'] ?></h3>
+                        <p><?php echo $missionContent[$ln]['other']['description'] ?></p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        
+
+
 
         <h1>Suvo test</h1>
 
