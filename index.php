@@ -77,19 +77,48 @@
         </div>
 
         <!-- start customer section-->
-        <section class="customer-section container-fluid">
-            <div class="d-flex flex-column">
-                <div class="visually-hidden">
+        <section class="customer-section container-fluid py-5">
+            <div class="d-flex flex-column justify-content-center pt-3">
+                <div class="text-center">
                     <h2>Some of Our Great Customers</h2>
                 </div>
-                <div class="visually-hidden">
+                <div class="text-center">
                     <h3>Some of the companies we have worked with</h3>
                 </div>
             </div>
-            <div class="">
+            <div class="pb-3">
                 <img src="./resource/img/Group_786.png" alt="Customers" class="img-fluid">
             </div>
+        </section>
 
+        <!-- start mission section-->
+        <section class="mission-section container-fluid" id="service">
+            <div class="flex-container mx-auto">
+                <div class="row">
+                    <div class="col">
+                        <div class="">
+                            <h2>Mission</h2>
+                            <h5 class="little-description"> Maximizing Value Holistic Values is our core mission which is base on these three values. </h5>
+                        </div>
+                    </div>
+                    <div class="col mission">
+                        <img src="resource/img/d.png" alt="" class="services-icon">
+                        <h3>Customer Holistic <br>Values</h3>
+                        <p>We keep delivering customer value in many forms beyond the solutiom,for example, care, consultation, or whatever we can do for our customers, we will.</p>
+                    </div>
+                    <div class="col mission">
+                        <img src="resource/img/Group%207071.png" alt="" class="services-icon">
+                        <h3>Team Holistic <br>Values</h3>
+                        <p>We also making sure that all teams also percieve the value while they work together to achive the first mission. Team suppose to support each other to make us “better”. Atmosphere at workplace & culture are one of responsibility for
+                            team to keep it good all the time in order to achive overall mission.</p>
+                    </div>
+                    <div class="col mission">
+                        <img src="resource/img/hand.png" alt="" class="services-icon">
+                        <h3>Individual Holistic <br>Values</h3>
+                        <p>This mission is not about “yourself” but tt’s for “everyone”. As a team member, everybody has mission to take care team member’s holistic values including yours.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
