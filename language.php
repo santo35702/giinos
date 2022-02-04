@@ -134,21 +134,52 @@
             ],
     );
 
-    // $customerContent = array(
-    //     'en' => ,
-    //     'bn' => ,
-    //     'th' => ,
-    // );
-    // $customerContent = array(
-    //     'en' => ,
-    //     'bn' => ,
-    //     'th' => ,
-    // );
-    // $customerContent = array(
-    //     'en' => ,
-    //     'bn' => ,
-    //     'th' => ,
-    // );
+    $fluidContent = array(
+        'en' => [
+            'title' => 'Why Fluid Process Flow ?',
+            'description' => 'Establishing a well defined process flow is challenging mission itself. But today, in the world of rappid changes and unable to predicted challenges, you need not only a well defined one , but abilities to adjust / change dynamically also.This is why at Giinos, we are always focusing to invent the way how can we make process flow “fluid” that can immediately help our customers, especially in health sectors, responde to changes quickly over the night or even within a few hours in order to adapt to threat like COVID-19 pandemics. That’s where, everything have to be combined together starting from domain-specific problem understanding, provlem solving skills, experiences, skills to choose the right technologies, platform building and visions and apply AI or machine learning / data analytics to make it “intelligent fluid”.',
+            ],
+        'bn' => [
+            'title' => 'কেন তরল প্রক্রিয়া প্রবাহ?',
+            'description' => 'একটি সুনির্দিষ্ট প্রক্রিয়া প্রবাহ প্রতিষ্ঠা করা নিজেই চ্যালেঞ্জিং মিশন। কিন্তু আজ, দ্রুত পরিবর্তনের বিশ্বে এবং চ্যালেঞ্জের ভবিষ্যদ্বাণী করতে অক্ষম, আপনার শুধুমাত্র একটি সুনির্দিষ্ট সংজ্ঞায়িত নয়, গতিশীলভাবে সামঞ্জস্য/পরিবর্তন করার ক্ষমতাও দরকার৷ এই কারণেই জিনোসে, আমরা সর্বদা সেই উপায় উদ্ভাবনের দিকে মনোনিবেশ করি যে কীভাবে আমরা করতে পারি৷ প্রক্রিয়া প্রবাহকে "তরল" করুন যা অবিলম্বে আমাদের গ্রাহকদের সাহায্য করতে পারে, বিশেষ করে স্বাস্থ্য খাতে, কোভিড-১৯ মহামারীর মতো হুমকির সাথে খাপ খাইয়ে নেওয়ার জন্য রাতারাতি বা এমনকি কয়েক ঘণ্টার মধ্যে দ্রুত পরিবর্তনের প্রতিক্রিয়া জানাতে। সেখানেই, ডোমেন-নির্দিষ্ট সমস্যা বোঝা, সমস্যা সমাধানের দক্ষতা, অভিজ্ঞতা, সঠিক প্রযুক্তি বেছে নেওয়ার দক্ষতা, প্ল্যাটফর্ম নির্মাণ এবং দৃষ্টিভঙ্গি এবং এটিকে "বুদ্ধিমান তরল" করতে AI বা মেশিন লার্নিং / ডেটা অ্যানালিটিক্স প্রয়োগ করা থেকে শুরু করে সবকিছুকে একত্রিত করতে হবে।',
+            ],
+        'th' => [
+            'title' => 'ทำไมต้อง Fluid Process Flow',
+            'description' => 'การสร้างโฟลว์กระบวนการที่กำหนดไว้อย่างชัดเจนถือเป็นภารกิจที่ท้าทาย แต่วันนี้ ในโลกของการเปลี่ยนแปลงอย่างรวดเร็วและไม่สามารถคาดเดาความท้าทายได้ คุณไม่เพียงต้องการสิ่งที่กำหนดมาอย่างดีเท่านั้น แต่ยังต้องมีความสามารถในการปรับเปลี่ยน/เปลี่ยนแปลงแบบไดนามิกด้วย ด้วยเหตุนี้ที่ Giinos เราจึงมุ่งเน้นที่จะคิดค้นวิธีที่เราจะทำได้อย่างไร ทำให้การไหลของกระบวนการเป็น "ของเหลว" ที่สามารถช่วยลูกค้าของเราได้ทันที โดยเฉพาะอย่างยิ่งในภาคสุขภาพ ตอบสนองต่อการเปลี่ยนแปลงอย่างรวดเร็วในชั่วข้ามคืนหรือแม้กระทั่งภายในไม่กี่ชั่วโมงเพื่อปรับตัวให้เข้ากับภัยคุกคาม เช่น การระบาดใหญ่ของ COVID-19 นั่นคือที่ที่ทุกอย่างต้องรวมเข้าด้วยกันโดยเริ่มจากการเข้าใจปัญหาเฉพาะโดเมน ทักษะการแก้ปัญหา ประสบการณ์ ทักษะในการเลือกเทคโนโลยีที่เหมาะสม การสร้างแพลตฟอร์มและวิสัยทัศน์ และใช้ AI หรือการเรียนรู้ของเครื่อง / การวิเคราะห์ข้อมูลเพื่อทำให้เป็น “ของเหลวอัจฉริยะ”',
+            ],
+    );
+
+    $realtimeContent = array(
+        'en' => [
+            'title' => 'Realtime Insights & <br>Adapt-to-change Awareness.',
+            'description' => 'Fluid Process Flow starts from “knowing where should be adjusted or changed”. Otherwise we just change workflow blindly and unable to measure the result of changes.<br>Our customers connected with insights via various channels started from realtime-insights-delivery mobile app for top management, sophisticated data analytics report, department-level mission-based dashboard and warroom dashboard for operation team. <br>We heavily putting our efforts to laydown platform design to achive realtime insights since the day one. With Realtime Insights, we are ready to convince ours customer to have Adapt-to-change Awareness which is big obstrucle in most organization who want to transform into digital organization.',
+            ],
+        'bn' => [
+            'title' => 'রিয়েলটাইম অন্তর্দৃষ্টি এবং <br>অ্যাডাপ্ট-টু-চেঞ্জ সচেতনতা।',
+            'description' => 'তরল প্রক্রিয়া প্রবাহ "কোথায় সামঞ্জস্য বা পরিবর্তন করা উচিত তা জানা" থেকে শুরু হয়। অন্যথায় আমরা অন্ধভাবে কর্মপ্রবাহ পরিবর্তন করি এবং পরিবর্তনের ফলাফল পরিমাপ করতে অক্ষম।<br>বিভিন্ন চ্যানেলের মাধ্যমে অন্তর্দৃষ্টির সাথে সংযুক্ত আমাদের গ্রাহকরা শীর্ষ ব্যবস্থাপনার জন্য রিয়েলটাইম-অন্তর্দৃষ্টি-ডেলিভারি মোবাইল অ্যাপ থেকে শুরু করে, পরিশীলিত ডেটা বিশ্লেষণ প্রতিবেদন, বিভাগ-স্তরের মিশন-ভিত্তিক অপারেশন দলের জন্য ড্যাশবোর্ড এবং ওয়াররুম ড্যাশবোর্ড। <br>প্রথম দিন থেকেই রিয়েলটাইম অন্তর্দৃষ্টি অর্জনের জন্য প্ল্যাটফর্ম ডিজাইন লেডাউন করার জন্য আমরা প্রচণ্ডভাবে আমাদের প্রচেষ্টা চালিয়ে যাচ্ছি। রিয়েলটাইম ইনসাইটস-এর সাহায্যে, আমরা আমাদের গ্রাহকদের অভিযোজন-টু-পরিবর্তন সচেতনতা রাখতে রাজি করিয়ে দিতে প্রস্তুত যা বেশিরভাগ প্রতিষ্ঠানের ক্ষেত্রে বড় বাধা যারা ডিজিটাল প্রতিষ্ঠানে রূপান্তর করতে চায়।',
+            ],
+        'th' => [
+            'title' => 'ข้อมูลเชิงลึกแบบเรียลไทม์ & <br>Adapt-to-change Awareness',
+            'description' => 'การไหลของของไหลเริ่มต้นจาก “การรู้ว่าควรปรับปรุงหรือเปลี่ยนแปลงที่ใด” มิฉะนั้น เราก็แค่เปลี่ยนเวิร์กโฟลว์อย่างสุ่มสี่สุ่มห้าและไม่สามารถวัดผลลัพธ์ของการเปลี่ยนแปลงได้<br>ลูกค้าของเราเชื่อมต่อกับข้อมูลเชิงลึกผ่านช่องทางต่างๆ ที่เริ่มต้นจากแอปมือถือส่งมอบข้อมูลเชิงลึกแบบเรียลไทม์สำหรับผู้บริหารระดับสูง รายงานการวิเคราะห์ข้อมูลที่ซับซ้อน ตามภารกิจระดับแผนก แดชบอร์ดและแดชบอร์ด warroom สำหรับทีมปฏิบัติการ <br>เราใช้ความพยายามอย่างมากในการจัดวางการออกแบบแพลตฟอร์มเพื่อให้ได้ข้อมูลเชิงลึกแบบเรียลไทม์ตั้งแต่วันแรก ด้วย Realtime Insights เราพร้อมที่จะโน้มน้าวลูกค้าให้มีการรับรู้ถึงการเปลี่ยนแปลงซึ่งเป็นอุปสรรคใหญ่ในองค์กรส่วนใหญ่ที่ต้องการแปลงเป็นองค์กรดิจิทัล',
+            ],
+    );
+
+    $platformContent = array(
+        'en' => [
+            'title' => 'Intelligent Fluid Platform & <br>Way ahead.',
+            'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers. Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone. <br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.',
+            ],
+        'bn' => [
+            'title' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'description' => 'আমরা আমাদের প্ল্যাটফর্মকে নমনীয় রাখি এবং সবসময় দেখি আমরা এখন কী করতে পারি। আমরা R&D করি, আমাদের অংশীদারদের সাথে সমন্বয় করি যাতে গ্রাহকদের জন্য কোনো মৃত্যু নেই। মেশিন লার্নিং, AI এবং Web3-এর মতো নতুন প্রযুক্তি প্রয়োগ করা হল আমাদের সুযোগ এবং লক্ষ্য সকলের জন্য নির্বিঘ্নে "মানুষের মিথস্ক্রিয়া" সরবরাহ করা। <br>আমরা রোডম্যাপ প্রকাশ করি এবং আমাদের গ্রাহকদের জন্য মূল্য সর্বাধিক করার জন্য আমাদের রোডম্যাপ থেকে নতুন প্রযুক্তি, বৈশিষ্ট্যগুলি প্রয়োগ করতে তাদের সাথে সত্যই পরামর্শ, পরিকল্পনা এবং সমর্থন করি। যাতে প্ল্যাটফর্ম বিল্ডিং এর সুন্দর, “মূল্য প্রদান”.',
+            ],
+        'th' => [
+            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "ปฏิสัมพันธ์ที่ราบรื่นกับผู้คน" สำหรับทุกคน <br>เราเปิดตัวแผนงาน & ให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
+            ],
+    );
+
+
     // $customerContent = array(
     //     'en' => ,
     //     'bn' => ,

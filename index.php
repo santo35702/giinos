@@ -124,9 +124,44 @@
             </div>
         </section>
 
+        <!-- start fluid section-->
+        <section class="fluid-section container-fluid py-5">
+            <div class="row">
+                <div class="col">
+                    <img src="resource/img/undraw_creative_woman_re_u5tk%201.png" alt="fluid">
+                </div>
+                <div class="col box1">
+                    <h2><?php echo $fluidContent[$ln]['title'] ?></h2>
+                    <p><?php echo $fluidContent[$ln]['description'] ?></p>
+                </div>
+            </div>
+        </section>
 
+        <!-- start realtime section-->
+        <section class="realtime-section container-fluid py-5">
+            <div class="row">
+                <div class="col box1">
+                    <h2><?php echo $realtimeContent[$ln]['title'] ?></h2>
+                    <p><?php echo $realtimeContent[$ln]['description'] ?></p>
+                </div>
+                <div class="col-3">
+                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid">
+                </div>
+            </div>
+        </section>
 
-        <h1>Suvo test</h1>
+        <!-- start platform section-->
+        <section class="fluid_platform-section container-fluid">
+            <div class="row">
+                <div class="col span_1_of_3 ">
+                    <img src="resource/img/undraw_co-working_re_w93t%201.png" alt="fluid" class="img-fluid">
+                </div>
+                <div class="col span_1_of_3 box1">
+                    <h2><?php echo $platformContent[$ln]['title'] ?></h2>
+                    <p><?php echo $platformContent[$ln]['description'] ?></p>
+                </div>
+            </div>
+        </section>
 
 
 
