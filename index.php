@@ -172,7 +172,8 @@
         <script type="text/javascript">
             function set_language() {
                 var language=jQuery('#language').val();
-                window.location.href='http://giinos.com/?ln='+language;
+                window.location.href='http://localhost/giinos/?ln='+language;
+                // window.location.href='http://giinos.com/?ln='+language;
             }
         </script>
     </body>
