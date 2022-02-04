@@ -66,12 +66,12 @@
             'h3' => 'Some of the companies we have worked with',
             ],
         'bn' => [
-            'h2' => '',
-            'h3' => '',
+            'h2' => 'আমাদের কিছু মহান গ্রাহক',
+            'h3' => 'আমরা কিছু কোম্পানির সাথে কাজ করেছি',
             ],
         'th' => [
-            'h2' => '',
-            'h3' => '',
+            'h2' => 'ลูกค้ารายใหญ่บางส่วนของเรา',
+            'h3' => 'บริษัทบางแห่งที่เราเคยร่วมงานด้วย',
             ],
     );
 
@@ -86,8 +86,9 @@
                 'description' => 'We keep delivering customer value in many forms beyond the solutiom,for example, care, consultation, or whatever we can do for our customers, we will.',
                 ],
             'team' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'Team Holistic <br>Values',
+                'description' => 'We also making sure that all teams also percieve the value while they work together to achive the first mission. Team suppose to support each other to make us “better”. Atmosphere at workplace & culture are one of responsibility for
+                    team to keep it good all the time in order to achive overall mission.',
                 ],
             'other' => [
                 'title' => 'Individual Holistic <br>Values',
@@ -96,16 +97,16 @@
             ],
         'bn' => [
             'mission' => [
-                'title' => 'vission',
-                'description' => 'Maximizing Value Holistic Values is our core mission which is base on these three values.',
+                'title' => 'মিশন',
+                'description' => 'আমাদের মূল লক্ষ্য, সর্বোচ্চ মান, হলিস্টিক মান যা এই তিনটি মানের উপর ভিত্তি করে।',
                 ],
             'customer' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'গ্রাহক হোলিস্টিক <br>মান',
+                'description' => 'আমরা সমাধানের বাইরেও অনেক রূপে গ্রাহকের মূল্য সরবরাহ করতে থাকি, উদাহরণস্বরূপ, যত্ন, পরামর্শ, বা আমাদের গ্রাহকদের জন্য আমরা যা কিছু করতে পারি, আমরা করব।',
                 ],
             'team' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'টিম হোলিস্টিক <br>মান',
+                'description' => 'আমরা এটাও নিশ্চিত করছি যে প্রথম মিশনটি অর্জনের জন্য তারা একসাথে কাজ করার সময় সমস্ত দলও মূল্য উপলব্ধি করে। দল আমাদের "ভাল" করতে একে অপরকে সমর্থন করে বলে মনে করা হচ্ছে। কর্মক্ষেত্রে বায়ুমণ্ডল এবং সংস্কৃতি সামগ্রিক লক্ষ্য অর্জনের জন্য এটিকে সর্বদা ভাল রাখা দলের জন্য অন্যতম দায়িত্ব।',
                 ],
             'other' => [
                 'title' => '',
@@ -114,16 +115,17 @@
             ],
         'th' => [
             'mission' => [
-                'title' => 'session',
-                'description' => 'Maximizing Value Holistic Values is our core mission which is base on these three values.',
+                'title' => 'ภารกิจ',
+                'description' => 'การเพิ่มมูลค่าสูงสุด คุณค่าแบบองค์รวมเป็นพันธกิจหลักของเราซึ่งมีพื้นฐานอยู่บนค่านิยมทั้งสามนี้',
                 ],
             'customer' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'คุณค่าของลูกค้าแบบองค์รวม',
+                'description' => 'เรายังคงมอบคุณค่าให้กับลูกค้าในหลายรูปแบบนอกเหนือจากการแก้ปัญหา เช่น การดูแล การให้คำปรึกษา หรืออะไรก็ตามที่เราสามารถทำได้เพื่อลูกค้าของเรา เราจะทำ',
                 ],
             'team' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'ทีมแบบองค์รวม <br>ค่า',
+                'description' => 'เรายังทำให้แน่ใจว่าทุกทีมรับรู้ถึงคุณค่าในขณะที่พวกเขาทำงานร่วมกันเพื่อบรรลุภารกิจแรก ทีมควรจะสนับสนุนซึ่งกันและกันเพื่อให้เรา "ดีขึ้น" บรรยากาศในที่ทำงานและวัฒนธรรมเป็นความรับผิดชอบอย่างหนึ่งของ
+                        ให้เป็นทีมที่ดีตลอดเวลาเพื่อบรรลุภารกิจโดยรวม',
                 ],
             'other' => [
                 'title' => '',
