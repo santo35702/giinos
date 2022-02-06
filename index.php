@@ -163,6 +163,74 @@
             </div>
         </section>
 
+        <!-- start holistic section-->
+        <section class="holistic-section container-fluid">
+            <div class="row">
+                <div class="col-4 box1">
+                    <h2>Holistic Value, value for everyone.</h2>
+                    <p>At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.</p>
+                </div>
+                <div class="col-4 ms-auto">
+                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime">
+                </div>
+            </div>
+        </section>
+
+        <!-- start success section-->
+
+        <!-- start team section-->
+
+        <!-- start hiring section-->
+
+        <!-- start speech section-->
+
+        <!-- start contact section-->
+        <section class="contact-section container-fluid">
+            <div class="row mission">
+                <div class="col">
+                    <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded">
+                </div>
+                <div class="col">
+                    <div class="card form">
+                        <div class="card-body p-5 pt-3">
+                            <h1 class="card-title text-start">Contact us</h1>
+                            <h3 class="card-subtitle text-start mb-2"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
+                            <form action="#">
+                                <div class="form-floating mb-4">
+                                    <input type="text" id="company" name="company" placeholder="company*" class="form-control form-control-lg" required>
+                                    <label for="company">Company Name</label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="text" id="email" name="Email_address" placeholder="Email address*" class="form-control form-control-lg" required>
+                                    <label for="email">Email Address</label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="text" id="number" name="tel" placeholder="Tel*.." class="form-control form-control-lg" required>
+                                    <label for="number">Phone Number</label>
+                                </div>
+                                <div class="mb-4">
+                                    <select id="software" name="Select Softwear*" class="form-select form-select-lg">
+                                        <option value="software1">Select Softwear*</option>
+                                        <option value="software2">software2</option>
+                                        <option value="software3">software3</option>
+                                    </select>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <textarea id="Message" name="Message*" placeholder="Message*.." class="form-control" style="height:200px" required></textarea>
+                                    <label for="Message">Your Message here...</label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="button" name="button" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start footer section-->
+
 
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -172,7 +240,7 @@
         <script type="text/javascript">
             function set_language() {
                 var language=jQuery('#language').val();
-                window.location.href='http://localhost/giinos/?ln='+language;
+                window.location.href='http://giinos.com/?ln='+language;
                 // window.location.href='http://giinos.com/?ln='+language;
             }
         </script>
