@@ -230,34 +230,39 @@
         </section>
 
         <!-- start footer section-->
-        <footer>
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <form class="" action="#">
-                                <h5>Subscribe to our newsletter</h5>
-                                <p class="text-danger">Some footer content about Giinos here...</p>
-                            </form>
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-2">
-
-                        </div>
-                        <div class="col-2">
-
-                        </div>
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="resource/img/logo.png" alt="" class="img-fluid footer-logo">
+                    </div>
+                    <div class="col">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link px-2 text-muted">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#service" class="nav-link px-2 text-muted">What we do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#success" class="nav-link px-2 text-muted">Success Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#team" class="nav-link px-2 text-muted">Team and Culture</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#hire" class="nav-link px-2 text-muted">🔥We’re hiring</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link px-2 text-muted">Contact Us</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <hr>
+                <p class="text-center text-muted">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
             </div>
-            <div class="footer-bottom">
-                <div class="container">
-
-                </div>
-            </div>
-        </footer>
+        </section>
 
 
 
