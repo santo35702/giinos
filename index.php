@@ -195,32 +195,38 @@
                         <div class="card-body form">
                             <h1 class="card-title text-start">Contact us</h1>
                             <h3 class="card-subtitle text-start mb-4 pb-1"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
-                            <form action="#">
+                            <h3 class="card-subtitle text-center message-status"></h3>
+                            <form id="contactForm" class="mt-4">
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="company" name="company" placeholder="company*" class="form-control form-control-lg" required>
-                                    <label for="company">Company Name <span class="text-danger">*</span></label>
+                                    <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" required>
+                                    <label for="name">Your Name <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="email" name="Email_address" placeholder="Email address*" class="form-control form-control-lg" required>
+                                    <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg">
+                                    <label for="company">Company Name </label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" required>
                                     <label for="email">Email Address <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="number" name="tel" placeholder="Tel*.." class="form-control form-control-lg" required>
+                                    <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" required>
                                     <label for="number">Phone Number <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="mb-4">
-                                    <select id="software" name="Select Softwear*" class="form-select form-select-lg">
-                                        <option value="software1">Select Softwear*</option>
+                                    <select id="software" class="form-select form-select-lg">
+                                        <option>Select Softwear...</option>
+                                        <option value="software1">Software1</option>
                                         <option value="software2">software2</option>
                                         <option value="software3">software3</option>
                                     </select>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <textarea id="Message" name="Message*" placeholder="Message*.." class="form-control" style="height:200px" required></textarea>
-                                    <label for="Message">Your Message here... <span class="text-danger">*</span></label>
+                                    <textarea id="message" placeholder="Type Messages" class="form-control" style="min-height:200px" required></textarea>
+                                    <label for="message">Your Message here... <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="d-grid">
-                                    <button type="button" name="button" class="btn btn-primary btn-lg">Submit</button>
+                                    <button type="button" class="btn btn-primary btn-lg" onclick="sendEmail()" value="Send An Email">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -275,6 +281,43 @@
                 var language=jQuery('#language').val();
                 // window.location.href='http://giinos.com/?ln='+language;
                 window.location.href='http://localhost/giinos/?ln='+language;
+            }
+
+            function sendEmail() {
+                var name = $("#name");
+                var company = $("#company");
+                var email = $("#email");
+                var number = $("#number");
+                var software = $("#software");
+                var message = $("#message");
+
+                if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(message)) {
+                    $.ajax({
+                        url: 'sendEmail.php',
+                        method: 'POST',
+                        dataType: 'json',
+                        data: {
+                            name: name.val(),
+                            company: company.val(),
+                            email: email.val(),
+                            number: number.val(),
+                            software: software.val(),
+                            message: message.val(),
+                        }, success: function (response) {
+                            $('#contactForm')[0].reset();
+                            $('.message-status').text("Message sent Successfully.");
+                        }
+                    });
+                }
+            }
+
+            function isNotEmpty(caller) {
+                if (caller.val() == "") {
+                    caller.css('border', '1px solid red');
+                } else {
+                    caller.css('border', '');
+                    return true;
+                }
             }
         </script>
     </body>
