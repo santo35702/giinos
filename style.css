@@ -1,0 +1,285 @@
+/*===================== */
+/* Basic Setup */
+/*===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    background: url(/resource/img/Rectangle%20420.png);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3rem;
+    font-size: 1.6rem;
+}
+.row {
+    max-width: 144.3rem;
+    margin: 0 2rem;
+}
+section {
+    padding: 10rem 0;
+    /*    max-width: 144.3rem;*/
+}
+.box {
+    padding: 1%;
+}
+.little-description {
+    font-size: 2.4rem;
+    width: 60%;
+    line-height: 3rem;
+}
+/* header */
+h1 {
+    font-size: 5.5rem;
+    color: black;
+    line-height: 7rem;
+    font-weight: 900;
+    letter-spacing: .082rem;
+
+}
+h1::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+}
+h1 span.fluid {
+    color: #F9A826;
+}
+.row .hero-description {
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    letter-spacing: .075rem;
+    font-style: normal;
+}
+span.hero-p {
+    color: #6A10FF;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+/*===================== */
+/* Header Section */
+/*===================== */
+header {
+    height: 85vh;
+    position: relative;
+    background-attachment: fixed;
+    padding-bottom: 10rem;
+
+}
+.navbar-brand {
+  margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    float: left;
+}
+.nav-item {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 5rem;
+
+}
+.nav-item li {
+    display: inline-block;
+    margin-left: .5rem;
+    margin-right: .7rem;
+    text-align: center;
+}
+.nav-item li:first-child {
+    margin-left: 0rem;
+}
+.nav-item li a:link,
+.nav-item li a:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: rgba(182, 194, 217, 0);
+    padding: .6rem 1.6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+.nav-item li:hover a:link,
+.nav-item li:hover a:visited {
+    background: rgba(182, 194, 217, 1);
+}
+.navbar-nav{
+    margin-left: 12rem;
+}
+#language {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-item.input-group {
+  margin-right: 6rem;
+}
+/*===================== */
+/* customer section */
+/*===================== */
+.customer-section {
+    margin-top: 7rem;
+    background: #F9F9FD;
+    text-align: center;
+    display: block;
+}
+.customer-section h2 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.customer-section h3 {
+    color: #06193E;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 4.8rem;
+}
+/*===================== */
+/* mission section */
+/*===================== */
+.mission {
+    text-align: center;
+    border: .1rem solid #ccc;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: 1.6rem;
+    margin: 1.5rem;
+}
+.mission-section .col1 h2 {
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 700;
+}
+.mission-section .col1 h2::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+.mission-section h3 {
+    text-align: center;
+    line-height: 1.7rem;
+}
+.mission-section p {
+    color: #929EB7;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+.mission-section h5 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.mission-section .mission .services-icon {
+    height: 10rem;
+    margin-bottom: 3.5rem;
+    align-items: center;
+}
+.flex-container {
+    width: 90%;
+    min-height: 30rem;
+    margin: 0 auto;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    /* Standard syntax */
+}
+.flex-container .column {
+    padding: 1rem;
+    -webkit-flex: 1;
+    /* Safari */
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+    /* Standard syntax */
+}
+/*===================== */
+/* fluid section */
+/*===================== */
+
+.fluid-section h2 {
+    font-size: 4.2rem;
+    color: black;
+    line-height: 6rem;
+    font-weight: 700;
+    letter-spacing: .078rem;
+
+}
+
+.fluid-section h2::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.fluid-section p {
+    text-align: left;
+    color: #14142B;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
+
+.fluid-section .box1 {
+    Width: 60.4rem;
+    Height: 35.9 rem;
+    margin-left: 8rem;
+    line-height: 2.8rem;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

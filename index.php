@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="node_modules/fontawesome-free/css/all.css">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -94,13 +95,12 @@
                 <img src="./resource/img/Group_786.png" alt="Customers" class="img-fluid">
             </div>
         </section>
-
         <!-- start mission section-->
         <section class="mission-section container-fluid" id="service">
             <div class="flex-container mx-auto">
                 <div class="row">
                     <div class="col">
-                        <div class="">
+                        <div class="col1">
                             <h2><?php echo $missionContent[$ln]['mission']['title'] ?></h2>
                             <h5 class="little-description"><?php echo $missionContent[$ln]['mission']['description'] ?></h5>
                         </div>
