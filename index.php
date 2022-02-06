@@ -194,19 +194,19 @@
                     <div class="card form">
                         <div class="card-body p-5 pt-3">
                             <h1 class="card-title text-start">Contact us</h1>
-                            <h3 class="card-subtitle text-start mb-2"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
+                            <h3 class="card-subtitle text-start mb-4 pb-1"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
                             <form action="#">
                                 <div class="form-floating mb-4">
                                     <input type="text" id="company" name="company" placeholder="company*" class="form-control form-control-lg" required>
-                                    <label for="company">Company Name</label>
+                                    <label for="company">Company Name <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input type="text" id="email" name="Email_address" placeholder="Email address*" class="form-control form-control-lg" required>
-                                    <label for="email">Email Address</label>
+                                    <label for="email">Email Address <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input type="text" id="number" name="tel" placeholder="Tel*.." class="form-control form-control-lg" required>
-                                    <label for="number">Phone Number</label>
+                                    <label for="number">Phone Number <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="mb-4">
                                     <select id="software" name="Select Softwear*" class="form-select form-select-lg">
@@ -217,7 +217,7 @@
                                 </div>
                                 <div class="form-floating mb-4">
                                     <textarea id="Message" name="Message*" placeholder="Message*.." class="form-control" style="height:200px" required></textarea>
-                                    <label for="Message">Your Message here...</label>
+                                    <label for="Message">Your Message here... <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="d-grid">
                                     <button type="button" name="button" class="btn btn-primary btn-lg">Submit</button>
@@ -230,6 +230,34 @@
         </section>
 
         <!-- start footer section-->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <form class="" action="#">
+                                <h5>Subscribe to our newsletter</h5>
+                                <p class="text-danger">Some footer content about Giinos here...</p>
+                            </form>
+                        </div>
+                        <div class="col-2">
+
+                        </div>
+                        <div class="col-2">
+
+                        </div>
+                        <div class="col-2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+
+                </div>
+            </div>
+        </footer>
 
 
 
