@@ -186,28 +186,13 @@
 
         <!-- start contact section-->
         <section class="contact-section container-fluid">
-            <div class="card">
+            <div class="card py-5 mission">
                 <div class="row">
                     <div class="col-6">
                         <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start">
                     </div>
                     <div class="col-6">
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <div class="row mission">
-                <div class="col">
-                    <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded">
-                </div>
-                <div class="col">
-                    <div class="card form">
-                        <div class="card-body p-5 pt-3">
+                        <div class="card-body form">
                             <h1 class="card-title text-start">Contact us</h1>
                             <h3 class="card-subtitle text-start mb-4 pb-1"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
                             <form action="#">
