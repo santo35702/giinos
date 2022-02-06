@@ -186,6 +186,21 @@
 
         <!-- start contact section-->
         <section class="contact-section container-fluid">
+            <div class="card">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start">
+                    </div>
+                    <div class="col-6">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
             <div class="row mission">
                 <div class="col">
                     <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded">
