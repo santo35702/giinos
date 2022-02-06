@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: url(/resource/img/Rectangle%20420.png);
+    background: url(./resource/img/Rectangle%20420.png);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     text-rendering: optimizeLegibility;
@@ -230,7 +230,6 @@ header {
 /*===================== */
 /* fluid section */
 /*===================== */
-
 .fluid-section h2 {
     font-size: 4.2rem;
     color: black;
@@ -239,7 +238,6 @@ header {
     letter-spacing: .078rem;
 
 }
-
 .fluid-section h2::after {
     content: "";
     background: #610BEF;
@@ -252,7 +250,6 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
-
 .fluid-section p {
     text-align: left;
     color: #14142B;
@@ -261,7 +258,6 @@ header {
     font-size: 1.4rem;
     margin-top: 3rem;
 }
-
 .fluid-section .box1 {
     Width: 60.4rem;
     Height: 35.9 rem;
