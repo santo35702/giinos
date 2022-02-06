@@ -171,7 +171,7 @@
                     <p>At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.</p>
                 </div>
                 <div class="col-4 ms-auto">
-                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime">
+                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime">
                 </div>
             </div>
         </section>
