@@ -166,8 +166,7 @@ header {
     text-align: center;
     border: .1rem solid #ccc;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem;
     border-radius: 1.6rem;
     margin: 1.5rem;
 }
@@ -400,6 +399,15 @@ header {
   background: white;
   max-height: 52rem;
 }
+.form .card-title::after {
+    content: "";
+    background: none;
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+    margin: 0 !important;
+    border-radius: 0;
+}
 /*===================== */
 /* footer section */
 /*===================== */
@@ -415,5 +423,5 @@ header {
 
 .footer-section {
   padding-top: 57rem;
-  margin-top: -53rem;
+  // margin-top: -53rem;
 }

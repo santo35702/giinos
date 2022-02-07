@@ -186,15 +186,15 @@
 
         <!-- start contact section-->
         <section class="contact-section container-fluid">
-            <div class="card mission">
+            <div class="card">
                 <div class="row">
                     <div class="col-6">
-                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start">
+                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start py-5">
                     </div>
                     <div class="col-6">
-                        <div class="card-body form">
+                        <div class="card-body form py-5">
                             <h1 class="card-title text-start">Contact us</h1>
-                            <h3 class="card-subtitle text-start mb-4 pb-1"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
+                            <h3 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h3>
                             <h3 class="card-subtitle text-center message-status"></h3>
                             <form id="contactForm" class="mt-4">
                                 <div class="form-floating mb-4">
@@ -237,7 +237,7 @@
 
         <!-- start footer section-->
         <section class="footer-section" style="background:#610BEF; color: white;  padding-top: 57rem;
-  margin-top: -53rem;">
+  ">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
