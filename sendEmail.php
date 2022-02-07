@@ -1,5 +1,5 @@
 <?php
-use vendor\PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\PHPMailer;
 
 if (isset($_POST['name']) && isset($_POST['email'])) {
     $name = $_POST['name'];
@@ -11,8 +11,8 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $email = $_POST['email'];
     $number = $_POST['number'];
 
-    if (isset($_POST['software'])) {
-        $software = $_POST['software'];
+    if (isset($_POST['subject'])) {
+        $subject = $_POST['subject'];
     }
 
     $message = $_POST['message'];
@@ -28,7 +28,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
     $mail->Username = "santo35702@gmail.com";
-    $mail->Password = "Your Password here";
+    $mail->Password = "Santo 35702@6861";
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
 
@@ -36,8 +36,8 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
     $mail->addAddress("santo35702@gmail.com");
-    $mail->Subject = ("$email ($software : $software ? 'No Subject')");
-    $mail->Body = "Hi My name is:" . $name . ".<br>" . ($company : 'My Company Name is:' . $company . '<br>'? '') . "Hi My Phone Number is:" . $number . ".<br>" . "Subject: " . $software . $message;
+    $mail->Subject = "$subject";
+    $mail->Body = "Hi My name is: $name.<br/>Company Name: $company.<br/>Phone Number: $number.<br/>Subject: $subject.<br/>Message: $message";
 
     if ($mail->send()) {
         $status = "success";

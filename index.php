@@ -196,37 +196,37 @@
                             <h1 class="card-title text-start">Contact us</h1>
                             <h3 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h3>
                             <h3 class="card-subtitle text-center message-status"></h3>
-                            <form id="contactForm" class="mt-4">
+                            <form id="contactForm" class="mt-4" action="sendEmail.php" method="post"><!-- action="sendEmail.php" method="post" -->
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" required>
+                                    <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
                                     <label for="name">Your Name <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg">
+                                    <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg" name="company">
                                     <label for="company">Company Name </label>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" required>
+                                    <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email" required>
                                     <label for="email">Email Address <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" required>
+                                    <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" name="number">
                                     <label for="number">Phone Number <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="mb-4">
-                                    <select id="software" class="form-select form-select-lg">
-                                        <option>Select Softwear...</option>
+                                    <select id="subject" class="form-select form-select-lg" name="subject">
+                                        <option value="">Select Softwear...</option>
                                         <option value="software1">Software1</option>
                                         <option value="software2">software2</option>
                                         <option value="software3">software3</option>
                                     </select>
                                 </div>
                                 <div class="form-floating mb-4">
-                                    <textarea id="message" placeholder="Type Messages" class="form-control" style="min-height:200px" required></textarea>
+                                    <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px" required></textarea>
                                     <label for="message">Your Message here... <span class="text-danger">*</span></label>
                                 </div>
                                 <div class="d-grid">
-                                    <button type="button" class="btn btn-primary btn-lg" onclick="sendEmail()" value="Send An Email">Submit</button>
+                                    <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg">Submit</button><!-- onclick="sendEmail()" value="Send An Email" -->
                                 </div>
                             </form>
                         </div>
@@ -284,12 +284,13 @@
                 window.location.href='http://localhost/giinos/?ln='+language;
             }
 
+            // PHPMailer sendEmail
             function sendEmail() {
                 var name = $("#name");
                 var company = $("#company");
                 var email = $("#email");
                 var number = $("#number");
-                var software = $("#software");
+                var subject = $("#subject");
                 var message = $("#message");
 
                 if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(message)) {
@@ -302,7 +303,7 @@
                             company: company.val(),
                             email: email.val(),
                             number: number.val(),
-                            software: software.val(),
+                            subject: subject.val(),
                             message: message.val(),
                         }, success: function (response) {
                             $('#contactForm')[0].reset();
