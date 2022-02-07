@@ -186,15 +186,15 @@
 
         <!-- start contact section-->
         <section class="contact-section container-fluid">
-            <div class="card py-5 mission">
+            <div class="card">
                 <div class="row">
                     <div class="col-6">
-                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start">
+                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start py-5">
                     </div>
                     <div class="col-6">
-                        <div class="card-body form">
+                        <div class="card-body form py-5">
                             <h1 class="card-title text-start">Contact us</h1>
-                            <h3 class="card-subtitle text-start mb-4 pb-1"><br/><br/>Email us to discuss investment, PR or any other question.</h3>
+                            <h3 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h3>
                             <h3 class="card-subtitle text-center message-status"></h3>
                             <form id="contactForm" class="mt-4">
                                 <div class="form-floating mb-4">
@@ -236,15 +236,15 @@
         </section>
 
         <!-- start footer section-->
-        <section class="footer-section" style="background:#610BEF; color: white;  padding-top: 57rem;
-  margin-top: -53rem;">
+        <section class="footer-section" style="background:#610BEF; color: white;
+  ">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
+                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo" style="margin-left: -2.5rem !important;">
                     </div>
                     <div class="col">
-                        <ul class="nav justify-content-center"style="padding-top:3rem;">
+                        <ul class="nav justify-content-end" style="padding-top:3rem;">
                             <li class="nav-item">
                                 <a href="#home" class="nav-link px-2 text-white">Home</a>
                             </li>
@@ -266,8 +266,13 @@
                         </ul>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <hr>
                 <p class="text-center text-white">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
+=======
+                <hr class="my-5">
+                <p class="text-center text-white pt-2">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
+>>>>>>> b62698c8973c184861e691d693402a171ff9cda7
             </div>
         </section>
 
