@@ -236,7 +236,7 @@
         </section>
 
         <!-- start footer section-->
-        <section class="footer-section" style="background:#610BEF; color: white;  padding-top: 57rem;
+        <section class="footer-section" style="background:#610BEF; color: white;
   ">
             <div class="container">
                 <div class="row">
