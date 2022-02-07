@@ -236,14 +236,15 @@
         </section>
 
         <!-- start footer section-->
-        <section class="footer-section">
+        <section class="footer-section" style="background:#610BEF; color: white;  padding-top: 57rem;
+  margin-top: -53rem;">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="resource/img/logo.png" alt="" class="img-fluid footer-logo">
+                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                     </div>
                     <div class="col">
-                        <ul class="nav justify-content-center">
+                        <ul class="nav justify-content-center"style="padding-top:3rem;">
                             <li class="nav-item">
                                 <a href="#home" class="nav-link px-2 text-muted">Home</a>
                             </li>

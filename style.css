@@ -392,12 +392,30 @@ header {
 .holistic-section img {
     margin-left: -27rem;
 }
+/*===================== */
+/* contact section */
+/*===================== */
+.contact-section.container-fluid {
+  background: white;
+  max-height: 52rem;
+}
+/*===================== */
+/* footer section */
+/*===================== */
 
+.nav.justify-content-center {
+  color: white;
+  padding-top: 4rem;
+}
+.nav.justify-content-center.nav-item #home #service{
+    color: white;
+    border-radius: 1rem;
+}
 
-
-
-
-
+.footer-section {
+  padding-top: 57rem;
+  margin-top: -53rem;
+}
 
 
 
