@@ -266,13 +266,8 @@
                         </ul>
                     </div>
                 </div>
-<<<<<<< HEAD
-                <hr>
-                <p class="text-center text-white">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
-=======
                 <hr class="my-5">
-                <p class="text-center text-white pt-2">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
->>>>>>> b62698c8973c184861e691d693402a171ff9cda7
+                <p class="text-center text-white">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
             </div>
         </section>
 
