@@ -76,7 +76,7 @@
                     <p class="hero-description"><?php echo $homeContent[$ln]['description'] ?></p>
                 </div>
                 <div class="col-8">
-                    <img class="hero_img img-fluid" src="resource/img/Group_810.png" alt="hero">
+                    <img class="hero_img img-fluid" src="resource/img/Group%20810.png" alt="hero">
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 </div>
             </div>
             <div class="pb-3">
-                <img src="./resource/img/Group_786.png" alt="Customers" class="img-fluid">
+                <img src="./resource/img/Group%20786.png" alt="Customers" class="img-fluid">
             </div>
         </section>
         <!-- start mission section-->
@@ -196,7 +196,7 @@
                             <h1 class="card-title text-start">Contact us</h1>
                             <h3 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h3>
                             <h3 class="card-subtitle text-center message-status"></h3>
-                            <form id="contactForm" class="mt-4" action="sendEmail.php" method="post"><!-- action="sendEmail.php" method="post" -->
+                            <form id="contactForm" class="mt-4" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
                                 <div class="form-floating mb-4">
                                     <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
                                     <label for="name">Your Name <span class="text-danger">*</span></label>
