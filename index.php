@@ -230,6 +230,46 @@
         </section>
 
         <!-- start hiring section-->
+        <section class="hiring-section container-fluid">
+            <div class="heading text-center mb-5">
+                <h2 class="display-2">We’re hiring !</h2>
+                <h3 class="display-6">We are looking for talented people to team up with us to reach bigger goals.</h3>
+            </div>
+            <div class="row d-flex justify-content-around mt-5">
+                <div class="col-1">
+                    <img src="resource/img/Group%204393.png" alt="">
+                    <p>Team spirit of working</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Path%205322.png" alt="">
+                    <p>Collaboration Communication Skills</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%207025.png" alt="">
+                    <p>Rise concerns & ready for comments</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%204392.png" alt="">
+                    <p>Apply knowledge</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%204391.png" alt="">
+                    <p>Be Creative</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%207024.png" alt="">
+                    <p>Self-learner</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%207026.png" alt="">
+                    <p>Concepts of UX</p>
+                </div>
+                <div class="col-1">
+                    <img src="resource/img/Group%204390.png" alt="">
+                    <p>Good English Skills </p>
+                </div>
+            </div>
+        </section>
 
         <!-- start speech section-->
 
