@@ -392,6 +392,163 @@ header {
 .holistic-section img {
     margin-left: -27rem;
 }
+
+/*===================== */
+/* success section */
+/*===================== */
+.success-section {
+    text-align: center;
+    display: block;
+
+}
+.success-section h2 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.success-section h3 {
+    color: #06193E;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 4.8rem;
+}
+.success-section h3::after {
+    content: "";
+    background: #7863FF;
+    width: 37.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 54.9rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.success-section h4 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 400;
+    font-size: 2.6rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 3.969rem;
+}
+.success-section .flex-container img {
+    width: 100%;
+}
+.success-section .flex-container h2 {
+    color: #06193E;
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 2%;
+    line-height: 2.7rem;
+    margin: 1rem;
+}
+.success-section .flex-container p {
+    text-indent: 2rem;
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: left;
+    letter-spacing: 2%;
+    line-height: 2.1rem;
+    margin: 1rem;
+}
+/*===================== */
+/* team section */
+/*===================== */
+.team-section h3 {
+    color: #06193E;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.team-section h3::after {
+    content: "";
+    background: #F9A826;
+    width: 30.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    margin-left: 56.9rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.team-section .box2 {
+    background: #FFD978;
+    border-radius: 4.9rem;
+    margin-left: 11rem;
+    height: 53rem;
+    width: 128.4rem;
+}
+.team-section .box4 {
+    padding: 5rem;
+}
+.team-section .box3 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 4.95rem;
+}
+.team-section span.coma{
+    color: white;
+    opacity: 23%;
+    font-weight: 900;
+    font-size: 10rem;
+}
+/*===================== */
+/* hiring section */
+/*===================== */
+.hiring-section {
+background: #7E6AFF;
+}
+
+.hiring-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+.hiring-section h3 {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    font-style: normal;
+    margin-bottom: 3rem;
+}
+
+.hiring-section .row.d-flex.justify-content-around.mt-5 {
+    border-radius: 5.85rem;
+    width: 83rem;
+    height: 11.7rem;
+    margin-left: 34rem;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.09rem;
+    text-align: center;
+    background: #4B05BC;
+}
+
 /*===================== */
 /* contact section */
 /*===================== */
