@@ -235,38 +235,236 @@
                 <h2 class="display-2">We’re hiring !</h2>
                 <h3 class="display-6">We are looking for talented people to team up with us to reach bigger goals.</h3>
             </div>
-            <div class="row row-cols-8 justify-content-around mt-5">
-                <div class="col">
+            <div class="row row-cols-8 justify-content-around my-5">
+                <div class="col text-center">
                     <img src="resource/img/Group%204393.png" alt="">
-                    <p>Team spirit of working</p>
+                    <p class="mt-3">Team spirit of working</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Path%205322.png" alt="">
-                    <p>Collaboration Communication Skills</p>
+                    <p class="mt-3">Collaboration Communication Skills</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Group%207025.png" alt="">
-                    <p>Rise concerns & ready for comments</p>
+                    <p class="mt-3">Rise concerns & ready for comments</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Group%204392.png" alt="">
-                    <p>Apply knowledge</p>
+                    <p class="mt-3">Apply knowledge</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Group%204391.png" alt="">
-                    <p>Be Creative</p>
+                    <p class="mt-3">Be Creative</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Group%207024.png" alt="">
-                    <p>Self-learner</p>
+                    <p class="mt-3">Self-learner</p>
                 </div>
-                <div class="col">
+                <div class="col text-center">
                     <img src="resource/img/Group%207026.png" alt="">
-                    <p>Concepts of UX</p>
+                    <p class="mt-3">Concepts of UX</p>
+                </div>
+                <div class="col text-center">
+                    <img src="resource/img/Group%204390.png" alt="">
+                    <p class="mt-3">Good English Skills </p>
+                </div>
+            </div>
+            <div class="row row-cols-2 justify-content-center">
+                <div class="col">
+                    <div class="box mb-4 py-3 bg-primary">
+                        <div class="heading-box bg-white">
+                            <h5><span class="hiring">Backend</span> Platform Software<br> Engineer</h5>
+                            <h6>The most challenging for this position is building platform base on our visions and business requirements together. They have to identify platform architecture characteristics, such as performance, security, scalability,
+                                etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
+                                team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.</h6>
+                        </div>
+                        <div class="img-box">
+                            <div class=" d-flex flex-row justify-content-start">
+                                <div class="col-2">
+                                    <div class="rust text-center">
+                                        <img src="resource/img/Group%207027.png" alt="" class="img-fluid mb-2">
+                                        <p>Rust</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="node text-center">
+                                        <img src="resource/img/Group%207028.png" alt="" class="img-fluid mb-2">
+                                        <p>Node JS</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="docker text-center">
+                                        <img src="resource/img/Group%207027.png" alt="" class="img-fluid mb-2">
+                                        <p>Docker</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="kubernetes text-center">
+                                        <img src="resource/img/Group%207030.png" alt="" class="img-fluid mb-2">
+                                        <p>Kubernetes</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="java text-center">
+                                        <img src="resource/img/Group%207031.png" alt="" class="img-fluid mb-2">
+                                        <p>Java Springboot</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
-                    <img src="resource/img/Group%204390.png" alt="">
-                    <p>Good English Skills </p>
+                    <div class="box mb-4 py-3 bg-primary">
+                        <div class="heading-box bg-white">
+                            <h5><span class="Frontend">Frontend</span> Platform Software <br>Engineer</h5>
+                            <h6>To build platform to support “fluid” process flow characteristics. Frontend platform software engineer need to design and see beyond what customer want. Ability to make system configurable is main responsibility for this
+                                role. UX/UI skills are essential here in order to maximize holistic value to whom who interacts with the platform. Web application or mobile application we built is main channel to delivery such a huge value to
+                                everyone…including our team</h6>
+                        </div>
+                        <div class="img-box">
+                            <div class=" d-flex flex-row justify-content-start">
+                                <div class="col-2">
+                                    <div class="web text-center">
+                                        <img src="resource/img/Group%207032.png" alt="" class="img-fluid mb-2">
+                                        <p>Web Assembly</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="web1 text-center">
+                                        <img src="resource/img/Group%207033.png" alt="" class="img-fluid mb-2">
+                                        <p>Web Component</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="flutter text-center">
+                                        <img src="resource/img/Group%207034.png" alt="" class="img-fluid mb-2">
+                                        <p>Flutter</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="ionic text-center">
+                                        <img src="resource/img/Group%207035.png" alt="" class="img-fluid mb-2">
+                                        <p>Ionic Framework</p>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="angular text-center">
+                                        <img src="resource/img/Group%207036.png" alt="" class="img-fluid mb-2">
+                                        <p>Angular</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box mb-4 py-3 bg-primary">
+                        <div class="heading-box bg-white">
+                            <h5>Platform <span class="sre">DevOps & SRE</span></h5>
+                            <h6>Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops
+                                and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
+                                customers...<br>
+                                They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
+                                mindsets to fullfill the missions.</h6>
+                        </div>
+                        <div class="img-box">
+                            <div class=" d-flex flex-row justify-content-start">
+                                <div class="col">
+                                    <div class="python text-center">
+                                        <img src="resource/img/Group%207037.png" alt="" class="img-fluid mb-2">
+                                        <p>Python</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="shell text-center">
+                                        <img src="resource/img/Group%207038.png" alt="" class="img-fluid mb-2">
+                                        <p>Shell scripting</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207039.png" alt="" class="img-fluid mb-2">
+                                        <p>Markdown</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="prometheus text-center">
+                                        <img src="resource/img/Group%207040.png" alt="" class="img-fluid mb-2">
+                                        <p>Prometheus</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="grafana text-center">
+                                        <img src="resource/img/Group%207041.png" alt="" class="img-fluid mb-2">
+                                        <p>Grafana</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="ansible text-center">
+                                        <img src="resource/img/Group%207042.png" alt="" class="img-fluid mb-2">
+                                        <p>Ansible</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="gitlab text-center">
+                                        <img src="resource/img/Group%207043.png" alt="" class="img-fluid mb-2">
+                                        <p>Gitlab CI/CD</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="jenkin text-center">
+                                        <img src="resource/img/Group%207044.png" alt="" class="img-fluid mb-2">
+                                        <p>Jenkin</p>
+                                    </div>
+                                </div>
+                                <div class="col-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box mb-4 py-3 bg-primary">
+                        <div class="heading-box bg-white">
+                            <h5>Solution <span class="qa">QA & Implementationr</span></h5>
+                            <h6>Each customer has thier own context to plug our solution into. This is very crucial steps cause we have to make sure what we delivery is really work and “holistic value” have been truely spreading among cusomer’s
+                                organization. Solution QA & Implementation is our spearhead who make things happen at site. They work closely with frontline users, manager or even management at some certain pont of solution implementation in order to
+                                blend in new solution into users daily life. Sometime they have to re-configuration, re-testing and training users again and again. We will allow this to happen cause our goal is to achive “delivery truely holistic
+                                value”...</h6>
+                        </div>
+                        <div class="img-box">
+                            <div class=" d-flex flex-row justify-content-start">
+                                <div class="col">
+                                    <div class="cypress text-center">
+                                        <img src="resource/img/Group%207045.png" alt="">
+                                        <p>Cypress</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="robot text-center">
+                                        <img src="resource/img/Group%207046.png" alt="">
+                                        <p>Robot framework</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207039.png" alt="" class="img-fluid mb-2">
+                                        <p>Markdown</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="excel text-center">
+                                        <img src="resource/img/Group%207050.png" alt="">
+                                        <p>Excel</p>
+                                    </div>
+                                </div>
+                                <div class="col-6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    col-5
                 </div>
             </div>
         </section>
