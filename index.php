@@ -516,7 +516,7 @@
                 <div class="col-6">
                     <div class="box border-end">
                         <h5>Contact us at</h5>
-                        <h6>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h6>
+                        <h7>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h7>
                     </div>
                 </div>
                 <div class="col-4">
@@ -524,7 +524,7 @@
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
                                 <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
-                                <p>327/1 Soi Ladprao 26, Chomphon Subdistrict Chatuchak District, Bangkok 10900</p>
+                                <p>327/1 Soi Ladprao 26, Chomphon Subdistrict<br> Chatuchak District, Bangkok 10900</p>
                             </li>
                             <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
                                 <img src="resource/img/Group%207056.png" alt="" class="me-3 img-fluid">
@@ -561,7 +561,7 @@
                     <div class="col-6">
                         <div class="card-body form py-5">
                             <h1 class="card-title text-start">Contact us</h1>
-                            <h3 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h3>
+                            <h8 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h8>
                             <h3 class="card-subtitle text-center message-status"></h3>
                             <form id="contactForm" class="mt-4" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
                                 <div class="form-floating mb-4">
