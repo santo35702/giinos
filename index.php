@@ -438,7 +438,7 @@
                                 <div class="col">
                                     <div class="cypress text-center">
                                         <img src="resource/img/Group%207045.png" alt="" class="img-fluid mb-2">
-                                        <p>Cypress</p>
+                                        <p>Cypress<br></p>
                                     </div>
                                 </div>
                                 <div class="col">
@@ -472,7 +472,7 @@
                                 and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
                                 customers...<br>
                                 They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
-                                mindsets to fullfill the missions.</h6>
+                                mindsets to fullfill the missions.<br></h6>
                         </div>
                         <div class="img-box">
                             <div class=" d-flex flex-row justify-content-start">
@@ -512,6 +512,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col-6">
                     <div class="box border-end">

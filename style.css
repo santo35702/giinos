@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: url(./resource/img/Rectangle%20420.png);
+    background-image: url(resource/img/Rectangle%20420.png);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     text-rendering: optimizeLegibility;
@@ -485,8 +485,8 @@ header {
     height: .9rem;
     display: block;
     margin: auto;
-    margin-top: 4rem;
-    margin-left: 56.9rem;
+    margin-top: 3rem;
+    margin-left: 60rem;
     border-radius: .5rem;
     margin-bottom: 2rem;
     text-align: center;
@@ -536,19 +536,131 @@ background: #7E6AFF;
     font-style: normal;
     margin-bottom: 3rem;
 }
-
-.hiring-section .row.d-flex.justify-content-around.mt-5 {
-    border-radius: 5.85rem;
-    width: 83rem;
-    height: 11.7rem;
-    margin-left: 34rem;
+.row.row-cols-8.justify-content-around.my-5{
+  max-width: 83rem;
+  text-align: center;
+  margin-left: 35rem;
+  background: #4B05BC;
+  color: white;
+  padding-top: 1rem;
+  border-radius: 6rem;
+  font-size: 1.09rem;
+}
+.box.mb-4.py-3.bg-primary {
+  border-radius: 4rem;
+  background: #610BEF;
+    max-height: 41.1rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+.heading-box.bg-white {
+    padding-top: 2.5rem;
+    padding-left: 3rem;;
+    border-radius: 3rem;
+    margin:-.8rem;
+    max-height: 33.3rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+}
+.col{
     padding-top: 1rem;
-    color: white;
-    font-size: 1.09rem;
-    text-align: center;
-    background: #4B05BC;
+    padding-left: 2rem;
+}
+.hiring-section .flex-containter h5 {
+    text-align: left;
+    color: black;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-left: -2rem;
 }
 
+.hiring-section span.hiring {
+    color: #F9A826;
+}
+.img-box{
+    color: white;
+    font-size: .8rem;
+    padding-right: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    
+    
+}
+.hiring-section h6 {
+    color: #929EB7;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.hiring-section span.Frontend {
+    color: #22BFBF;
+}
+
+.hiring-section span.sre {
+    color: #F5406C;
+}
+
+.hiring-section span.qa {
+    color: #6A10FF;
+}
+
+.col.span_1_of_1.box {
+    background: white;
+    border: .1rem solid #ccc;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    padding-left: 0;
+    border-radius: 4rem;
+    margin-top: 4rem;
+    width: 57rem;
+    margin-left: 30rem;
+
+}
+
+.hiring-section span.Insights {
+    color: #6A10FF;
+}
+
+.col.span_3_of_6 h5 {
+    color: white;
+}
+
+.col.span_3_of_6 h7 {
+    color: white;
+}
+.row.row-cols-2.justify-content-center{
+    margin-bottom: 4rem;
+}
+.contact {
+    width: 100%;
+}
+
+.col-6{
+    color: white;
+    font-size: 4rem;
+}
+h5 {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+h7{
+    color: white;
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+}
+.list-group-item.border-0.d-flex.justify-content-start.align-items-start.bg-transparent{
+    color: white;
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+}
+.list-group-item.border-0.d-flex.justify-content-start.align-items-center.bg-transparent{
+    color: white;
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+}
 /*===================== */
 /* contact section */
 /*===================== */
@@ -556,6 +668,7 @@ background: #7E6AFF;
   background: white;
   max-height: 52rem;
 }
+
 .form .card-title::after {
     content: "";
     background: none;
@@ -564,6 +677,73 @@ background: #7E6AFF;
     display: none !important;
     margin: 0 !important;
     border-radius: 0;
+}
+.card-subtitle.text-start.mb-4.pb-1 {
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 400;
+  line-height: 4rem;
+  padding-bottom: 2rem;
+}
+#name {
+  border-radius: 1.3rem;
+}
+#company {
+  border-radius: 1.3rem;
+}
+#email {
+  border-radius: 1.3rem;
+}
+#number {
+  border-radius: 1.3rem;
+}
+#subject {
+  border-radius: 1.3rem;
+}
+#message {
+  border-radius: 1.3rem;
+}
+label {
+  color: black;
+  font-size: 1.4rem;
+}
+.card {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 5rem;
+}
+.btn.btn-primary.btn-lg {
+  border-radius: 1.3rem;
+  background: #610BEF;
+}
+/*===================== */
+/* speech section */
+/*===================== */
+.speech-section {
+    background: #735EFF;
+    color: white;
+    text-align: center;
+}
+
+.speech-section p {
+    font-size: 4rem;
+    line-height: 7.31rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.speech-section p span.speech {
+    font-weight: 900;
+}
+
+.speech-section p span.colon {
+    color: #6A10FF;
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+.speech-section img{
+    margin-left: 90rem;
 }
 /*===================== */
 /* footer section */
