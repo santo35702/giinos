@@ -547,18 +547,22 @@ background: #7E6AFF;
   font-size: 1.09rem;
 }
 .box.mb-4.py-3.bg-primary {
-  border-radius: 4rem;
-  background: #610BEF;
-    max-height: 41.1rem;
+    border-radius: 4rem;
+    background: #610BEF;
+    height: 43rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+    padding-bottom: 3rem;
+   margin-right: 1.5rem;
+    margin-top: 2rem;
 }
 .heading-box.bg-white {
     padding-top: 2.5rem;
     padding-left: 3rem;;
     border-radius: 3rem;
     margin:-.8rem;
-    max-height: 33.3rem;
+    height: 33.3rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
 }
 .col{
@@ -591,6 +595,7 @@ background: #7E6AFF;
     line-height: 2.4rem;
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .hiring-section span.Frontend {
