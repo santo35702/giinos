@@ -276,7 +276,8 @@
                             <h5><span class="hiring">Backend</span> Platform Software<br> Engineer</h5>
                             <h6>The most challenging for this position is building platform base on our visions and business requirements together. They have to identify platform architecture characteristics, such as performance, security, scalability,
                                 etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
-                                team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.</h6>
+                                team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.
+                                <br><br></h6>
                         </div>
                         <div class="img-box">
                             <div class=" d-flex flex-row justify-content-start">
@@ -320,7 +321,7 @@
                             <h5><span class="Frontend">Frontend</span> Platform Software <br>Engineer</h5>
                             <h6>To build platform to support “fluid” process flow characteristics. Frontend platform software engineer need to design and see beyond what customer want. Ability to make system configurable is main responsibility for this
                                 role. UX/UI skills are essential here in order to maximize holistic value to whom who interacts with the platform. Web application or mobile application we built is main channel to delivery such a huge value to
-                                everyone…including our team</h6>
+                                everyone…including our team<br><br><br></h6>
                         </div>
                         <div class="img-box">
                             <div class=" d-flex flex-row justify-content-start">
@@ -366,7 +367,7 @@
                                 and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
                                 customers...<br>
                                 They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
-                                mindsets to fullfill the missions.</h6>
+                                mindsets to fullfill the missions.<br><br></h6>
                         </div>
                         <div class="img-box">
                             <div class=" d-flex flex-row justify-content-start">
@@ -430,7 +431,7 @@
                             <h6>Each customer has thier own context to plug our solution into. This is very crucial steps cause we have to make sure what we delivery is really work and “holistic value” have been truely spreading among cusomer’s
                                 organization. Solution QA & Implementation is our spearhead who make things happen at site. They work closely with frontline users, manager or even management at some certain pont of solution implementation in order to
                                 blend in new solution into users daily life. Sometime they have to re-configuration, re-testing and training users again and again. We will allow this to happen cause our goal is to achive “delivery truely holistic
-                                value”...</h6>
+                                value”...<br><br></h6>
                         </div>
                         <div class="img-box">
                             <div class=" d-flex flex-row justify-content-start">
@@ -523,8 +524,7 @@
         </section>
 
         <!-- start footer section-->
-        <section class="footer-section" style="background:#610BEF; color: white;
-  ">
+        <section class="footer-section" style="background:#610BEF; color: white; ">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
