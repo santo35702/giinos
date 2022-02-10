@@ -437,13 +437,13 @@
                             <div class=" d-flex flex-row justify-content-start">
                                 <div class="col">
                                     <div class="cypress text-center">
-                                        <img src="resource/img/Group%207045.png" alt="">
+                                        <img src="resource/img/Group%207045.png" alt="" class="img-fluid mb-2">
                                         <p>Cypress</p>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="robot text-center">
-                                        <img src="resource/img/Group%207046.png" alt="">
+                                        <img src="resource/img/Group%207046.png" alt="" class="img-fluid mb-2">
                                         <p>Robot framework</p>
                                     </div>
                                 </div>
@@ -455,7 +455,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="excel text-center">
-                                        <img src="resource/img/Group%207050.png" alt="">
+                                        <img src="resource/img/Group%207050.png" alt="" class="img-fluid mb-2">
                                         <p>Excel</p>
                                     </div>
                                 </div>
@@ -465,7 +465,86 @@
                     </div>
                 </div>
                 <div class="col">
-                    col-5
+                    <div class="box mb-4 py-3 bg-primary">
+                        <div class="heading-box bg-white">
+                            <h5>Holistic Value Data Analytics & <span class="Insights"><br>Insights Delivery</span></h5>
+                            <h6>Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops
+                                and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
+                                customers...<br>
+                                They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
+                                mindsets to fullfill the missions.</h6>
+                        </div>
+                        <div class="img-box">
+                            <div class=" d-flex flex-row justify-content-start">
+                                <div class="col">
+                                    <div class="excel text-center">
+                                        <img src="resource/img/Group%207050.png" alt="" class="img-fluid mb-2">
+                                        <p>Excel</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207051.png" alt="" class="img-fluid mb-2">
+                                        <p>Markdown</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="tableau text-center">
+                                        <img src="resource/img/Group%207052.png" alt="" class="img-fluid mb-2">
+                                        <p>Tableau</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="power text-center">
+                                        <img src="resource/img/Group%207053.png" alt="" class="img-fluid mb-2">
+                                        <p>power BI</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="sql text-center">
+                                        <img src="resource/img/Group%207054.png" alt="" class="img-fluid mb-2">
+                                        <p>SQL</p>
+                                    </div>
+                                </div>
+                                <div class="col-5"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="box border-end">
+                        <h5>Contact us at</h5>
+                        <h6>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box border-end">
+                        <ul class="list-group">
+                            <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
+                                <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
+                                <p>327/1 Soi Ladprao 26, Chomphon Subdistrict Chatuchak District, Bangkok 10900</p>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                <img src="resource/img/Group%207056.png" alt="" class="me-3 img-fluid">
+                                <p>02-077-6114</p>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                <img src="resource/img/Group%207057.png" alt="" class="me-3 img-fluid">
+                                <p>developers@giinos.com</p>
+                            </li>
+                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                <img src="resource/img/Group%207058.png" alt="" class="me-3 img-fluid">
+                                <p>@giinos-career</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        <img src="resource/img/QR%20Code.png" alt="">
+                    </div>
                 </div>
             </div>
         </section>
