@@ -49,14 +49,14 @@
     );
 
     $homeContent = array(
-        'en' => ['title' => 'Intelligent <span class="fluid">Fluid</span> <br> Process Flow <br>Management <br> Platform',
-            'description' => 'for maximizing <br> <span class="hero-p"> holistic values</span>',
+        'en' => ['title' => 'Intelligent <span class="fluid">Fluid</span> Process Flow Management Platform',
+            'description' => 'for maximizing <br><span class="hero-p">holistic values</span>',
             ],
-        'bn' => ['title' => 'বুদ্ধিমান <span class="fluid">তরল</span> <br> প্রক্রিয়া প্রবাহ <br>ব্যবস্থাপনা <br> প্ল্যাটফর্ম',
+        'bn' => ['title' => 'বুদ্ধিমান <span class="fluid">তরল</span> প্রক্রিয়া প্রবাহ ব্যবস্থাপনা প্ল্যাটফর্ম',
             'description' => 'আমরা কি করি, আমরা নিয়োগের করছি -- সাফল্যের কাহিনআমরা কি করি, আমরা নিয়োগের করছি -- সাফল্যের কাহিনআমরা কি করি, আমরা নিয়োগের করছি -- সাফল্যের কাহিনআমরা কি করি, আমরা নিয়োগের করছি -- সাফল্যের কাহিনআমরা কি করি, আমরা নিয়োগের করছি -- সাফল্যের কাহিন',
             ],
-        'th' => ['title' => 'แพลตฟอร์ม <span class="fluid">Fluid</span> อัจฉริยะ <br> ผังกระบวนการ <br>แพลตฟอร์มการจัดการ <br>',
-            'description' => 'เพื่อเพิ่ม <br> <span class="hero-p"> คุณค่าแบบองค์รวม</span>',
+        'th' => ['title' => 'แพลตฟอร์ม <span class="fluid">Fluid</span> อัจฉริยะ ผังกระบวนการ แพลตฟอร์มการจัดการ',
+            'description' => 'เพื่อเพิ่ม <br><span class="hero-p">คุณค่าแบบองค์รวม</span>',
             ],
     );
 

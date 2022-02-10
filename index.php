@@ -55,7 +55,7 @@
                             <button class="btn btn-success" type="submit">Search</button>
                         </div>
                     </form> -->
-                    <ul class="navbar-nav mb-2 mb-lg-0 ms-4">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item input-group">
                             <a class="nav-link"><img src="resource/img/Vector.png" alt=""></a>
                             <select class="form-select" onchange="set_language()" name="ln" id="language">
@@ -69,35 +69,34 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <h1><?php echo $homeContent[$ln]['title'] ?></h1>
-                    <p class="hero-description"><?php echo $homeContent[$ln]['description'] ?></p>
-                </div>
-                <div class="col-8">
-                    <img class="hero_img img-fluid" src="resource/img/Group%20810.png" alt="hero">
+        <div id="home_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h1><?php echo $homeContent[$ln]['title'] ?></h1>
+                        <p class="hero-description"><?php echo $homeContent[$ln]['description'] ?></p>
+                    </div>
+                    <div class="col-8">
+                        <img class="img-fluid" src="resource/img/Group%20810.png" alt="hero">
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- start customer section-->
-        <section class="customer-section container-fluid py-5">
-            <div class="d-flex flex-column justify-content-center pt-3">
-                <div class="text-center">
+        <section class="customer-section">
+            <div class="container-fluid">
+                <div class="d-flex flex-column justify-content-center">
                     <h2><?php echo $customerContent[$ln]['h2'] ?></h2>
-                </div>
-                <div class="text-center">
                     <h3><?php echo $customerContent[$ln]['h3'] ?></h3>
                 </div>
-            </div>
-            <div class="pb-3">
                 <img src="./resource/img/Group%20786.png" alt="Customers" class="img-fluid">
             </div>
         </section>
+
         <!-- start mission section-->
-        <section class="mission-section container-fluid" id="service">
-            <div class="flex-container mx-auto">
+        <section class="mission-section" id="service">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <div class="col1">
