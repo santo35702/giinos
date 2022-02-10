@@ -550,6 +550,20 @@
         </section>
 
         <!-- start speech section-->
+        <section class="speech-section container-fluid">
+            <figure>
+                <blockquote cite="http://original-url.here">
+                    <p>
+                        <span class="colon">“</span>
+                        At Giinos, We perceive team & customer <span class="speech"> holistic values</span> by achiving <br>missions together, We humbly stand behind great success of our <br>customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span>
+                        <span class="colon">”</span>
+                    </p>
+                </blockquote>
+                <figcaption class="text-end border-top mt-5 pt-3">
+                    <img src="resource/img/Group%207018.png" alt="">
+                </figcaption>
+            </figure>
+        </section>
 
         <!-- start contact section-->
         <section class="contact-section container-fluid">
