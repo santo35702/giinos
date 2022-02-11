@@ -286,35 +286,35 @@
                                 <h6><?php echo $hiringContent[$ln]['box1']['heading-box']['description'] ?></h6>
                             </div>
                             <div class="img-box">
-                                <div class=" d-flex flex-row justify-content-start">
-                                    <div class="col-2">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="col-1">
                                         <div class="rust text-center">
                                             <img src="resource/img/Group%207027.png" alt="" class="img-fluid mb-2">
-                                            <p>Rust</p>
+                                            <p><?php echo $hiringContent[$ln]['box1']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="node text-center">
                                             <img src="resource/img/Group%207028.png" alt="" class="img-fluid mb-2">
-                                            <p>Node JS</p>
+                                            <p><?php echo $hiringContent[$ln]['box1']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="docker text-center">
                                             <img src="resource/img/Group%207027.png" alt="" class="img-fluid mb-2">
-                                            <p>Docker</p>
+                                            <p><?php echo $hiringContent[$ln]['box1']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="kubernetes text-center">
                                             <img src="resource/img/Group%207030.png" alt="" class="img-fluid mb-2">
-                                            <p>Kubernetes</p>
+                                            <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="java text-center">
                                             <img src="resource/img/Group%207031.png" alt="" class="img-fluid mb-2">
-                                            <p>Java Springboot</p>
+                                            <p><?php echo $hiringContent[$ln]['box1']['img-box']['img5'] ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -322,43 +322,41 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="box mb-4 py-3 bg-primary">
+                        <div class="box bg-primary">
                             <div class="heading-box bg-white">
-                                <h5><span class="Frontend">Frontend</span> Platform Software <br>Engineer</h5>
-                                <h6>To build platform to support “fluid” process flow characteristics. Frontend platform software engineer need to design and see beyond what customer want. Ability to make system configurable is main responsibility for this
-                                    role. UX/UI skills are essential here in order to maximize holistic value to whom who interacts with the platform. Web application or mobile application we built is main channel to delivery such a huge value to
-                                    everyone…including our team<br><br><br></h6>
+                                <h5><?php echo $hiringContent[$ln]['box2']['heading-box']['title'] ?></h5>
+                                <h6><?php echo $hiringContent[$ln]['box2']['heading-box']['description'] ?></h6>
                             </div>
                             <div class="img-box">
-                                <div class=" d-flex flex-row justify-content-start">
-                                    <div class="col-2">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="col-1">
                                         <div class="web text-center">
                                             <img src="resource/img/Group%207032.png" alt="" class="img-fluid mb-2">
-                                            <p>Web Assembly</p>
+                                            <p><?php echo $hiringContent[$ln]['box2']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="web1 text-center">
                                             <img src="resource/img/Group%207033.png" alt="" class="img-fluid mb-2">
-                                            <p>Web Component</p>
+                                            <p><?php echo $hiringContent[$ln]['box2']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="flutter text-center">
                                             <img src="resource/img/Group%207034.png" alt="" class="img-fluid mb-2">
-                                            <p>Flutter</p>
+                                            <p><?php echo $hiringContent[$ln]['box2']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="ionic text-center">
                                             <img src="resource/img/Group%207035.png" alt="" class="img-fluid mb-2">
-                                            <p>Ionic Framework</p>
+                                            <p><?php echo $hiringContent[$ln]['box2']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-1">
                                         <div class="angular text-center">
                                             <img src="resource/img/Group%207036.png" alt="" class="img-fluid mb-2">
-                                            <p>Angular</p>
+                                            <p><?php echo $hiringContent[$ln]['box2']['img-box']['img5'] ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -366,192 +364,178 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="box mb-4 py-3 bg-primary">
+                        <div class="box bg-primary">
                             <div class="heading-box bg-white">
-                                <h5>Platform <span class="sre">DevOps & SRE</span></h5>
-                                <h6>Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops
-                                    and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
-                                    customers...<br>
-                                    They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
-                                    mindsets to fullfill the missions.<br><br></h6>
+                                <h5><?php echo $hiringContent[$ln]['box3']['heading-box']['title'] ?></h5>
+                                <h6><?php echo $hiringContent[$ln]['box3']['heading-box']['description'] ?></h6>
                             </div>
                             <div class="img-box">
-                                <div class=" d-flex flex-row justify-content-start">
-                                    <div class="col">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="col-1">
                                         <div class="python text-center">
                                             <img src="resource/img/Group%207037.png" alt="" class="img-fluid mb-2">
-                                            <p>Python</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="shell text-center">
                                             <img src="resource/img/Group%207038.png" alt="" class="img-fluid mb-2">
-                                            <p>Shell scripting</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207039.png" alt="" class="img-fluid mb-2">
-                                            <p>Markdown</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="prometheus text-center">
                                             <img src="resource/img/Group%207040.png" alt="" class="img-fluid mb-2">
-                                            <p>Prometheus</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="grafana text-center">
                                             <img src="resource/img/Group%207041.png" alt="" class="img-fluid mb-2">
-                                            <p>Grafana</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img5'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="ansible text-center">
                                             <img src="resource/img/Group%207042.png" alt="" class="img-fluid mb-2">
-                                            <p>Ansible</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img6'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="gitlab text-center">
                                             <img src="resource/img/Group%207043.png" alt="" class="img-fluid mb-2">
-                                            <p>Gitlab CI/CD</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img7'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="jenkin text-center">
                                             <img src="resource/img/Group%207044.png" alt="" class="img-fluid mb-2">
-                                            <p>Jenkin</p>
+                                            <p><?php echo $hiringContent[$ln]['box3']['img-box']['img8'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-2"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="box mb-4 py-3 bg-primary">
+                        <div class="box bg-primary">
                             <div class="heading-box bg-white">
-                                <h5>Solution <span class="qa">QA & Implementationr</span></h5>
-                                <h6>Each customer has thier own context to plug our solution into. This is very crucial steps cause we have to make sure what we delivery is really work and “holistic value” have been truely spreading among cusomer’s
-                                    organization. Solution QA & Implementation is our spearhead who make things happen at site. They work closely with frontline users, manager or even management at some certain pont of solution implementation in order to
-                                    blend in new solution into users daily life. Sometime they have to re-configuration, re-testing and training users again and again. We will allow this to happen cause our goal is to achive “delivery truely holistic
-                                    value”...<br><br></h6>
+                                <h5><?php echo $hiringContent[$ln]['box4']['heading-box']['title'] ?></h5>
+                                <h6><?php echo $hiringContent[$ln]['box4']['heading-box']['description'] ?></h6>
                             </div>
                             <div class="img-box">
-                                <div class=" d-flex flex-row justify-content-start">
-                                    <div class="col">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="col-1">
                                         <div class="cypress text-center">
                                             <img src="resource/img/Group%207045.png" alt="" class="img-fluid mb-2">
-                                            <p>Cypress<br></p>
+                                            <p><?php echo $hiringContent[$ln]['box4']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="robot text-center">
                                             <img src="resource/img/Group%207046.png" alt="" class="img-fluid mb-2">
-                                            <p>Robot framework</p>
+                                            <p><?php echo $hiringContent[$ln]['box4']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207039.png" alt="" class="img-fluid mb-2">
-                                            <p>Markdown</p>
+                                            <p><?php echo $hiringContent[$ln]['box4']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="excel text-center">
                                             <img src="resource/img/Group%207050.png" alt="" class="img-fluid mb-2">
-                                            <p>Excel</p>
+                                            <p><?php echo $hiringContent[$ln]['box4']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-6"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="box mb-4 py-3 bg-primary">
+                        <div class="box bg-primary">
                             <div class="heading-box bg-white">
-                                <h5>Holistic Value Data Analytics & <span class="Insights"><br>Insights Delivery</span></h5>
-                                <h6>Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops
-                                    and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our
-                                    customers...<br>
-                                    They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker
-                                    mindsets to fullfill the missions.<br></h6>
+                                <h5><?php echo $hiringContent[$ln]['box5']['heading-box']['title'] ?></h5>
+                                <h6><?php echo $hiringContent[$ln]['box5']['heading-box']['description'] ?></h6>
                             </div>
                             <div class="img-box">
-                                <div class=" d-flex flex-row justify-content-start">
-                                    <div class="col">
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div class="col-1">
                                         <div class="excel text-center">
                                             <img src="resource/img/Group%207050.png" alt="" class="img-fluid mb-2">
-                                            <p>Excel</p>
+                                            <p><?php echo $hiringContent[$ln]['box5']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207051.png" alt="" class="img-fluid mb-2">
-                                            <p>Markdown</p>
+                                            <p><?php echo $hiringContent[$ln]['box5']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="tableau text-center">
                                             <img src="resource/img/Group%207052.png" alt="" class="img-fluid mb-2">
-                                            <p>Tableau</p>
+                                            <p><?php echo $hiringContent[$ln]['box5']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="power text-center">
                                             <img src="resource/img/Group%207053.png" alt="" class="img-fluid mb-2">
-                                            <p>power BI</p>
+                                            <p><?php echo $hiringContent[$ln]['box5']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col-1">
                                         <div class="sql text-center">
                                             <img src="resource/img/Group%207054.png" alt="" class="img-fluid mb-2">
-                                            <p>SQL</p>
+                                            <p><?php echo $hiringContent[$ln]['box5']['img-box']['img5'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-5"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-6">
-                    <div class="box border-end">
-                        <h5>Contact us at</h5>
-                        <h7>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h7>
+                <div class="row px-5">
+                    <div class="col-6">
+                        <div class="contact-box border-end">
+                            <h5>Contact us at</h5>
+                            <h7>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h7>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="box border-end">
-                        <ul class="list-group">
-                            <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
-                                <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
-                                <p>327/1 Soi Ladprao 26, Chomphon Subdistrict<br> Chatuchak District, Bangkok 10900</p>
-                            </li>
-                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
-                                <img src="resource/img/Group%207056.png" alt="" class="me-3 img-fluid">
-                                <p>02-077-6114</p>
-                            </li>
-                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
-                                <img src="resource/img/Group%207057.png" alt="" class="me-3 img-fluid">
-                                <p>developers@giinos.com</p>
-                            </li>
-                            <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
-                                <img src="resource/img/Group%207058.png" alt="" class="me-3 img-fluid">
-                                <p>@giinos-career</p>
-                            </li>
-                        </ul>
+                    <div class="col-4">
+                        <div class="contact-box border-end">
+                            <ul class="list-group">
+                                <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
+                                    <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
+                                    <p>327/1 Soi Ladprao 26, Chomphon Subdistrict<br> Chatuchak District, Bangkok 10900</p>
+                                </li>
+                                <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                    <img src="resource/img/Group%207056.png" alt="" class="me-3 img-fluid">
+                                    <p>02-077-6114</p>
+                                </li>
+                                <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                    <img src="resource/img/Group%207057.png" alt="" class="me-3 img-fluid">
+                                    <p>developers@giinos.com</p>
+                                </li>
+                                <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
+                                    <img src="resource/img/Group%207058.png" alt="" class="me-3 img-fluid">
+                                    <p>@giinos-career</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="box">
-                        <img src="resource/img/QR%20Code.png" alt="">
+                    <div class="col-2">
+                        <div class="contact-box">
+                            <img src="resource/img/QR%20Code.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>

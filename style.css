@@ -519,7 +519,7 @@ header {
 /* hiring section */
 /*===================== */
 .hiring-section {
-background: #7E6AFF;
+    background: #7E6AFF;
 }
 
 .hiring-section h2 {
@@ -539,6 +539,7 @@ background: #7E6AFF;
     font-style: normal;
     margin-bottom: 3rem;
 }
+
 .row.row-cols-8{
   max-width: 83rem;
   text-align: center;
@@ -548,21 +549,29 @@ background: #7E6AFF;
   border-radius: 6rem;
   font-size: 1.09rem;
 }
+
 .hiring-section .box {
     border-radius: 4rem;
-    height: 43rem;
+    min-height: 43rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
     margin: 2rem 1rem;
     padding-bottom: 3rem;
 }
-.heading-box.bg-white {
-    padding-top: 2.5rem;
-    padding-left: 3rem;;
+
+.hiring-section .box .heading-box {
+    padding: 2.5rem 3rem;
     border-radius: 3rem;
-    margin:-.8rem;
-    height: 33.3rem;
+    margin:-.85rem -.85rem 0 -.85rem;
+    min-height: 33.3rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
 }
+
+.contact-box {
+    height: 20rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .col{
     padding: 0.5rem 1rem;
 }
@@ -595,7 +604,7 @@ background: #7E6AFF;
     padding-bottom: 3rem;
 }
 
-.hiring-section span.Frontend {
+.hiring-section span.frontend {
     color: #22BFBF;
 }
 
@@ -620,7 +629,7 @@ background: #7E6AFF;
 
 }
 
-.hiring-section span.Insights {
+.hiring-section span.insights {
     color: #6A10FF;
 }
 

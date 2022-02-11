@@ -290,12 +290,71 @@
                         etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
                         team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.',
                     ],
-                'img-box' => '',
+                'img-box' => [
+                    'img1' => 'Rust',
+                    'img2' => 'Node JS',
+                    'img3' => 'Docker',
+                    'img4' => 'Kubernetes',
+                    'img5' => 'Java Springboot',
+                    ],
                 ],
-            'box2' => '',
-            'box3' => '',
-            'box4' => '',
-            'box5' => '',
+            'box2' => [
+                'heading-box' => [
+                    'title' => '<span class="frontend">Frontend</span> Platform Software <br>Engineer',
+                    'description' => 'To build platform to support “fluid” process flow characteristics. Frontend platform software engineer need to design and see beyond what customer want. Ability to make system configurable is main responsibility for this role. UX/UI skills are essential here in order to maximize holistic value to whom who interacts with the platform. Web application or mobile application we built is main channel to delivery such a huge value to everyone…including our team',
+                    ],
+                'img-box' => [
+                    'img1' => 'Web Assembly',
+                    'img2' => 'Web Component',
+                    'img3' => 'Flutter',
+                    'img4' => 'Ionic Framework',
+                    'img5' => 'Angular',
+                    ],
+                ],
+            'box3' => [
+                'heading-box' => [
+                    'title' => 'Platform <span class="sre">DevOps & SRE</span>',
+                    'description' => 'Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our customers...<br> They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker mindsets to fullfill the missions.',
+                    ],
+                'img-box' => [
+                    'img1' => 'Python',
+                    'img2' => 'Shell scripting',
+                    'img3' => 'Markdown',
+                    'img4' => 'Prometheus',
+                    'img5' => 'Grafana',
+                    'img6' => 'Ansible',
+                    'img7' => 'Gitlab CI/CD',
+                    'img8' => 'Jenkin',
+                    ],
+                ],
+            'box4' => [
+                'heading-box' => [
+                    'title' => 'Solution <span class="qa">QA & Implementationr</span>',
+                    'description' => 'Each customer has thier own context to plug our solution into. This is very crucial steps cause we have to make sure what we delivery is really work and “holistic value” have been truely spreading among cusomer’s
+                        organization. Solution QA & Implementation is our spearhead who make things happen at site. They work closely with frontline users, manager or even management at some certain pont of solution implementation in order to
+                        blend in new solution into users daily life. Sometime they have to re-configuration, re-testing and training users again and again. We will allow this to happen cause our goal is to achive “delivery truely holistic
+                        value”...',
+                    ],
+                'img-box' => [
+                    'img1' => 'Cypress',
+                    'img2' => 'Robot framework',
+                    'img3' => 'Markdown',
+                    'img4' => 'Excel',
+                    ],
+                ],
+            'box5' => [
+                'heading-box' => [
+                    'title' => 'Holistic Value Data Analytics & <span class="Insights"><br>Insights Delivery</span>',
+                    'description' => 'Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our customers...<br>They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker mindsets to fullfill the missions.',
+                    ],
+                'img-box' => [
+                    'img1' => 'Excel',
+                    'img2' => 'Markdown',
+                    'img3' => 'Tableau',
+                    'img4' => 'Power BI',
+                    'img5' => 'SQL',
+                    ],
+                ],
             ],
         'bn' => [
             'heading' => [
@@ -317,12 +376,68 @@
                     'title' => '',
                     'description' => '',
                     ],
-                'img-box' => '',
+                'img-box' => [
+                    'img1' => 'Rust',
+                    'img2' => 'Node JS',
+                    'img3' => 'Docker',
+                    'img4' => 'Kubernetes',
+                    'img5' => 'Java Springboot',
+                    ],
                 ],
-            'box2' => '',
-            'box3' => '',
-            'box4' => '',
-            'box5' => '',
+            'box2' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => 'Web Assembly',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    'img5' => '',
+                    ],
+                ],
+            'box3' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => '',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    'img5' => '',
+                    'img6' => '',
+                    'img7' => '',
+                    'img8' => '',
+                    ],
+                ],
+            'box4' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => '',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    ],
+                ],
+            'box5' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => 'Excel',
+                    'img2' => 'Markdown',
+                    'img3' => 'Tableau',
+                    'img4' => 'Power BI',
+                    'img5' => 'SQL',
+                    ],
+                ],
             ],
         'th' => [
             'heading' => [
@@ -344,12 +459,68 @@
                     'title' => '',
                     'description' => '',
                     ],
-                'img-box' => '',
+                'img-box' => [
+                    'img1' => 'Rust',
+                    'img2' => 'Node JS',
+                    'img3' => 'Docker',
+                    'img4' => 'Kubernetes',
+                    'img5' => 'Java Springboot',
+                    ],
                 ],
-            'box2' => '',
-            'box3' => '',
-            'box4' => '',
-            'box5' => '',
+            'box2' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => 'Web Assembly',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    'img5' => '',
+                    ],
+                ],
+            'box3' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => '',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    'img5' => '',
+                    'img6' => '',
+                    'img7' => '',
+                    'img8' => '',
+                    ],
+                ],
+            'box4' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => '',
+                    'img2' => '',
+                    'img3' => '',
+                    'img4' => '',
+                    ],
+                ],
+            'box5' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => [
+                    'img1' => 'Excel',
+                    'img2' => 'Markdown',
+                    'img3' => 'Tableau',
+                    'img4' => 'Power BI',
+                    'img5' => 'SQL',
+                    ],
+                ],
             ],
     );
  ?>
