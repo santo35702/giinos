@@ -194,4 +194,58 @@
             'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "ปฏิสัมพันธ์ที่ราบรื่นกับผู้คน" สำหรับทุกคน <br>เราเปิดตัวแผนงาน & ให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
             ],
     );
+
+    $successContent = array(
+        'en' => [
+            'title' => 'customer stories',
+            'display3' => 'Some of our success stories',
+            'display6' => 'Building a good customer experience does not happen by <br>accident. It happens by maximizing holistic values.',
+            'mission' => [
+                'title' => 'The success of workflow leaning and quick responding process flow adaptation during COVID-19 threat.',
+                'description' => 'By applying our solutions, CCIT has lean processes and increase a lot flexibilities on patient flow management that let CCIT handle thier situation very well during tough time of COVID-19 in Thailand. One of the main components of this story is “Workflow-Centric Med Delivery Solution” that let all related departments work seamlessly together to help patient get thier medicines during lockdown period with ability to track delivery status & process in realtime.   But not only that, CCIT goes beyond in-hospital patient flow management only. They also bring in tele-consultation via mobile application which is one of our ecosystem solution to take care of patient who meet the conditions that be able to do tele-consultation to avoid to come over to hospital during COVID-10 situation. And we believe this will be one of a new normal way of seeing doctor very soon in the coming future.',
+                ],
+            'mission1' => [
+                'title' => 'Minimize patient overcrowning by applying insights from Holistic Patient Flow Management Solution.',
+                'description' => 'With almost 40 services areas in the hospital and around 1,800 - 2,500 paitent visits per day force us to lay down workflows for each services area uniquly in order to capture data & how patient flows in each area. Yes, it’s so tough for us to figure out all 40 workflow in deep details of clinical domain. With our healthcare export who working so hard with platform team. We come up with the most sophisticated healthcare workflow that is able to capture very details of movement inside hospital. And the result is now NRH, they are able see where to improve overcrown issues in some area by using our analytic insights effectively. The bautiful things is now they have baseline statistics and every staffs have “Adapt-to-change Awareness” in thier mind by just 6 months after using our solutions.',
+                ],
+            'mission2' => [
+                'title' => 'The Biggest Holistic Patient Flow Management Solution in North East of Thailand.',
+                'description' => '“3,500-4,500 patient visits per day”, It’s scarely figures for us. We carefully dicussed & design solution with frontline users, mid-management and top-management staffs since the start of project to make sure that we can delivery “holistic values” to everyone as much as we could. We integrated our solution with their robotic medicine system to maximize value on both staff and patient side in pharmacy services area. Top management started using our realtime insights delivery mobile appliation since day one and keep looking ahead to process improvement inside such a visionary organization.',
+                ],
+            ],
+        'bn' => [
+            'title' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'display3' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'display6' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'mission' => [
+                'title' => '',
+                'description' => '',
+                ],
+            'mission1' => [
+                'title' => '',
+                'description' => '',
+                ],
+            'mission2' => [
+                'title' => '',
+                'description' => '',
+                ],
+            ],
+        'th' => [
+            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'display3' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'display6' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'mission' => [
+                'title' => '',
+                'description' => '',
+                ],
+            'mission1' => [
+                'title' => '',
+                'description' => '',
+                ],
+            'mission2' => [
+                'title' => '',
+                'description' => '',
+                ],
+            ],
+    );
  ?>

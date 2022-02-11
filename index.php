@@ -188,30 +188,29 @@
             <div class="container-fluid">
                 <div class="d-flex flex-column">
                     <div class="text-center">
-                        <h2>customer stories</h2>
+                        <h2><?php echo $successContent[$ln]['title'] ?></h2>
                     </div>
                     <div class="text-center">
-                        <h3 class="display-3">Some of our success stories</h3>
+                        <h3 class="display-3"><?php echo $successContent[$ln]['display3'] ?></h3>
                     </div>
                     <div class="text-center">
-                        <h4 class="display-6">Building a good customer experience does not happen by <br>accident. It happens by maximizing holistic values.</h4>
+                        <h4 class="display-6"><?php echo $successContent[$ln]['display6'] ?></h4>
                     </div>
                     <div class="row flex-container">
                         <div class="col column mission">
                             <img src="resource/img/Group%207021.png" alt="" class="services-icon">
-                            <h2>The success of workflow leaning and quick responding process flow adaptation during COVID-19 threat.
-                            </h2>
-                            <p> By applying our solutions, CCIT has lean processes and increase a lot flexibilities on patient flow management that let CCIT handle thier situation very well during tough time of COVID-19 in Thailand. One of the main components of this story is “Workflow-Centric Med Delivery Solution” that let all related departments work seamlessly together to help patient get thier medicines during lockdown period with ability to track delivery status & process in realtime. But not only that, CCIT goes beyond in-hospital patient flow management only. They also bring in tele-consultation via mobile application which is one of our ecosystem solution to take care of patient who meet the conditions that be able to do tele-consultation to avoid to come over to hospital during COVID-10 situation. And we believe this will be one of a new normal way of seeing doctor very soon in the coming future. </p>
+                            <h2><?php echo $successContent[$ln]['mission']['title'] ?></h2>
+                            <p><?php echo $successContent[$ln]['mission']['description'] ?></p>
                         </div>
                         <div class="col mission column">
                             <img src="resource/img/Group%207022.png" alt="">
-                            <h2>Minimize patient overcrowning by applying insights from Holistic Patient Flow Management Solution. </h2>
-                            <p> With almost 40 services areas in the hospital and around 1,800 - 2,500 paitent visits per day force us to lay down workflows for each services area uniquly in order to capture data & how patient flows in each area. Yes, it’s so tough for us to figure out all 40 workflow in deep details of clinical domain. With our healthcare export who working so hard with platform team. We come up with the most sophisticated healthcare workflow that is able to capture very details of movement inside hospital. And the result is now NRH, they are able see where to improve overcrown issues in some area by using our analytic insights effectively. The bautiful things is now they have baseline statistics and every staffs have “Adapt-to-change Awareness” in thier mind by just 6 months after using our solutions.</p>
+                            <h2><?php echo $successContent[$ln]['mission1']['title'] ?></h2>
+                            <p><?php echo $successContent[$ln]['mission1']['description'] ?></p>
                         </div>
                         <div class="col mission column">
                             <img src="resource/img/Group%207023.png" alt="">
-                            <h2>The Biggest Holistic Patient Flow Management Solution in North East of Thailand.</h2>
-                            <p>“3,500-4,500 patient visits per day”, It’s scarely figures for us. We carefully dicussed & design solution with frontline users, mid-management and top-management staffs since the start of project to make sure that we can delivery “holistic values” to everyone as much as we could. We integrated our solution with their robotic medicine system to maximize value on both staff and patient side in pharmacy services area. Top management started using our realtime insights delivery mobile appliation since day one and keep looking ahead to process improvement inside such a visionary organization.</p>
+                            <h2><?php echo $successContent[$ln]['mission2']['title'] ?></h2>
+                            <p><?php echo $successContent[$ln]['mission2']['description'] ?></p>
                         </div>
                     </div>
                 </div>
