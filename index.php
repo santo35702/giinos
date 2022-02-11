@@ -506,8 +506,8 @@
                 <div class="row px-5">
                     <div class="col-6">
                         <div class="contact-box border-end">
-                            <h5>Contact us at</h5>
-                            <h7>If you are interested in working with our team, you can contact us at the address listed on your right hand side. <br>We sincerely hope that you will grow with us in the future, </h7>
+                            <h5><?php echo $contactBox[$ln]['heading'] ?></h5>
+                            <h7><?php echo $contactBox[$ln]['description'] ?></h7>
                         </div>
                     </div>
                     <div class="col-4">
@@ -515,19 +515,19 @@
                             <ul class="list-group">
                                 <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
                                     <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
-                                    <p>327/1 Soi Ladprao 26, Chomphon Subdistrict<br> Chatuchak District, Bangkok 10900</p>
+                                    <p><?php echo $contactBox[$ln]['address'] ?></p>
                                 </li>
                                 <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
                                     <img src="resource/img/Group%207056.png" alt="" class="me-3 img-fluid">
-                                    <p>02-077-6114</p>
+                                    <p><?php echo $contactBox[$ln]['phone'] ?></p>
                                 </li>
                                 <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
                                     <img src="resource/img/Group%207057.png" alt="" class="me-3 img-fluid">
-                                    <p>developers@giinos.com</p>
+                                    <p><?php echo $contactBox[$ln]['mail'] ?></p>
                                 </li>
                                 <li class="list-group-item border-0 d-flex justify-content-start align-items-center bg-transparent">
                                     <img src="resource/img/Group%207058.png" alt="" class="me-3 img-fluid">
-                                    <p>@giinos-career</p>
+                                    <p><?php echo $contactBox[$ln]['line'] ?></p>
                                 </li>
                             </ul>
                         </div>

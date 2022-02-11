@@ -523,4 +523,31 @@
                 ],
             ],
     );
+
+    $contactBox = array(
+        'en' => [
+            'heading' => 'Contact us at',
+            'description' => 'If you are interested in working with our team, you can contact us at the address listed on your right hand side.<br>We sincerely hope that you will grow with us in the future.',
+            'address' => '327/1 Soi Ladprao 26, Chomphon Subdistrict<br> Chatuchak District, Bangkok 10900',
+            'phone' => '02-077-6114',
+            'mail' => 'developers@giinos.com',
+            'line' => '@giinos-career',
+            ],
+        'bn' => [
+            'heading' => '',
+            'description' => '',
+            'address' => '',
+            'phone' => '',
+            'mail' => '',
+            'line' => '',
+            ],
+        'th' => [
+            'heading' => '',
+            'description' => '',
+            'address' => '',
+            'phone' => '',
+            'mail' => '',
+            'line' => '',
+            ],
+    );
  ?>
