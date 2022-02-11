@@ -124,53 +124,61 @@
         </section>
 
         <!-- start fluid section-->
-        <section class="fluid-section container-fluid py-5">
-            <div class="row">
-                <div class="col">
-                    <img src="resource/img/undraw_creative_woman_re_u5tk%201.png" alt="fluid">
-                </div>
-                <div class="col box1">
-                    <h2><?php echo $fluidContent[$ln]['title'] ?></h2>
-                    <p><?php echo $fluidContent[$ln]['description'] ?></p>
+        <section class="fluid-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <img src="resource/img/undraw_creative_woman_re_u5tk%201.png" alt="fluid">
+                    </div>
+                    <div class="col box1">
+                        <h2><?php echo $fluidContent[$ln]['title'] ?></h2>
+                        <p><?php echo $fluidContent[$ln]['description'] ?></p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- start realtime section-->
-        <section class="realtime-section container-fluid py-5">
-            <div class="row">
-                <div class="col box1">
-                    <h2><?php echo $realtimeContent[$ln]['title'] ?></h2>
-                    <p><?php echo $realtimeContent[$ln]['description'] ?></p>
-                </div>
-                <div class="col-3">
-                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid">
+        <section class="realtime-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col box1">
+                        <h2><?php echo $realtimeContent[$ln]['title'] ?></h2>
+                        <p><?php echo $realtimeContent[$ln]['description'] ?></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- start platform section-->
-        <section class="fluid_platform-section container-fluid">
-            <div class="row">
-                <div class="col span_1_of_3 ">
-                    <img src="resource/img/undraw_co-working_re_w93t%201.png" alt="fluid" class="img-fluid">
-                </div>
-                <div class="col span_1_of_3 box1">
-                    <h2><?php echo $platformContent[$ln]['title'] ?></h2>
-                    <p><?php echo $platformContent[$ln]['description'] ?></p>
+        <section class="fluid_platform-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col span_1_of_3 ">
+                        <img src="resource/img/undraw_co-working_re_w93t%201.png" alt="fluid" class="img-fluid">
+                    </div>
+                    <div class="col span_1_of_3 box1">
+                        <h2><?php echo $platformContent[$ln]['title'] ?></h2>
+                        <p><?php echo $platformContent[$ln]['description'] ?></p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- start holistic section-->
-        <section class="holistic-section container-fluid">
-            <div class="row">
-                <div class="col-4 box1">
-                    <h2>Holistic Value, value for everyone.</h2>
-                    <p>At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.</p>
-                </div>
-                <div class="col-4 ms-auto">
-                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime">
+        <section class="holistic-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4 box1">
+                        <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
+                        <p><?php echo $holisticContent[$ln]['description'] ?></p>
+                    </div>
+                    <div class="col-4 ms-auto">
+                        <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime">
+                    </div>
                 </div>
             </div>
         </section>
@@ -511,7 +519,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-6">
                     <div class="box border-end">

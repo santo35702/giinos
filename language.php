@@ -180,9 +180,18 @@
     );
 
 
-    // $customerContent = array(
-    //     'en' => ,
-    //     'bn' => ,
-    //     'th' => ,
-    // );
+    $holisticContent = array(
+        'en' => [
+            'title' => 'Holistic Value, value for everyone.',
+            'description' => 'At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.',
+            ],
+        'bn' => [
+            'title' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'description' => 'আমরা আমাদের প্ল্যাটফর্মকে নমনীয় রাখি এবং সবসময় দেখি আমরা এখন কী করতে পারি। আমরা R&D করি, আমাদের অংশীদারদের সাথে সমন্বয় করি যাতে গ্রাহকদের জন্য কোনো মৃত্যু নেই। মেশিন লার্নিং, AI এবং Web3-এর মতো নতুন প্রযুক্তি প্রয়োগ করা হল আমাদের সুযোগ এবং লক্ষ্য সকলের জন্য নির্বিঘ্নে "মানুষের মিথস্ক্রিয়া" সরবরাহ করা। <br>আমরা রোডম্যাপ প্রকাশ করি এবং আমাদের গ্রাহকদের জন্য মূল্য সর্বাধিক করার জন্য আমাদের রোডম্যাপ থেকে নতুন প্রযুক্তি, বৈশিষ্ট্যগুলি প্রয়োগ করতে তাদের সাথে সত্যই পরামর্শ, পরিকল্পনা এবং সমর্থন করি। যাতে প্ল্যাটফর্ম বিল্ডিং এর সুন্দর, “মূল্য প্রদান”.',
+            ],
+        'th' => [
+            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "ปฏิสัมพันธ์ที่ราบรื่นกับผู้คน" สำหรับทุกคน <br>เราเปิดตัวแผนงาน & ให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
+            ],
+    );
  ?>
