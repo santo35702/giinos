@@ -425,11 +425,8 @@ header {
     width: 37.8rem;
     height: .9rem;
     display: block;
-    margin: auto;
-    margin-top: 2rem;
-    margin-left: 54.9rem;
+    margin: 2rem auto;
     border-radius: .5rem;
-    margin-bottom: 2rem;
     text-align: center;
 }
 .success-section h4 {
@@ -587,8 +584,8 @@ background: #7E6AFF;
     padding-right: 1rem;
     text-align: center;
     margin-top: 2rem;
-    
-    
+
+
 }
 .hiring-section h6 {
     color: #929EB7;
