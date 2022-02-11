@@ -248,4 +248,22 @@
                 ],
             ],
     );
+
+    $teamContent = array(
+        'en' => [
+            'title' => 'Team & Culture',
+            'description' => '<strong class="ps-5">At Giinos, we apply these principles to every aspect of working together… <br></strong>
+            <strong>TRUST</strong>:We trust each other, we assign and leave the task to you. So, you will be pushed to the max at certain point…don’t forget to “trust yourself” as well.<br>
+            <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things... <br>
+            <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. So, whatever challenges we faced with these fundamental principles let us achive it always.',
+            ],
+        'bn' => [
+            'title' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            'description' => 'ইন্টেলিজেন্ট ফ্লুইড প্ল্যাটফর্ম এবং <br>আগামী পথ।',
+            ],
+        'th' => [
+            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'description' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            ],
+    );
  ?>

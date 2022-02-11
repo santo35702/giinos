@@ -221,15 +221,12 @@
         <section class="team-section" id="team">
             <div class="container-fluid">
                 <div class="heading text-center">
-                    <h3 class="display-3">Team & Culture</h3>
+                    <h3 class="display-3"><?php echo $teamContent[$ln]['title'] ?></h3>
                 </div>
                 <div class="box2">
                     <div class="box3">
                         <span class="coma first">“</span>
-                        <strong class="ps-5">At Giinos, we apply these principles to every aspect of working together… <br></strong>
-                        <strong>TRUST</strong>:We trust each other, we assign and leave the task to you. So, you will be pushed to the max at certain point…don’t forget to “trust yourself” as well.<br>
-                        <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things... <br>
-                        <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. So, whatever challenges we faced with these fundamental principles let us achive it always.
+                        <?php echo $teamContent[$ln]['description'] ?>
                         <span class="coma last">”</span>
                     </div>
                 </div>
@@ -237,43 +234,47 @@
         </section>
 
         <!-- start hiring section-->
-        <section class="hiring-section container-fluid">
-            <div class="heading text-center mb-5">
-                <h2 class="display-2">We’re hiring !</h2>
-                <h3 class="display-6">We are looking for talented people to team up with us to reach bigger goals.</h3>
+        <section class="hiring-section">
+            <div class="container-fluid">
+                <div class="heading text-center mb-5">
+                    <h2 class="display-2">We’re hiring !</h2>
+                    <h3 class="display-6">We are looking for talented people to team up with us to reach bigger goals.</h3>
+                </div>
             </div>
-            <div class="row row-cols-8 justify-content-around my-5">
-                <div class="col text-center">
-                    <img src="resource/img/Group%204393.png" alt="">
-                    <p class="mt-3">Team spirit of working</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Path%205322.png" alt="">
-                    <p class="mt-3">Collaboration Communication Skills</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%207025.png" alt="">
-                    <p class="mt-3">Rise concerns & ready for comments</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%204392.png" alt="">
-                    <p class="mt-3">Apply knowledge</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%204391.png" alt="">
-                    <p class="mt-3">Be Creative</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%207024.png" alt="">
-                    <p class="mt-3">Self-learner</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%207026.png" alt="">
-                    <p class="mt-3">Concepts of UX</p>
-                </div>
-                <div class="col text-center">
-                    <img src="resource/img/Group%204390.png" alt="">
-                    <p class="mt-3">Good English Skills </p>
+            <div class="container">
+                <div class="row row-cols-8 justify-content-center mx-auto">
+                    <div class="col text-center">
+                        <img src="resource/img/Group%204393.png" alt="">
+                        <p class="mt-3">Team spirit of working</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Path%205322.png" alt="">
+                        <p class="mt-3">Collaboration Communication Skills</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%207025.png" alt="">
+                        <p class="mt-3">Rise concerns & ready for comments</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%204392.png" alt="">
+                        <p class="mt-3">Apply knowledge</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%204391.png" alt="">
+                        <p class="mt-3">Be Creative</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%207024.png" alt="">
+                        <p class="mt-3">Self-learner</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%207026.png" alt="">
+                        <p class="mt-3">Concepts of UX</p>
+                    </div>
+                    <div class="col text-center">
+                        <img src="resource/img/Group%204390.png" alt="">
+                        <p class="mt-3">Good English Skills </p>
+                    </div>
                 </div>
             </div>
             <div class="row row-cols-2 justify-content-center">

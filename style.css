@@ -539,10 +539,9 @@ background: #7E6AFF;
     font-style: normal;
     margin-bottom: 3rem;
 }
-.row.row-cols-8.justify-content-around.my-5{
+.row.row-cols-8{
   max-width: 83rem;
   text-align: center;
-  margin-left: 35rem;
   background: #4B05BC;
   color: white;
   padding-top: 1rem;
