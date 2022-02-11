@@ -218,20 +218,19 @@
         </section>
 
         <!-- start team section-->
-        <section class="team-section container-fluid" id="team">
-            <div class="heading text-center">
-                <h3 class="display-3">Team & Culture</h3>
-            </div>
-            <div class="box2">
-                <div class="box4">
+        <section class="team-section" id="team">
+            <div class="container-fluid">
+                <div class="heading text-center">
+                    <h3 class="display-3">Team & Culture</h3>
+                </div>
+                <div class="box2">
                     <div class="box3">
-                        <span class="coma">“</span>
-                        <strong>At Giinos, we apply these principles to every aspect of working together… <br></strong>
+                        <span class="coma first">“</span>
+                        <strong class="ps-5">At Giinos, we apply these principles to every aspect of working together… <br></strong>
                         <strong>TRUST</strong>:We trust each other, we assign and leave the task to you. So, you will be pushed to the max at certain point…don’t forget to “trust yourself” as well.<br>
                         <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things... <br>
-                        <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team.
-                        So, whatever challenges we faced with these fundamental principles let us achive it always.
-                        <span class="coma">”</span>
+                        <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. So, whatever challenges we faced with these fundamental principles let us achive it always.
+                        <span class="coma last">”</span>
                     </div>
                 </div>
             </div>

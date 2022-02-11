@@ -481,11 +481,8 @@ header {
     width: 30.8rem;
     height: .9rem;
     display: block;
-    margin: auto;
-    margin-top: 3rem;
-    margin-left: 60rem;
+    margin: 3rem auto 0;
     border-radius: .5rem;
-    margin-bottom: 2rem;
     text-align: center;
 }
 .team-section .box2 {
@@ -494,9 +491,7 @@ header {
     margin-left: 11rem;
     height: 53rem;
     width: 128.4rem;
-}
-.team-section .box4 {
-    padding: 5rem;
+    padding: 5rem !important;
 }
 .team-section .box3 {
     font-weight: 400;
@@ -508,6 +503,17 @@ header {
     opacity: 23%;
     font-weight: 900;
     font-size: 10rem;
+    position: relative;
+}
+
+.team-section span.coma.first{
+    left: 3%;
+    top: 10%;
+}
+
+.team-section span.coma.last{
+    left: 0;
+    top: 12%;
 }
 /*===================== */
 /* hiring section */
