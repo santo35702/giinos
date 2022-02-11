@@ -548,16 +548,12 @@ background: #7E6AFF;
   border-radius: 6rem;
   font-size: 1.09rem;
 }
-.box.mb-4.py-3.bg-primary {
+.hiring-section .box {
     border-radius: 4rem;
-    background: #610BEF;
     height: 43rem;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
-    margin-bottom: 2.5rem;
-    margin-left: 1rem;
+    margin: 2rem 1rem;
     padding-bottom: 3rem;
-   margin-right: 1.5rem;
-    margin-top: 2rem;
 }
 .heading-box.bg-white {
     padding-top: 2.5rem;
@@ -568,8 +564,7 @@ background: #7E6AFF;
     box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
 }
 .col{
-    padding-top: 1rem;
-    padding-left: 2rem;
+    padding: 0.5rem 1rem;
 }
 .hiring-section .flex-containter h5 {
     text-align: left;

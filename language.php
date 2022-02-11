@@ -266,4 +266,90 @@
             'description' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
             ],
     );
+
+    $hiringContent = array(
+        'en' => [
+            'heading' => [
+                'display1' => 'We’re hiring !',
+                'display2' => 'We are looking for talented people to team up with us to reach bigger goals.',
+                ],
+            'description' => [
+                'img1' => 'Team spirit of working',
+                'img2' => 'Collaboration Communication Skills',
+                'img3' => 'Rise concerns & ready for comments',
+                'img4' => 'Apply knowledge',
+                'img5' => 'Be Creative',
+                'img6' => 'Self-learner',
+                'img7' => 'Concepts of UX',
+                'img8' => 'Good English Skills',
+                ],
+            'box1' => [
+                'heading-box' => [
+                    'title' => '<span class="hiring">Backend</span> Platform Software<br> Engineer',
+                    'description' => 'The most challenging for this position is building platform base on our visions and business requirements together. They have to identify platform architecture characteristics, such as performance, security, scalability,
+                        etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
+                        team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.',
+                    ],
+                'img-box' => '',
+                ],
+            'box2' => '',
+            'box3' => '',
+            'box4' => '',
+            'box5' => '',
+            ],
+        'bn' => [
+            'heading' => [
+                'display1' => 'We’re hiring !',
+                'display2' => 'We are looking for talented people to team up with us to reach bigger goals.',
+                ],
+            'description' => [
+                'img1' => '',
+                'img2' => '',
+                'img3' => '',
+                'img4' => '',
+                'img5' => '',
+                'img6' => '',
+                'img7' => '',
+                'img8' => '',
+                ],
+            'box1' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => '',
+                ],
+            'box2' => '',
+            'box3' => '',
+            'box4' => '',
+            'box5' => '',
+            ],
+        'th' => [
+            'heading' => [
+                'display1' => 'We’re hiring !',
+                'display2' => 'We are looking for talented people to team up with us to reach bigger goals.',
+                ],
+            'description' => [
+                'img1' => '',
+                'img2' => '',
+                'img3' => '',
+                'img4' => '',
+                'img5' => '',
+                'img6' => '',
+                'img7' => '',
+                'img8' => '',
+                ],
+            'box1' => [
+                'heading-box' => [
+                    'title' => '',
+                    'description' => '',
+                    ],
+                'img-box' => '',
+                ],
+            'box2' => '',
+            'box3' => '',
+            'box4' => '',
+            'box5' => '',
+            ],
+    );
  ?>
