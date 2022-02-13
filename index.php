@@ -617,33 +617,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo text-center">
+                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                     </div>
                     <div class="col">
                         <ul class="nav justify-content-end pt-5">
                             <li class="nav-item">
-                                <a href="#home" class="nav-link text-white">Home</a>
+                                <a href="#home" class="nav-link text-white"><?php echo $footerContent[$ln][0] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#service" class="nav-link text-white">What we do</a>
+                                <a href="#service" class="nav-link text-white"><?php echo $footerContent[$ln][1] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#success" class="nav-link text-white">Success Story</a>
+                                <a href="#success" class="nav-link text-white"><?php echo $footerContent[$ln][2] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#team" class="nav-link text-white">Team and Culture</a>
+                                <a href="#team" class="nav-link text-white"><?php echo $footerContent[$ln][3] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#hire" class="nav-link text-white">🔥We’re hiring</a>
+                                <a href="#hire" class="nav-link text-white">🔥<?php echo $footerContent[$ln][4] ?></a>
                             </li>
                             <li class="nav-item">
-                                <a href="#contact" class="nav-link text-white">Contact Us</a>
+                                <a href="#contact" class="nav-link text-white"><?php echo $footerContent[$ln][5] ?></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <hr class="my-5">
-                <p class="text-center text-white">copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss</p>
+                <p class="text-center text-white"><?php echo $footerContent[$ln][6] ?></p>
             </div>
         </section>
 

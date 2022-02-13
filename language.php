@@ -420,7 +420,7 @@
     );
 
     $footerContent = array(
-        'en' => '',
-        'th' => '',
+        'en' => ['Home', 'What we do', 'Success Story', 'Team and Culture', 'We’re hiring', 'Contact Us', 'copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss'],
+        'th' => ['', '', '', '', '', '', ''],
     );
  ?>
