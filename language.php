@@ -394,10 +394,24 @@
         'en' => [
             'title' => 'Contact us',
             'subtitle' => 'Email us to discuss investment, PR or any other question.',
+            'form' => [
+                'name' => 'Your Name',
+                'company' => 'Company Name',
+                'email' => 'Email Address',
+                'number' => 'Phone Number',
+                'subject' => ['Select Softwear...', 'Software1', 'Software2', 'Software3'],
+                ],
             ],
         'th' => [
             'title' => '',
             'subtitle' => '',
+            'form' => [
+                'name' => '',
+                'company' => '',
+                'email' => '',
+                'number' => '',
+                'subject' => ['', '', '', ''],
+                ],
             ],
     );
  ?>

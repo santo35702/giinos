@@ -574,26 +574,26 @@
                                 <form id="contactForm" class="mt-1" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
                                     <div class="form-floating mb-4">
                                         <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
-                                        <label for="name">Your Name <span class="text-danger">*</span></label>
+                                        <label for="name"><?php echo $contactContent[$ln]['form']['name'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="form-floating mb-4">
                                         <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg" name="company">
-                                        <label for="company">Company Name </label>
+                                        <label for="company"><?php echo $contactContent[$ln]['form']['company'] ?> </label>
                                     </div>
                                     <div class="form-floating mb-4">
                                         <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email" required>
-                                        <label for="email">Email Address <span class="text-danger">*</span></label>
+                                        <label for="email"><?php echo $contactContent[$ln]['form']['email'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="form-floating mb-4">
                                         <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" name="number">
-                                        <label for="number">Phone Number <span class="text-danger">*</span></label>
+                                        <label for="number"><?php echo $contactContent[$ln]['form']['number'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="mb-4">
                                         <select id="subject" class="form-select form-select-lg" name="subject">
-                                            <option value="">Select Softwear...</option>
-                                            <option value="software1">Software1</option>
-                                            <option value="software2">software2</option>
-                                            <option value="software3">software3</option>
+                                            <option value=""><?php echo $contactContent[$ln]['form']['subject']['0'] ?></option>
+                                            <option value="software1"><?php echo $contactContent[$ln]['form']['subject']['1'] ?></option>
+                                            <option value="software2"><?php echo $contactContent[$ln]['form']['subject']['2'] ?></option>
+                                            <option value="software3"><?php echo $contactContent[$ln]['form']['subject']['3'] ?></option>
                                         </select>
                                     </div>
                                     <div class="form-floating mb-4">
