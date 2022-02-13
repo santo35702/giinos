@@ -120,11 +120,11 @@
     $platformContent = array(
         'en' => [
             'title' => 'Intelligent Fluid Platform & <br>Way ahead.',
-            'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers. Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone. <br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.',
+            'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers. Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone.<br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.',
             ],
         'th' => [
-            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
-            'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "ปฏิสัมพันธ์ที่ราบรื่นกับผู้คน" สำหรับทุกคน <br>เราเปิดตัวแผนงาน & ให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
+            'title' => 'แพลตฟอร์มของไหลอัจฉริยะ & <br>ทางข้างหน้า.',
+            'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "การโต้ตอบกับผู้คนที่ราบรื่น" อย่างราบรื่นสำหรับทุกคน<br>เราเผยแพร่แผนงานและให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
             ],
     );
 
@@ -135,8 +135,8 @@
             'description' => 'At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.',
             ],
         'th' => [
-            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
-            'description' => 'เรารักษาแพลตฟอร์มของเราไว้อย่างยืดหยุ่นและมองเห็นมากกว่าสิ่งที่เราสามารถทำได้ในตอนนี้ เราทำ R&D ประสานงานกับพันธมิตรของเราเพื่อให้แน่ใจว่าจะไม่มีการตายสำหรับลูกค้า การใช้เทคโนโลยีใหม่ๆ เช่น แมชชีนเลิร์นนิง, AI และ Web3 คือขอบเขตและพันธกิจของเราในการนำเสนอ "ปฏิสัมพันธ์ที่ราบรื่นกับผู้คน" สำหรับทุกคน <br>เราเปิดตัวแผนงาน & ให้คำปรึกษา วางแผน และสนับสนุนพวกเขาอย่างแท้จริงในการใช้เทคโนโลยีใหม่ คุณลักษณะจากแผนงานของเราเพื่อเพิ่มมูลค่าสูงสุดสำหรับลูกค้าของเรา เพื่อให้ความสวยงามของการสร้างแท่น “ส่งมอบคุณค่า”',
+            'title' => 'คุณค่าแบบองค์รวม คุณค่าสำหรับทุกคน',
+            'description' => 'ที่ Giinos เรารักคำว่า "แบบองค์รวม" มันมักจะแนะนำให้คุณมองภาพใหญ่ในภาพรวม ในระยะยาว และโดยเฉพาะอย่างยิ่ง มันคือ "การทำให้ตัวเองว่างเปล่า" วิธีนี้ช่วยให้คุณเริ่มคิดเพื่อทุกคนและปล่อยให้ตัวเองเป็นคนสุดท้าย<br>เราใช้ปรัชญาเดียวกันในแพลตฟอร์มและโซลูชันของเรา “เพิ่มมูลค่าให้สูงสุดสำหรับทุกคนที่เกี่ยวข้อง” ผู้บริหารระดับสูงไม่อาจเชื่อถือข้อมูลเชิงลึกได้ หากผู้ใช้แนวหน้าไม่เห็นความสำคัญของทุก ๆ คลิกที่พวกเขาทำ<br>ระบบนิเวศของเราไม่ได้มุ่งเน้นที่แอปพลิเคชันสำหรับผู้ใช้เท่านั้น แต่เรายังมุ่งเน้นที่เครื่องมือสนับสนุน แอปพลิเคชันช่วยเหลือในการปฏิบัติงาน เช่น การแจ้งเตือนระบบที่ช่วยให้การทำงานตลอด 24 ชั่วโมงทุกวันไม่ขาดสาย',
             ],
     );
 
@@ -144,7 +144,7 @@
         'en' => [
             'title' => 'customer stories',
             'display3' => 'Some of our success stories',
-            'display6' => 'Building a good customer experience does not happen by <br>accident. It happens by maximizing holistic values.',
+            'display6' => 'Building a good customer experience does not happen by<br>accident. It happens by maximizing holistic values.',
             'mission' => [
                 'title' => 'The success of workflow leaning and quick responding process flow adaptation during COVID-19 threat.',
                 'description' => 'By applying our solutions, CCIT has lean processes and increase a lot flexibilities on patient flow management that let CCIT handle thier situation very well during tough time of COVID-19 in Thailand. One of the main components of this story is “Workflow-Centric Med Delivery Solution” that let all related departments work seamlessly together to help patient get thier medicines during lockdown period with ability to track delivery status & process in realtime.   But not only that, CCIT goes beyond in-hospital patient flow management only. They also bring in tele-consultation via mobile application which is one of our ecosystem solution to take care of patient who meet the conditions that be able to do tele-consultation to avoid to come over to hospital during COVID-10 situation. And we believe this will be one of a new normal way of seeing doctor very soon in the coming future.',
@@ -159,20 +159,20 @@
                 ],
             ],
         'th' => [
-            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
-            'display3' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
-            'display6' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'title' => 'เรื่องราวของลูกค้า',
+            'display3' => 'เรื่องราวความสำเร็จบางส่วนของเรา',
+            'display6' => 'การสร้างประสบการณ์ลูกค้าที่ดีไม่ได้เกิดขึ้นโดย<br>อุบัติเหตุ. มันเกิดขึ้นโดยการเพิ่มค่าแบบองค์รวมสูงสุด',
             'mission' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'ความสำเร็จของเวิร์กโฟลว์ที่เอนเอียงและการปรับโฟลว์กระบวนการตอบสนองอย่างรวดเร็วในช่วงภัยคุกคามจากโควิด-19',
+                'description' => 'ด้วยการใช้โซลูชั่นของเรา CCIT มีกระบวนการแบบลีนและเพิ่มความยืดหยุ่นอย่างมากในการจัดการกระแสผู้ป่วย ซึ่งช่วยให้ CCIT จัดการกับสถานการณ์ของพวกเขาได้เป็นอย่างดีในช่วงเวลาที่ยากลำบากของ COVID-19 ในประเทศไทย หนึ่งในองค์ประกอบหลักของเรื่องนี้คือ “โซลูชันการจัดส่งยาที่เน้นเวิร์กโฟลว์” ที่ให้หน่วยงานที่เกี่ยวข้องทั้งหมดทำงานร่วมกันอย่างราบรื่นเพื่อช่วยให้ผู้ป่วยได้รับยาของพวกเขาในช่วงล็อกดาวน์พร้อมความสามารถในการติดตามสถานะการจัดส่งและกระบวนการในแบบเรียลไทม์ แต่ไม่เพียงเท่านั้น CCIT ยังก้าวไปไกลกว่าการจัดการการไหลของผู้ป่วยในโรงพยาบาลเท่านั้น พวกเขายังนำการให้คำปรึกษาทางไกลผ่านแอปพลิเคชั่นมือถือซึ่งเป็นหนึ่งในโซลูชั่นระบบนิเวศของเราในการดูแลผู้ป่วยที่ตรงตามเงื่อนไขที่สามารถให้คำปรึกษาทางไกลเพื่อหลีกเลี่ยงการมาโรงพยาบาลในช่วงสถานการณ์ COVID-10 และเราเชื่อว่านี่จะเป็นหนึ่งในแนวทางใหม่ในการไปพบแพทย์ในอนาคตอันใกล้นี้',
                 ],
             'mission1' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'ลดจำนวนผู้ป่วยมากเกินไปโดยใช้ข้อมูลเชิงลึกจากโซลูชันการจัดการการไหลของผู้ป่วยแบบองค์รวม',
+                'description' => 'ด้วยพื้นที่ให้บริการเกือบ 40 แห่งในโรงพยาบาล และมีผู้เข้ารับการตรวจประมาณ 1,800 - 2,500 คนต่อวัน ทำให้เราต้องวางผังเวิร์กโฟลว์สำหรับแต่ละพื้นที่ให้บริการอย่างเฉพาะเจาะจง เพื่อเก็บข้อมูลและวิธีที่ผู้ป่วยไหลเวียนในแต่ละพื้นที่ ใช่ เป็นเรื่องยากสำหรับเราที่จะเข้าใจขั้นตอนการทำงานทั้งหมด 40 ขั้นตอนในรายละเอียดเชิงลึกของโดเมนทางคลินิก ด้วยการส่งออกด้านการดูแลสุขภาพของเราที่ทำงานหนักกับทีมแพลตฟอร์ม เราคิดขั้นตอนการทำงานด้านการรักษาพยาบาลที่ซับซ้อนที่สุดที่สามารถบันทึกรายละเอียดของการเคลื่อนไหวภายในโรงพยาบาลได้ และผลที่ได้คือตอนนี้ NRH พวกเขาสามารถเห็นจุดที่จะปรับปรุงปัญหาการครอบฟันในบางพื้นที่โดยใช้ข้อมูลเชิงลึกด้านการวิเคราะห์ของเราอย่างมีประสิทธิภาพ สิ่งที่น่าสนใจคือตอนนี้พวกเขามีสถิติพื้นฐานและพนักงานทุกคนมี "การรับรู้ในการปรับตัวเพื่อการเปลี่ยนแปลง" ในใจของพวกเขาภายในเวลาเพียง 6 เดือนหลังจากใช้โซลูชันของเรา',
                 ],
             'mission2' => [
-                'title' => '',
-                'description' => '',
+                'title' => 'โซลูชันการจัดการการไหลของผู้ป่วยแบบองค์รวมที่ใหญ่ที่สุดในภาคตะวันออกเฉียงเหนือของประเทศไทย',
+                'description' => '“ผู้ป่วย 3,500-4,500 เข้ารับการตรวจต่อวัน” เป็นตัวเลขที่น่าสยดสยองสำหรับเรา เราได้พูดคุยและออกแบบโซลูชันอย่างรอบคอบกับผู้ใช้ระดับแนวหน้า ผู้บริหารระดับกลาง และผู้บริหารระดับสูงตั้งแต่เริ่มโครงการ เพื่อให้แน่ใจว่าเราสามารถมอบ "คุณค่าแบบองค์รวม" ให้กับทุกคนได้มากที่สุด เรารวมโซลูชันของเราเข้ากับระบบยาที่ใช้หุ่นยนต์เพื่อเพิ่มมูลค่าสูงสุดให้กับทั้งพนักงานและผู้ป่วยในพื้นที่ให้บริการร้านขายยา ผู้บริหารระดับสูงเริ่มใช้แอปพลิเคชันมือถือสำหรับส่งข้อมูลเชิงลึกแบบเรียลไทม์ของเราตั้งแต่วันแรก และคอยดำเนินการปรับปรุงภายในองค์กรที่มีวิสัยทัศน์เช่นนี้',
                 ],
             ],
     );
@@ -180,14 +180,17 @@
     $teamContent = array(
         'en' => [
             'title' => 'Team & Culture',
-            'description' => '<strong class="ps-5">At Giinos, we apply these principles to every aspect of working together… <br></strong>
+            'description' => '<strong class="ps-5">At Giinos, we apply these principles to every aspect of working together…<br></strong>
             <strong>TRUST</strong>:We trust each other, we assign and leave the task to you. So, you will be pushed to the max at certain point…don’t forget to “trust yourself” as well.<br>
-            <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things... <br>
+            <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things...<br>
             <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. So, whatever challenges we faced with these fundamental principles let us achive it always.',
             ],
         'th' => [
-            'title' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
-            'description' => 'Intelligent Fluid Platform & <br>ทางข้างหน้า',
+            'title' => 'ทีมและวัฒนธรรม',
+            'description' => '<strong class="ps-5">ที่ Giinos เราใช้หลักการเหล่านี้กับทุกแง่มุมของการทำงานร่วมกัน...</strong><br>
+            <strong>เชื่อมั่น</strong>: เราไว้วางใจซึ่งกันและกัน เรามอบหมายงานและฝากงานไว้ให้คุณ ดังนั้นคุณจะถูกผลักดันให้ถึงจุดหนึ่ง…อย่าลืมที่จะ "เชื่อใจในตัวเอง" เช่นกัน<br>
+            <strong>เปิด</strong>: เราสื่อสาร แจ้งข้อกังวล ขอการสนับสนุนอย่างเปิดเผยที่ Giinos การมีกรอบความคิดแบบ “เพิ่มมูลค่าให้สูงสุด” เราจึง “เปิดกว้าง” สำหรับสิ่งนั้น...<br>
+            <strong>ความเข้าอกเข้าใจ</strong>: เราเอาใจใส่ลูกค้า แพลตฟอร์มที่เราสร้างขึ้น และทุกคนในทีม ดังนั้น ไม่ว่าความท้าทายใด ๆ ที่เราประสบกับหลักการพื้นฐานเหล่านี้ ทำให้เราบรรลุเป้าหมายได้เสมอ',
             ],
     );
 
@@ -282,59 +285,59 @@
             ],
         'th' => [
             'heading' => [
-                'display1' => 'We’re hiring !',
-                'display2' => 'We are looking for talented people to team up with us to reach bigger goals.',
+                'display1' => 'เรากำลังจ้าง !',
+                'display2' => 'เรากำลังมองหาคนที่มีความสามารถมาร่วมงานกับเราเพื่อบรรลุเป้าหมายที่ใหญ่ขึ้น',
                 ],
             'description' => [
-                'img1' => '',
-                'img2' => '',
-                'img3' => '',
-                'img4' => '',
-                'img5' => '',
-                'img6' => '',
-                'img7' => '',
-                'img8' => '',
+                'img1' => 'จิตวิญญาณการทำงานเป็นทีม',
+                'img2' => 'ทักษะการสื่อสารในการทำงานร่วมกัน',
+                'img3' => 'เพิ่มความกังวลและพร้อมสำหรับความคิดเห็น',
+                'img4' => 'ใช้ความรู้',
+                'img5' => 'มีความคิดสร้างสรรค์',
+                'img6' => 'เรียนรู้ด้วยตนเอง',
+                'img7' => 'แนวคิดของ UX',
+                'img8' => 'ทักษะภาษาอังกฤษดี',
                 ],
             'box1' => [
                 'heading-box' => [
-                    'title' => '',
-                    'description' => '',
+                    'title' => '<span class="hiring">แบ็กเอนด์</span> ซอฟต์แวร์แพลตฟอร์ม<br> วิศวกร',
+                    'description' => 'ความท้าทายที่สุดสำหรับตำแหน่งนี้คือการสร้างแพลตฟอร์มตามวิสัยทัศน์และข้อกำหนดทางธุรกิจของเราร่วมกัน พวกเขาต้องระบุลักษณะสถาปัตยกรรมแพลตฟอร์ม เช่น ประสิทธิภาพ ความปลอดภัย ความสามารถในการปรับขนาด ฯลฯ ที่ควรคำนึงถึงโมดูลเฉพาะที่พวกเขากำลังทำงานอยู่ ไม่เพียงเท่านั้น เพื่อเพิ่มมูลค่าองค์รวมให้สูงสุด พวกเขาต้องตรวจสอบให้แน่ใจว่าฝ่ายสนับสนุน เช่น เจ้าหน้าที่เทคนิคระดับแนวหน้า ทีมปฏิบัติการ หรือทีมปฏิบัติการ ยังสามารถทำงานของตนเองได้เป็นอย่างดีผ่านเครื่องมือสนับสนุนแพลตฟอร์มที่วิศวกรซอฟต์แวร์แพลตฟอร์มแบ็กเอนด์ ได้จัดให้',
                     ],
                 'img-box' => [
-                    'img1' => 'Rust',
-                    'img2' => 'Node JS',
-                    'img3' => 'Docker',
+                    'img1' => 'สนิม',
+                    'img2' => 'โหนดJS',
+                    'img3' => 'นักเทียบท่า',
                     'img4' => 'Kubernetes',
-                    'img5' => 'Java Springboot',
+                    'img5' => 'Java Spring Boot',
                     ],
                 ],
             'box2' => [
                 'heading-box' => [
-                    'title' => '',
-                    'description' => '',
+                    'title' => '<span class="frontend">ส่วนหน้า</span> ซอฟต์แวร์แพลตฟอร์ม<br>วิศวกร',
+                    'description' => 'เพื่อสร้างแพลตฟอร์มเพื่อรองรับลักษณะการไหลของกระบวนการ "ของไหล" วิศวกรซอฟต์แวร์แพลตฟอร์มส่วนหน้าต้องออกแบบและมองให้ไกลกว่าที่ลูกค้าต้องการ ความสามารถในการทำให้ระบบสามารถกำหนดค่าได้เป็นความรับผิดชอบหลักสำหรับบทบาทนี้ ทักษะ UX/UI มีความสำคัญอย่างยิ่งในการเพิ่มมูลค่าแบบองค์รวมให้กับผู้ที่โต้ตอบกับแพลตฟอร์ม เว็บแอปพลิเคชันหรือแอปพลิเคชันมือถือที่เราสร้างขึ้นเป็นช่องทางหลักในการส่งมอบคุณค่ามหาศาลให้กับทุกคน...รวมถึงทีมงานของเราด้วย',
                     ],
                 'img-box' => [
-                    'img1' => 'Web Assembly',
-                    'img2' => '',
-                    'img3' => '',
-                    'img4' => '',
-                    'img5' => '',
+                    'img1' => 'เว็บแอสเซมบลี',
+                    'img2' => 'ส่วนประกอบเว็บ',
+                    'img3' => 'กระพือปีก',
+                    'img4' => 'Ionic Framework',
+                    'img5' => 'เชิงมุม',
                     ],
                 ],
             'box3' => [
                 'heading-box' => [
-                    'title' => '',
-                    'description' => '',
+                    'title' => 'แพลตฟอร์ม <span class="sre">DevOps & SRE</span>',
+                    'description' => 'การรักษาระบบและทำงานได้อย่างราบรื่นเป็นความรับผิดชอบพื้นฐานของบทบาทนี้ แต่การรักษาสิ่งต่าง ๆ ให้ “ลื่นไหล” และสามารถส่งมอบ “คุณค่าแบบองค์รวม” ได้เป็นส่วนที่สนุกและท้าทายที่สุดสำหรับตำแหน่งนี้ เรารวม Dev/Ops และ SRE (Site Reliability Enginerr) เข้ากับปรัชญาหลักของเราเพื่อให้แน่ใจว่า "Platform Ops & Site Reliability Engineer" เป็นหนึ่งในองค์ประกอบหลักของเราในการทำให้ "แพลตฟอร์มการไหลของกระบวนการไหล" ปรากฏต่อหน้าลูกค้าของเราอย่างแท้จริง ..<br> พวกเขาจะเริ่มต้นจากการจัดเตรียมโครงสร้างพื้นฐานตั้งแต่เริ่มต้น ทำงานร่วมกับวิศวกรแพลตฟอร์มในกระบวนการปรับใช้โดยใช้เครื่องมืออัตโนมัติ เฝ้าติดตามแพลตฟอร์มโดยใช้เครื่องมือที่ซับซ้อน และดูแลความคิดของนักแท็คเกอร์เพื่อเติมเต็มภารกิจ',
                     ],
                 'img-box' => [
-                    'img1' => '',
-                    'img2' => '',
-                    'img3' => '',
-                    'img4' => '',
-                    'img5' => '',
-                    'img6' => '',
-                    'img7' => '',
-                    'img8' => '',
+                    'img1' => 'Python',
+                    'img2' => 'การเขียนสคริปต์เชลล์',
+                    'img3' => 'Markdown',
+                    'img4' => 'โพรมีธีอุส',
+                    'img5' => 'กราฟานา',
+                    'img6' => 'Ansible',
+                    'img7' => 'Gitlab CI/CD',
+                    'img8' => 'เจนกิน',
                     ],
                 ],
             'box4' => [
