@@ -59,7 +59,6 @@
                         <li class="nav-item input-group">
                             <a class="nav-link"><img src="resource/img/Vector.png" alt=""></a>
                             <select class="form-select" onchange="set_language()" name="ln" id="language">
-                                <option value="bn" <?php echo $bn_selected; ?>> বাংলা</option>
                                 <option value="en" <?php echo $en_selected; ?>> English</option>
                                 <option value="th" <?php echo $th_selected; ?>> ไทย</option>
                             </select>
