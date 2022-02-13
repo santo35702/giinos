@@ -400,6 +400,8 @@
                 'email' => 'Email Address',
                 'number' => 'Phone Number',
                 'subject' => ['Select Softwear...', 'Software1', 'Software2', 'Software3'],
+                'message' => 'Your Message here...',
+                'button' => 'Submit',
                 ],
             ],
         'th' => [
@@ -411,7 +413,14 @@
                 'email' => '',
                 'number' => '',
                 'subject' => ['', '', '', ''],
+                'message' => '',
+                'button' => '',
                 ],
             ],
+    );
+
+    $footerContent = array(
+        'en' => '',
+        'th' => '',
     );
  ?>

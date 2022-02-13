@@ -599,10 +599,10 @@
                                     </div>
                                     <div class="form-floating mb-4">
                                         <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px" required></textarea>
-                                        <label for="message">Your Message here... <span class="text-danger">*</span></label>
+                                        <label for="message"><?php echo $contactContent[$ln]['form']['message'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="d-grid">
-                                        <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg">Submit</button><!-- onclick="sendEmail()" value="Send An Email" -->
+                                        <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg"><?php echo $contactContent[$ln]['form']['button'] ?></button><!-- onclick="sendEmail()" value="Send An Email" -->
                                     </div>
                                 </form>
                             </div>
@@ -613,31 +613,31 @@
         </section>
 
         <!-- start footer section-->
-        <section class="footer-section" style="background:#610BEF; color: white; ">
+        <section class="footer-section" style="background:#610BEF; color: white;">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
-                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo" style="margin-left: -2.5rem !important;">
+                        <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo text-center">
                     </div>
                     <div class="col">
-                        <ul class="nav justify-content-end" style="padding-top:3rem;">
+                        <ul class="nav justify-content-end pt-5">
                             <li class="nav-item">
-                                <a href="#home" class="nav-link px-2 text-white">Home</a>
+                                <a href="#home" class="nav-link text-white">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#service" class="nav-link px-2 text-white">What we do</a>
+                                <a href="#service" class="nav-link text-white">What we do</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#success" class="nav-link px-2 text-white">Success Story</a>
+                                <a href="#success" class="nav-link text-white">Success Story</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#team" class="nav-link px-2 text-white">Team and Culture</a>
+                                <a href="#team" class="nav-link text-white">Team and Culture</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#hire" class="nav-link px-2 text-white">🔥We’re hiring</a>
+                                <a href="#hire" class="nav-link text-white">🔥We’re hiring</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#contact" class="nav-link px-2 text-white">Contact Us</a>
+                                <a href="#contact" class="nav-link text-white">Contact Us</a>
                             </li>
                         </ul>
                     </div>
