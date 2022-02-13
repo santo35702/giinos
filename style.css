@@ -513,13 +513,16 @@ header {
 
 .team-section span.coma.last{
     left: 0;
-    top: 12%;
+    top: 10%;
 }
 /*===================== */
 /* hiring section */
 /*===================== */
 .hiring-section {
-    background: #7E6AFF;
+    background: url(resource/img/hiring%20%20section.png);
+    background-size: cover;
+    background-position: center;
+
 }
 
 .hiring-section h2 {
@@ -712,7 +715,8 @@ label {
 /* speech section */
 /*===================== */
 .speech-section {
-    background: #735EFF;
+    background: url(resource/img/speech.png);
+    background-size: cover;
     color: white;
     text-align: center;
 }
