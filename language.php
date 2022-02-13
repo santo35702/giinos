@@ -384,4 +384,20 @@
             'line' => '',
             ],
     );
+
+    $speechContent = array(
+        'en' => 'At Giinos, We perceive team & customer <span class="speech"> holistic values</span> by achiving <br>missions together, We humbly stand behind great success of our <br>customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span>',
+        'th' => '',
+    );
+
+    $contactContent = array(
+        'en' => [
+            'title' => 'Contact us',
+            'subtitle' => 'Email us to discuss investment, PR or any other question.',
+            ],
+        'th' => [
+            'title' => '',
+            'subtitle' => '',
+            ],
+    );
  ?>

@@ -541,66 +541,70 @@
         </section>
 
         <!-- start speech section-->
-        <section class="speech-section container-fluid">
-            <figure>
-                <blockquote cite="http://original-url.here">
-                    <p>
-                        <span class="colon">“</span>
-                        At Giinos, We perceive team & customer <span class="speech"> holistic values</span> by achiving <br>missions together, We humbly stand behind great success of our <br>customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span>
-                        <span class="colon">”</span>
-                    </p>
-                </blockquote>
-                <figcaption class="text-end border-top mt-5 pt-3">
-                    <img src="resource/img/Group%207018.png" alt="">
-                </figcaption>
-            </figure>
+        <section class="speech-section">
+            <div class="container-fluid">
+                <figure>
+                    <blockquote cite="http://original-url.here">
+                        <p>
+                            <span class="colon">“</span>
+                            <?php echo $speechContent[$ln] ?>
+                            <span class="colon">”</span>
+                        </p>
+                    </blockquote>
+                    <figcaption class="text-end border-top mt-5 pt-3">
+                        <img src="resource/img/Group%207018.png" alt="">
+                    </figcaption>
+                </figure>
+            </div>
         </section>
 
         <!-- start contact section-->
-        <section class="contact-section container-fluid">
-            <div class="card">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start py-5">
-                    </div>
-                    <div class="col-6">
-                        <div class="card-body form py-5">
-                            <h1 class="card-title text-start">Contact us</h1>
-                            <h8 class="card-subtitle text-start mb-4 pb-1">Email us to discuss investment, PR or any other question.</h8>
-                            <h3 class="card-subtitle text-center message-status"></h3>
-                            <form id="contactForm" class="mt-4" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
-                                <div class="form-floating mb-4">
-                                    <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
-                                    <label for="name">Your Name <span class="text-danger">*</span></label>
-                                </div>
-                                <div class="form-floating mb-4">
-                                    <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg" name="company">
-                                    <label for="company">Company Name </label>
-                                </div>
-                                <div class="form-floating mb-4">
-                                    <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email" required>
-                                    <label for="email">Email Address <span class="text-danger">*</span></label>
-                                </div>
-                                <div class="form-floating mb-4">
-                                    <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" name="number">
-                                    <label for="number">Phone Number <span class="text-danger">*</span></label>
-                                </div>
-                                <div class="mb-4">
-                                    <select id="subject" class="form-select form-select-lg" name="subject">
-                                        <option value="">Select Softwear...</option>
-                                        <option value="software1">Software1</option>
-                                        <option value="software2">software2</option>
-                                        <option value="software3">software3</option>
-                                    </select>
-                                </div>
-                                <div class="form-floating mb-4">
-                                    <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px" required></textarea>
-                                    <label for="message">Your Message here... <span class="text-danger">*</span></label>
-                                </div>
-                                <div class="d-grid">
-                                    <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg">Submit</button><!-- onclick="sendEmail()" value="Send An Email" -->
-                                </div>
-                            </form>
+        <section class="contact-section">
+            <div class="container-fluid">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="resource/img/Group%20764.png" alt="Map" class="img-fluid rounded-start py-5">
+                        </div>
+                        <div class="col-6">
+                            <div class="card-body form py-5">
+                                <h1 class="card-title text-start"><?php echo $contactContent[$ln]['title'] ?></h1>
+                                <h6 class="card-subtitle text-start"><?php echo $contactContent[$ln]['subtitle'] ?></h6>
+                                <h3 class="card-subtitle text-center message-status"></h3>
+                                <form id="contactForm" class="mt-1" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
+                                    <div class="form-floating mb-4">
+                                        <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
+                                        <label for="name">Your Name <span class="text-danger">*</span></label>
+                                    </div>
+                                    <div class="form-floating mb-4">
+                                        <input type="text" id="company" placeholder="Company Name" class="form-control form-control-lg" name="company">
+                                        <label for="company">Company Name </label>
+                                    </div>
+                                    <div class="form-floating mb-4">
+                                        <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email" required>
+                                        <label for="email">Email Address <span class="text-danger">*</span></label>
+                                    </div>
+                                    <div class="form-floating mb-4">
+                                        <input type="text" id="number" placeholder="Contact Number" class="form-control form-control-lg" name="number">
+                                        <label for="number">Phone Number <span class="text-danger">*</span></label>
+                                    </div>
+                                    <div class="mb-4">
+                                        <select id="subject" class="form-select form-select-lg" name="subject">
+                                            <option value="">Select Softwear...</option>
+                                            <option value="software1">Software1</option>
+                                            <option value="software2">software2</option>
+                                            <option value="software3">software3</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-floating mb-4">
+                                        <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px" required></textarea>
+                                        <label for="message">Your Message here... <span class="text-danger">*</span></label>
+                                    </div>
+                                    <div class="d-grid">
+                                        <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg">Submit</button><!-- onclick="sendEmail()" value="Send An Email" -->
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
