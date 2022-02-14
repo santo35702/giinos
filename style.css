@@ -513,16 +513,13 @@ header {
 
 .team-section span.coma.last{
     left: 0;
-    top: 10%;
+    top: 12%;
 }
 /*===================== */
 /* hiring section */
 /*===================== */
 .hiring-section {
-    background: url(resource/img/hiring%20%20section.png);
-    background-size: cover;
-    background-position: center;
-
+    background: #7E6AFF;
 }
 
 .hiring-section h2 {
@@ -649,7 +646,9 @@ header {
 .contact {
     width: 100%;
 }
-
+.contact-box.border-end {
+  color: white;
+}
 h5 {
     font-size: 2.8rem;
     line-height: 3rem;
@@ -678,7 +677,10 @@ h7{
   background: white;
   max-height: 52rem;
 }
-
+.card{
+    padding-left: 2rem;
+    padding-right: 2rem;
+} 
 .form .card-title::after {
     content: "";
     background: none;
@@ -715,8 +717,7 @@ label {
 /* speech section */
 /*===================== */
 .speech-section {
-    background: url(resource/img/speech.png);
-    background-size: cover;
+    background: #735EFF;
     color: white;
     text-align: center;
 }
@@ -755,6 +756,7 @@ label {
 }
 
 .footer-section {
-  padding-top: 50rem;
+    padding-top: 40rem;
   // margin-top: -50rem;
+    padding-bottom: 2rem;
 }
