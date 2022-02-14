@@ -657,7 +657,7 @@
             function set_language() {
                 var language=jQuery('#language').val();
                 // window.location.href='http://giinos.com/?ln='+language;
-                window.location.href='http://localhost/giinos/?ln='+language;
+                window.location.href='https://giinos.ajuuhost.com/?ln='+language;
             }
 
             // PHPMailer sendEmail

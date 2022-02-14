@@ -256,7 +256,7 @@
                 ],
             'box4' => [
                 'heading-box' => [
-                    'title' => 'Solution <span class="qa">QA & Implementationr</span>',
+                    'title' => 'Solution <span class="qa">QA & Implementation</span>',
                     'description' => 'Each customer has thier own context to plug our solution into. This is very crucial steps cause we have to make sure what we delivery is really work and “holistic value” have been truely spreading among cusomer’s
                         organization. Solution QA & Implementation is our spearhead who make things happen at site. They work closely with frontline users, manager or even management at some certain pont of solution implementation in order to
                         blend in new solution into users daily life. Sometime they have to re-configuration, re-testing and training users again and again. We will allow this to happen cause our goal is to achive “delivery truely holistic
