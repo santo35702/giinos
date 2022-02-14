@@ -1,5 +1,89 @@
 <?php
     include 'language.php';
+
+    // Mail Function
+    $status = '';
+    $name = '';
+    $company = '';
+    $email = '';
+    $phone = '';
+    $subject = '';
+    $message = '';
+
+    function clean_text($string)
+    {
+        $string = trim($string);
+        $string = stripslashes($string);
+        $string = htmlspecialchars($string);
+        return $string;
+    }
+
+    if (isset($_POST["submit"])) {
+        if (empty($_POST["name"])) {
+            $status .= '<div class="alert alert-danger">Please Enter your Name</div>';
+        } else {
+            $name = clean_text($_POST["name"]);
+            if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
+                $status .= '<div class="alert alert-danger">Only letters and space allowed</div>';
+            }
+        }
+        if (empty($_POST["email"])) {
+            $status .= '<div class="alert alert-danger">Please Enter your Email</div>';
+        } else {
+            $email = clean_text($_POST["email"]);
+            if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $status .= '<p class="alert alert-danger">Invalid email format</p>';
+            }
+        }
+
+        if (empty($_POST["subject"])) {
+            $status .= '<div class="alert alert-danger">Please Select Subject</div>';
+        } else {
+            $subject = clean_text($_POST["subject"]);
+        }
+
+        if (empty($_POST["message"])) {
+            $status .= '<div class="alert alert-danger">Message is required</div>';
+        } else {
+            $message = clean_text($_POST["message"]);
+        }
+
+        if ($status == '') {
+            require 'vendor/PHPMailer/PHPMailer.php';
+            require 'vendor/PHPMailer/SMTP.php';
+            require 'vendor/PHPMailer/Exception.php';
+
+            $mail = new PHPMailer();
+            $mail->IsSMTP();
+            $mail->Host = 'smtp.gmail.com';
+            $mail->Port = '465';
+            $mail->SMTPAuth = true;
+            $mail->SMTPSecure = "ssl";
+
+            $mail->Username = "santo35702@gmail.com";
+            $mail->Password = "Santo 35702@6861";
+
+            // Sender Settings
+            $mail->From = $_POST["email"];
+            $mail->FromName = $_POST["name"];
+            $mail->addAddress("santo35702@gmail.com", "Name");
+            $mail->addCC($_POST["email"], $_POST["name"]);
+            $mail->WordWrap = 50;
+            $mail->IsHTML(true);
+            $mail->Subject = $_POST["subject"];
+            $mail->Body = $_POST["message"];
+            if ($mail->send()) {
+                $status = '<div class="alert alert-success">Thank you for contacting us</div>';
+            } else {
+                $status = '<div class="alert alert-danger">Mail sent error. Try again.</div>';
+            }
+
+            $name = '';
+            $email = '';
+            $subject = '';
+            $message = '';
+        }
+    }
  ?>
 
 <!DOCTYPE html>
@@ -571,10 +655,11 @@
                             <div class="card-body form py-5">
                                 <h1 class="card-title text-start"><?php echo $contactContent[$ln]['title'] ?></h1>
                                 <h6 class="card-subtitle text-start"><?php echo $contactContent[$ln]['subtitle'] ?></h6>
-                                <h3 class="card-subtitle text-center message-status"></h3>
-                                <form id="contactForm" class="mt-1" action="contact.php" method="post"><!-- action="sendEmail.php" method="post" -->
+                                <!-- <h3 class="card-subtitle text-center">Some error here</h3> -->
+                                <?php echo $status ?>
+                                <form class="mt-1" method="post">
                                     <div class="form-floating mb-4">
-                                        <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20} required>
+                                        <input type="text" id="name" placeholder="Your Name" class="form-control form-control-lg" name="name" pattern=[A-Z\sa-z]{3,20}>
                                         <label for="name"><?php echo $contactContent[$ln]['form']['name'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="form-floating mb-4">
@@ -582,7 +667,7 @@
                                         <label for="company"><?php echo $contactContent[$ln]['form']['company'] ?> </label>
                                     </div>
                                     <div class="form-floating mb-4">
-                                        <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email" required>
+                                        <input type="email" id="email" placeholder="Email Address" class="form-control form-control-lg" name="email">
                                         <label for="email"><?php echo $contactContent[$ln]['form']['email'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="form-floating mb-4">
@@ -598,11 +683,11 @@
                                         </select>
                                     </div>
                                     <div class="form-floating mb-4">
-                                        <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px" required></textarea>
+                                        <textarea id="message" placeholder="Type Messages" class="form-control" name="message" style="min-height:200px"></textarea>
                                         <label for="message"><?php echo $contactContent[$ln]['form']['message'] ?> <span class="text-danger">*</span></label>
                                     </div>
                                     <div class="d-grid">
-                                        <button type="submit" onclick="sendEmail()" class="btn btn-primary btn-lg"><?php echo $contactContent[$ln]['form']['button'] ?></button><!-- onclick="sendEmail()" value="Send An Email" -->
+                                        <input type="submit" name="submit" class="btn btn-primary" value="<?php echo $contactContent[$ln]['form']['button'] ?>">
                                     </div>
                                 </form>
                             </div>
@@ -659,44 +744,6 @@
                 // window.location.href='http://giinos.com/?ln='+language;
                 window.location.href='https://localhost/giinos/?ln='+language;
                 // window.location.href='https://giinos.ajuuhost.com/?ln='+language;
-            }
-
-            // PHPMailer sendEmail
-            function sendEmail() {
-                var name = $("#name");
-                var company = $("#company");
-                var email = $("#email");
-                var number = $("#number");
-                var subject = $("#subject");
-                var message = $("#message");
-
-                if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(message)) {
-                    $.ajax({
-                        url: 'sendEmail.php',
-                        method: 'POST',
-                        dataType: 'json',
-                        data: {
-                            name: name.val(),
-                            company: company.val(),
-                            email: email.val(),
-                            number: number.val(),
-                            subject: subject.val(),
-                            message: message.val(),
-                        }, success: function (response) {
-                            $('#contactForm')[0].reset();
-                            $('.message-status').text("Message sent Successfully.");
-                        }
-                    });
-                }
-            }
-
-            function isNotEmpty(caller) {
-                if (caller.val() == "") {
-                    caller.css('border', '1px solid red');
-                } else {
-                    caller.css('border', '');
-                    return true;
-                }
             }
         </script>
     </body>
