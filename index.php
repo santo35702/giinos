@@ -61,7 +61,7 @@
             $mail->SMTPSecure = "ssl";
 
             $mail->Username = "santo35702@gmail.com";
-            $mail->Password = "Santo 35702@6861";
+            $mail->Password = "Your Password here...";
 
             // Sender Settings
             $mail->From = $_POST["email"];
