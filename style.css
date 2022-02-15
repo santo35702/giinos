@@ -383,11 +383,10 @@ header {
     color: #14142B;
 }
 .holistic-section .box1 {
-    Width: 60.4rem;
-    Height: 35.9 rem;
-    margin-left: 7.8rem;
+    Height: 35.9rem;
+    // margin-left: 7.8rem;
     line-height: 2.8rem;
-    margin-top: 7rem;
+    // margin-top: 7rem;
 }
 .holistic-section img {
     margin-left: -27rem;
@@ -488,9 +487,7 @@ header {
 .team-section .box2 {
     background: #FFD978;
     border-radius: 4.9rem;
-    margin-left: 11rem;
     height: 53rem;
-    width: 128.4rem;
     padding: 5rem !important;
 }
 .team-section .box3 {
@@ -543,8 +540,6 @@ header {
 }
 
 .row.row-cols-8{
-  max-width: 83rem;
-  text-align: center;
   background: #4B05BC;
   color: white;
   padding-top: 1rem;
@@ -592,7 +587,6 @@ header {
 .img-box{
     color: white;
     font-size: .8rem;
-    padding-right: 1rem;
     text-align: center;
     margin-top: 2rem;
 
@@ -682,7 +676,7 @@ h7{
 .card{
     padding-left: 2rem;
     padding-right: 2rem;
-} 
+}
 .form .card-title::after {
     content: "";
     background: none;
@@ -707,9 +701,7 @@ label {
   font-size: 1.4rem;
 }
 .card {
-  margin-left: 10rem;
-  margin-right: 10rem;
-  border-radius: 5rem;
+  border-radius: 3rem;
 }
 .btn.btn-primary {
   border-radius: 1.3rem;
@@ -727,8 +719,8 @@ label {
 }
 
 .speech-section p {
-    font-size: 4rem;
-    line-height: 7.31rem;
+    font-size: 3.5rem;
+    line-height: 7rem;
     font-style: normal;
     font-weight: 300;
 }
@@ -742,25 +734,15 @@ label {
     font-size: 8rem;
     font-weight: 800;
 }
-
-.speech-section img{
-    margin-left: 90rem;
-}
 /*===================== */
 /* footer section */
 /*===================== */
 
-.nav.justify-content-center {
-  color: white;
-  padding-top: 4rem;
-}
-.nav.justify-content-center.nav-item #home #service{
-    color: white;
-    border-radius: 1rem;
-}
-
 .footer-section {
     padding-top: 40rem;
-  // margin-top: -50rem;
     padding-bottom: 2rem;
+}
+.footer-section .nav > .nav-item {
+    margin-left: 3rem !important;
+    margin-top: 4rem;
 }

@@ -391,7 +391,7 @@
     );
 
     $speechContent = array(
-        'en' => 'At Giinos, We perceive team & customer <span class="speech"> holistic values</span> by achiving <br>missions together, We humbly stand behind great success of our <br>customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span>',
+        'en' => 'At Giinos, We perceive team & customer <span class="speech"> holistic values</span> by achiving missions together, We humbly stand behind great success of our customers. But we are agressive & hungry to learn more, fail more,.<br> <span class="speech">To creatively build huge huge things for our community.</span>',
         'th' => 'ที่ Giinos เราเข้าใจทีมและลูกค้าว่า <span class="speech"> ค่านิยมแบบองค์รวม</span> โดยการบรรลุ<br>ภารกิจร่วมกัน เราขอยืนหยัดอยู่เบื้องหลังความสำเร็จอันยิ่งใหญ่ของ<br>ลูกค้าของเรา แต่เรามีความก้าวร้าวและกระหายที่จะเรียนรู้เพิ่มเติม ล้มเหลวให้มากขึ้น<br> <span class="speech">เพื่อสร้างสิ่งที่ยิ่งใหญ่อย่างสร้างสรรค์สำหรับชุมชนของเรา</span>',
     );
 
