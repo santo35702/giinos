@@ -146,15 +146,6 @@
                             </select>
                         </div>
                     </form>
-                    <!-- <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item input-group">
-                            <a class="nav-link"><img src="resource/img/Vector.png" alt=""></a>
-                            <select class="form-select" onchange="set_language()" name="ln" id="language">
-                                <option value="en" <?php // echo $en_selected; ?>> English</option>
-                                <option value="th" <?php // echo $th_selected; ?>> ไทย</option>
-                            </select>
-                        </li>
-                    </ul> -->
                 </div>
             </div>
         </nav>
@@ -162,11 +153,11 @@
         <div id="home_content">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-5">
                         <h1><?php echo $homeContent[$ln]['title'] ?></h1>
                         <p class="hero-description"><?php echo $homeContent[$ln]['description'] ?></p>
                     </div>
-                    <div class="col-8">
+                    <div class="col-7">
                         <img class="img-fluid" src="resource/img/Group%20810.png" alt="hero">
                     </div>
                 </div>
