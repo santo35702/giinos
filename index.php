@@ -135,7 +135,7 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <div class="input-group xs-input-group">
+                        <div class="input-group">
                             <label class="input-group-text" for="">
                                 <img src="resource/img/Vector.png" alt="">
                             </label>

@@ -33,7 +33,7 @@
 }
 
 @media only screen and (max-width: 575px) {
-    .navbar form.d-flex .xs-input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
+    .navbar form.d-flex .input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
 }
 
 @media only screen and (max-width: 480px) {
