@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 1450px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar form.d-flex .input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
+    h1 { font-size: 3rem; line-height: 5rem; letter-spacing: 0.08rem; }
+    #home_content h1::after { width: 9.8rem !important; margin-top: 1.3rem !important; }
+    p.hero-description { font-size: 3rem !important; line-height: 4rem !important; letter-spacing: 0.07rem !important;}
+
+}
+
+@media only screen and (min-width: 767px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar form.d-flex .input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
+}
+
+@media only screen and (max-width: 480px) {
+    html, body { height: 100%; width: 100%; }
+    h1 { font-size: 2rem; line-height: 4rem; letter-spacing: 0.07rem; }
+}
