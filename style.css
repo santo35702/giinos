@@ -521,6 +521,7 @@ header {
 .hiring-section {
     background: url(resource/img/hiring%20%20section.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hiring-section h2 {
@@ -721,6 +722,8 @@ label {
     background: url(resource/img/speech.png);
     color: white;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .speech-section p {

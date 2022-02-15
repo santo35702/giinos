@@ -1,5 +1,6 @@
 <?php
     include 'language.php';
+    use PHPMailer\PHPMailer\PHPMailer;
 
     // Mail Function
     $status = '';
@@ -61,7 +62,7 @@
             $mail->SMTPSecure = "ssl";
 
             $mail->Username = "santo35702@gmail.com";
-            $mail->Password = "Your Password here...";
+            $mail->Password = "your password...";
 
             // Sender Settings
             $mail->From = $_POST["email"];
