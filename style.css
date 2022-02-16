@@ -122,9 +122,6 @@ header {
 .nav-item li:hover a:visited {
     background: rgba(182, 194, 217, 1);
 }
-.navbar-nav{
-    margin-left: 12rem;
-}
 #language {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
@@ -259,11 +256,8 @@ header {
     margin-top: 3rem;
 }
 .fluid-section .box1 {
-    Width: 60.4rem;
-    Height: 35.9 rem;
-    margin-left: 8rem;
     line-height: 2.8rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 /*===================== */
@@ -273,7 +267,7 @@ header {
 .realtime-section h2 {
     font-size: 4.2rem;
     color: black;
-    line-height: 6rem;
+    line-height: 5.5rem;
     font-weight: 700;
     letter-spacing: .078rem;
 
@@ -299,8 +293,7 @@ header {
     color: #14142B;
 }
 .realtime-section .box1 {
-    Width: 60.4rem;
-    Height: 35.9 rem;
+    Height: 35.9rem;
     margin-left: 7.8rem;
     line-height: 2.8rem;
     margin-top: 7rem;
@@ -355,7 +348,7 @@ header {
 /*===================== */
 
 .holistic-section h2 {
-    font-size: 4.2rem;
+    font-size: 4.4rem;
     color: black;
     line-height: 6rem;
     font-weight: 700;
@@ -384,9 +377,8 @@ header {
 }
 .holistic-section .box1 {
     Height: 35.9rem;
-    // margin-left: 7.8rem;
+    padding-left: 7.8rem;
     line-height: 2.8rem;
-    // margin-top: 7rem;
 }
 .holistic-section img {
     margin-left: -27rem;
@@ -745,4 +737,8 @@ label {
 .footer-section .nav > .nav-item {
     margin-left: 3rem !important;
     margin-top: 4rem;
+}
+.footer-section .row h5.h4 {
+    margin-left: 113px !important;
+    margin-bottom: -5px !important;
 }

@@ -251,13 +251,13 @@
 
         <!-- start holistic section-->
         <section class="holistic-section">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 box1">
+                    <div class="col-7 box1">
                         <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
                         <p><?php echo $holisticContent[$ln]['description'] ?></p>
                     </div>
-                    <div class="col-6">
+                    <div class="col-5">
                         <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end">
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                     <div class="text-center">
                         <h3 class="display-3"><?php echo $successContent[$ln]['display3'] ?></h3>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mb-3">
                         <h4 class="display-6"><?php echo $successContent[$ln]['display6'] ?></h4>
                     </div>
                     <div class="row flex-container">
@@ -307,6 +307,7 @@
                 <div class="box2">
                     <div class="box3">
                         <span class="coma first">“</span>
+                        <!-- <q cite="">test</q> -->
                         <?php echo $teamContent[$ln]['description'] ?>
                         <span class="coma last">”</span>
                     </div>
@@ -368,31 +369,31 @@
                             </div>
                             <div class="img-box">
                                 <div class="d-flex flex-row justify-content-start">
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="rust text-center">
                                             <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box1']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="node text-center">
                                             <img src="resource/img/Group%207028.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box1']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="docker text-center">
                                             <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box1']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="kubernetes text-center">
                                             <img src="resource/img/Group%207030.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="java text-center">
                                             <img src="resource/img/Group%207031.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box1']['img-box']['img5'] ?></p>
@@ -410,31 +411,31 @@
                             </div>
                             <div class="img-box">
                                 <div class="d-flex flex-row justify-content-start">
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="web text-center">
                                             <img src="resource/img/Group%207032.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box2']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="web1 text-center">
                                             <img src="resource/img/Group%207033.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box2']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="flutter text-center">
                                             <img src="resource/img/Group%207034.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box2']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="ionic text-center">
                                             <img src="resource/img/Group%207035.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box2']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="angular text-center">
                                             <img src="resource/img/Group%207036.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box2']['img-box']['img5'] ?></p>
@@ -452,49 +453,49 @@
                             </div>
                             <div class="img-box">
                                 <div class="d-flex flex-row justify-content-start">
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="python text-center">
                                             <img src="resource/img/Group%207037.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="shell text-center">
                                             <img src="resource/img/Group%207038.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="prometheus text-center">
                                             <img src="resource/img/Group%207040.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="grafana text-center">
                                             <img src="resource/img/Group%207041.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img5'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="ansible text-center">
                                             <img src="resource/img/Group%207042.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img6'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="gitlab text-center">
                                             <img src="resource/img/Group%207043.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img7'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="jenkin text-center">
                                             <img src="resource/img/Group%207044.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box3']['img-box']['img8'] ?></p>
@@ -512,25 +513,25 @@
                             </div>
                             <div class="img-box">
                                 <div class="d-flex flex-row justify-content-start">
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="cypress text-center">
                                             <img src="resource/img/Group%207045.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box4']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="robot text-center">
                                             <img src="resource/img/Group%207046.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box4']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box4']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="excel text-center">
                                             <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box4']['img-box']['img4'] ?></p>
@@ -548,31 +549,31 @@
                             </div>
                             <div class="img-box">
                                 <div class="d-flex flex-row justify-content-start">
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="excel text-center">
                                             <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box5']['img-box']['img1'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="markdown text-center">
                                             <img src="resource/img/Group%207051.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box5']['img-box']['img2'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="tableau text-center">
                                             <img src="resource/img/Group%207052.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box5']['img-box']['img3'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="power text-center">
                                             <img src="resource/img/Group%207053.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box5']['img-box']['img4'] ?></p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 col-lg-1-5">
                                         <div class="sql text-center">
                                             <img src="resource/img/Group%207054.png" alt="" class="img-fluid">
                                             <p><?php echo $hiringContent[$ln]['box5']['img-box']['img5'] ?></p>
@@ -624,17 +625,17 @@
 
         <!-- start speech section-->
         <section class="speech-section">
-            <div class="container">
-                <figure>
+            <div class="container-fluid">
+                <figure class="px-5 mx-4">
                     <blockquote cite="http://original-url.here">
                         <p>
-                            <span class="colon">“</span>
+                            <span class="colon first">“</span>
                             <?php echo $speechContent[$ln] ?>
-                            <span class="colon">”</span>
+                            <span class="colon second">”</span>
                         </p>
                     </blockquote>
                     <figcaption class="text-end border-top mt-5 pt-3">
-                        <img src="resource/img/Group%207018.png" alt="">
+                        <img src="resource/img/Group%207018.png" alt="" class="img-fluid w-33">
                     </figcaption>
                 </figure>
             </div>
@@ -702,7 +703,7 @@
                         <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                     </div>
                     <div class="col">
-                        <h5 class="text-white h4 fw-bolder" style="margin-left: 135px; margin-bottom: -15px;">Menu</h5>
+                        <h5 class="text-white h4 fw-bolder" style="">Menu</h5>
                         <ul class="nav justify-content-end text-center">
                             <li class="nav-item">
                                 <a href="#home" class="nav-link text-white"><?php echo $footerContent[$ln][0] ?></a>
