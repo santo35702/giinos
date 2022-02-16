@@ -122,9 +122,6 @@ header {
 .nav-item li:hover a:visited {
     background: rgba(182, 194, 217, 1);
 }
-.navbar-nav{
-    margin-left: 12rem;
-}
 #language {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
