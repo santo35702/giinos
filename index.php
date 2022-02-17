@@ -585,7 +585,7 @@
                 </div>
 
                 <div class="row px-5">
-                    <div class="col-6">
+                    <div class="col-6 sm-col-5">
                         <div class="contact-box border-end">
                             <h5><?php echo $contactBox[$ln]['heading'] ?></h5>
                             <h7><?php echo $contactBox[$ln]['description'] ?></h7>
@@ -613,7 +613,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 sm-col-2">
                         <div class="contact-box">
                             <img src="resource/img/QR%20Code.png" alt="">
                         </div>
@@ -628,13 +628,13 @@
                 <figure>
                     <blockquote cite="http://original-url.here">
                         <p>
-                            <span class="colon">“</span>
+                            <span class="colon first">“</span>
                             <?php echo $speechContent[$ln] ?>
-                            <span class="colon">”</span>
+                            <span class="colon second">”</span>
                         </p>
                     </blockquote>
                     <figcaption class="text-end border-top mt-5 pt-3">
-                        <img src="resource/img/Group%207018.png" alt="">
+                        <img src="resource/img/Group%207018.png" alt="" class="w-33">
                     </figcaption>
                 </figure>
             </div>
@@ -702,7 +702,7 @@
                         <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                     </div>
                     <div class="col">
-                        <h5 class="text-white h4 fw-bolder" style="margin-left: 135px; margin-bottom: -15px;">Menu</h5>
+                        <h5 class="text-white h4 fw-bolder">Menu</h5>
                         <ul class="nav justify-content-end text-center">
                             <li class="nav-item">
                                 <a href="#home" class="nav-link text-white"><?php echo $footerContent[$ln][0] ?></a>
@@ -726,7 +726,7 @@
                     </div>
                 </div>
                 <hr class="my-5">
-                <p class="text-center text-white"><?php echo $footerContent[$ln][6] ?></p>
+                <p class="text-center text-white copyright"><?php echo $footerContent[$ln][6] ?></p>
             </div>
         </section>
 

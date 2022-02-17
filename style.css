@@ -6,6 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html, body {
+    width: 100%;
+    height: auto;
+}
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -380,10 +384,7 @@ header {
     color: #14142B;
 }
 .holistic-section .box1 {
-    Height: 35.9rem;
-    // margin-left: 7.8rem;
     line-height: 2.8rem;
-    // margin-top: 7rem;
 }
 .holistic-section img {
     margin-left: -27rem;
