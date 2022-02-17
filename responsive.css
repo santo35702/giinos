@@ -3,7 +3,7 @@
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+	.navbar form.d-flex .input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
