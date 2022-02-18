@@ -106,7 +106,7 @@
         <link rel="stylesheet" href="responsive.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="resource/img/logo.png" alt=" ">
