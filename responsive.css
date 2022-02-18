@@ -70,9 +70,11 @@
 	.speech-section img.w-33 { width: 33% !important; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.2rem !important; padding-bottom: .8rem !important; line-height: 2rem !important; }
 	.footer-section { padding-top: 25rem !important; padding-bottom: 2rem !important; }
-	.footer-section .nav > .nav-item { margin-left: 1.5rem !important; margin-top: 2rem !important; }
-	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 11px !important; }
-	.footer-section .row h5.h4 { margin-left: 100px !important; font-size: 13px; }
+	.footer-section .nav > .nav-item { margin-left: 0 !important; margin-top: 0.5rem !important; }
+	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 10px !important; }
+	.footer-section .row h5.h4 { margin-left: 14px !important; font-size: 12px; }
+	.footer-section .footer-logo { position: relative; top: 15px; left: 5px; }
+	.footer-section hr { margin-top: 2rem !important; margin-bottom: 2rem !important; }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
