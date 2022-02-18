@@ -13,7 +13,7 @@
 	#home_content img { position: relative !important; top: -35px !important; left: -15px !important; }
 	.customer-section, .mission-section { padding-left: 10px; padding-right: 10px; }
 	.customer-section { margin-top: 2rem; }
-	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 1.7rem; }
+	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 1.7rem !important; }
 	.customer-section h3, .success-section h3 { margin-top: 1rem; margin-bottom: 3rem; font-size: 2rem; line-height: 2.8rem; }
 	.mission-section h2 { font-size: 2.2rem !important; line-height: 3rem !important; }
 	.mission-section h2::after { width: 7rem !important; }
@@ -44,6 +44,7 @@
 	.hiring-section .container .row .col { padding: 0; }
 	.hiring-section .container .row > .col img { width: 40%; }
 	.hiring-section .container-fluid .row { margin-bottom: 2rem; }
+	.hiring-section .container-fluid:last-child .row:last-child > * { padding-left: 0 !important; }
 	.hiring-section .container-fluid .row .box { border-radius: 2rem; margin: 1rem; padding-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h5 { font-size: 1.8rem; line-height: 2rem; margin-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h6 { font-size: 1.5rem; line-height: 1.9rem; margin-bottom: 1rem; padding-bottom: 1rem; }
@@ -51,14 +52,16 @@
 	.img-box { margin-top: 1.5rem; font-size: 0.5rem;}
 	.img-box .col-1 { width: 12.5%; }
 	.img-box .col-1 img { max-width: 85%;}
-	.contact-box { overflow: auto; }
+	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; }
+	.contact-box { overflow: auto; min-height: 20rem !important; }
 	.contact-box h5 { font-size: 2rem; line-height: 2rem; margin-bottom: 1rem; }
 	.contact-box h7 { font-size: 1.4rem; line-height: 2.6rem; }
-	.contact-box li.list-group-item { line-height: 1.8rem !important; font-size: 1.3rem !important; padding: .2rem .5rem !important; }
-	.contact-box li.list-group-item img { max-width: 60% !important; }
+	.contact-box li.list-group-item { line-height: 1.8rem !important; font-size: 1.3rem !important; padding: .2rem .5rem !important; margin-left: -0.5rem !important; }
+	.contact-box li.list-group-item p { margin: 0 0 0 -0.5rem !important; vertical-align: middle;}
+	.contact-box li.list-group-item img { max-width: 50% !important; }
 	.contact-box img { max-width: 100%; }
 	.sm-col-5 { width: 40%; }
-	.sm-col-2 { width: 26.6666667%; }
+	.sm-col-2 { width: 26.66666667%; }
 	.speech-section { padding-top: 5rem !important; }
 	.speech-section p { line-height: 2.5rem !important; font-size: 1.5rem !important; }
 	.speech-section p span.colon { position: relative; font-size: 7rem; }
@@ -73,17 +76,91 @@
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+	html, body { width: 100vw !important; overflow-x: hidden; }
+	.navbar form.d-flex .input-group { width: 15rem; margin: 1.5rem 28rem 0 auto; }
+	section { padding: 3rem 0; }
+	#home_content { padding-top: 1.5rem; }
+	#home_content .container, .team-section .container, .hiring-section .container-fluid, .footer-section .container { max-width: 90% !important; margin-left: auto; margin-right: auto; }
+	h1 { font-size: 2.2rem !important; line-height: 2.5rem !important; }
+	::after { width: 7.8rem !important; height: 0.5rem !important; margin-top: 1rem !important; }
+	p.hero-description { font-size: 2rem !important; line-height: 3rem !important; }
+	#home_content img { position: relative !important; top: -20px !important; left: -10px !important; }
+	.customer-section { margin-top: 2.5rem; }
+	.customer-section .container-fluid, .holistic-section .container, .speech-section .container, .contact-section .container { max-width: 90% !important; margin-left: auto; margin-right: auto; }
+	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 1.5rem !important; }
+	.customer-section h3, .success-section h3 { margin-top: 0.8rem; margin-bottom: 2rem; font-size: 1.7rem; line-height: 2rem; }
+	.mission-section .container { max-width: 95% !important; margin-left: auto; margin-right: auto; }
+	.mission-section h2 { font-size: 3rem !important; line-height: 4rem !important; }
+	.mission-section h2::after { width: 7rem !important; margin-bottom: 1.5rem !important; }
+	h5.little-description { font-size: 1.7rem; width: auto; line-height: 2.3rem; }
+	.mission { margin: 0.5rem; }
+	.mission-section .mission img.services-icon { height: 7rem; margin-bottom: 1.8rem; }
+	.mission-section .mission p { font-size: 1.6rem; line-height: 2rem; }
+	.fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 3rem; }
+	.fluid-section .box1 { margin-left: 1rem; line-height: 2rem; margin-top: 1rem; width: auto !important; }
+	.fluid-section h2, .realtime-section h2, .fluid_platform-section .box1 h2, .holistic-section .box1 h2 { font-size: 2.4rem; line-height: 3rem; letter-spacing: 0.0753rem; }
+	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.5rem; margin-top: 1.5rem; line-height: 2.2rem; padding-right: 1.5rem; }
+	.realtime-section, .holistic-section, .success-section { padding-top: 0 !important; }
+	.realtime-section .box1, .fluid_platform-section .box1 { width: auto !important; margin: 3rem 3rem 0 4rem; line-height: 2.3rem; }
+	.realtime-section img { margin-top: 1rem !important; }
+	.fluid_platform-section img { position: relative; top: 0; left: -60px; max-width: 120%; }
+	.fluid_platform-section .box1 { margin: 4rem 1rem 0 0 !important; }
+	.holistic-section img { max-width: 140%; position: relative; top: auto; right: -110px !important; }
+	.success-section h4 { line-height: 2.969rem !important; margin-bottom: 2rem; }
+	.column { border-radius: 1rem !important; }
+	.success-section h2 { line-height: 2.2rem !important; margin: 1rem 0.5rem !important; }
+	.success-section .flex-container p { text-indent: 1rem; font-size: 1.3rem; line-height: 1.8rem; margin: 1rem 0.5rem !important; }
+	.team-section h3, .hiring-section h2 { margin-bottom: 2rem; font-size: 2.8rem; }
+	.team-section .box2 { border-radius: 3.5rem; height: auto !important; padding: 3rem !important; margin-top: 2.5rem; }
+	.team-section .box3 { font-size: 1.8rem; line-height: 2.95rem; }
+	.team-section span.coma { font-size: 9rem; position: relative; }
+	.team-section span.first { left: 3% !important; top: 10% !important; }
+	.team-section span.last { left: 1% !important; top: 10% !important; }
+	.hiring-section h2 { margin-bottom: auto !important; }
+	.hiring-section h3 { line-height: 1.6rem !important; }
+	.hiring-section .container { padding-bottom: 1rem !important; margin-bottom: 1rem !important; }
+	.hiring-section .container .row { padding: 1rem 10px auto 10px !important; border-radius: 5rem; font-size: 0.95rem; }
+	.hiring-section .container .row .col { padding: 0; }
+	.hiring-section .container .row > .col img { width: 50%; }
+	.hiring-section .container-fluid .row { margin-bottom: 2.5rem; }
+	.hiring-section .container-fluid .row .box { border-radius: 2rem; margin: 1rem; padding-bottom: 1rem; min-height: 60rem;}
+	.hiring-section .container-fluid .box .heading-box { padding: 2rem; border-radius: 2rem; margin: -0.3rem -0.3rem 0 -0.3rem; min-height: 51rem; }
+	.hiring-section .container-fluid .row .box h5 { font-size: 2.2rem; line-height: 2.5rem; margin-bottom: 1rem; }
+	.hiring-section .container-fluid .row .box h6 { font-size: 1.5rem; line-height: 1.9rem; margin-bottom: 1rem; padding-bottom: 1rem; }
+	.img-box { margin-top: 1.5rem; font-size: 0.5rem;}
+	.img-box .col-1 { width: 12.5%; }
+	.img-box .col-1 img { max-width: 85%;}
+	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; }
+	.contact-box { min-height: 20.5rem !important; }
+	.sm-col-5 { width: 40%; }
+	.sm-col-2 { width: 26.6666667%; }
+	.contact-box h5 { font-size: 2rem; line-height: 2rem; margin-bottom: 1rem; }
+	.contact-box h7 { font-size: 1.8rem; line-height: 2.8rem; }
+	.contact-box li.list-group-item { line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
+	.contact-box li.list-group-item img { max-width: 60% !important; }
+	.contact-box img { max-width: 100% !important; }
+	.speech-section { padding-top: 5rem !important; }
+	.speech-section p { line-height: 3rem !important; font-size: 2.15rem !important; }
+	.speech-section p span.colon { position: relative; font-size: 7rem; }
+	.speech-section p span.first { top: 15px !important; left: 0 !important; }
+	.speech-section p span.second { top: 30px !important; right: -5px !important; }
+	.speech-section img.w-33 { width: 45% !important; }
+	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: .8rem !important; line-height: 2.2rem !important; }
+	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; }
+	.footer-section .nav > .nav-item { margin-left: 0.5rem !important; margin-top: 1rem !important; }
+	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 12px !important; }
+	.footer-section .row h5.h4 { margin-left: 20px !important; font-size: 13px; }
+	.footer-section hr { margin-top: 2rem !important; margin-bottom: 2rem !important; }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 767.99px) and (max-width: 991.98px) {
 	.navbar form.d-flex .input-group { width: auto; margin: 1.5rem 4rem 0 auto;}
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
 	.col-lg-1-5 { width: 12.6% !important; }
 	p { font-size: 1.4rem !important; }
 	section { padding: 7rem 0 !important; }
@@ -130,6 +207,6 @@
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+@media (min-width: 1199.99px) and (max-width: 1399.98px) {
 	.navbar-nav { margin-left: 0 !important; }
 }

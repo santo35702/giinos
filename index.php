@@ -238,7 +238,7 @@
         <section class="fluid_platform-section">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col span_1_of_3 ">
+                    <div class="col span_1_of_3">
                         <img src="resource/img/undraw_co-working_re_w93t%201.png" alt="fluid" class="img-fluid">
                     </div>
                     <div class="col span_1_of_3 box1">
