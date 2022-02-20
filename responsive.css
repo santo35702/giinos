@@ -173,7 +173,6 @@
 	.container-fluid { max-width: 90% !important; margin-left: auto; margin-right: auto; }
 	section { margin: 3rem 0 !important; padding: 3rem 0 !important; }
 
-
 	/* Navbar */
 	.navbar-brand { margin-left: 2rem !important; margin-top: 1rem !important; margin-bottom: 1rem !important; }
 	.navbar .navbar-nav > .nav-item { margin-top: 1rem; margin-left: 1.5rem; font-size: 1.5rem; }
@@ -317,5 +316,61 @@
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1199.99px) and (max-width: 1399.98px) {
-	.navbar-nav { margin-left: 0 !important; }
+	html, body { width: 100%; }
+	h1 { font-size: 5rem; line-height: 5.5rem; }
+	h2 { font-size: 4.5rem; line-height: 5rem; }
+	h3 { font-size: 4rem; line-height: 4.5rem; }
+	h4 { font-size: 3.5rem; line-height: 4rem; }
+	h5 { font-size: 3rem; line-height: 3.5rem; }
+	h6 { font-size: 2.8rem; line-height: 3.2rem; }
+	h7 { font-size: 2.5rem; line-height: 2.5rem; }
+	::after { width: 9rem !important; height: 1rem !important; margin-top: 1.5rem !important; }
+	p { font-size: 2.3rem; line-height: 3.2rem; }
+	img, .img-fluid, svg { max-width: 100%; }
+	section { margin: 3rem 0 !important; padding: 3rem 0 !important; }
+
+	/* Navbar */
+	.navbar-brand { margin-left: 2rem !important; margin-top: 2rem !important; margin-bottom: 1rem !important; }
+	.navbar-nav { margin-left: auto !important; }
+	.navbar .navbar-nav > .nav-item { margin-top: 1rem; margin-left: 2rem; font-size: 2rem; }
+	.navbar form.d-flex { width: 15%; margin-right: 2rem; }
+	.navbar form.d-flex .input-group-text { font-size: 1.2rem !important; }
+	#language { font-size: 1.7rem; }
+
+	/* Home Section */
+	#home_content h1 { font-size: 4.5rem !important; line-height: 5rem !important; margin-top: 4rem !important; letter-spacing: 0.1rem; }
+	#home_content p.hero-description { font-size: 3.5rem; line-height: 4.2rem; margin-top: 2rem; }
+	#home_content img { position: relative !important; top: -10px !important; left: 0px !important; max-width: 128%; overflow-x: hidden; }
+
+	/* Customer Section */
+	.customer-section { margin: 4rem 0 !important; padding: 4rem 0 !important; }
+	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 2.5rem !important; }
+	.customer-section h3, .success-section h3, .mission-section h3 { margin-top: 0rem; margin-bottom: 3rem; font-size: 3.5rem; line-height: 4.2rem; }
+
+	/* Mission Section */
+	.mission-section h2 { font-size: 4rem !important; line-height: 5rem !important; margin-top: 2.5rem; }
+	.mission-section h2::after { margin-bottom: 1.5rem !important; }
+	h5.little-description { font-size: 2.5rem; width: auto; line-height: 3.5rem; }
+	.mission { margin: 1rem; }
+	.mission-section .mission img.services-icon { height: auto; margin-bottom: 2rem; }
+	.mission-section h3 { line-height: 3.5rem !important; }
+	.mission-section .mission p { font-size: 1.8rem; line-height: 2.3rem; padding: 0 1.4rem 1.5rem; text-align: justify; }
+
+	/* Fluid Section */
+	.fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 1rem; }
+	.fluid-section .box1 { margin-left: 2rem; line-height: 2rem; margin-top: 3rem; width: auto !important; }
+	.fluid-section h2, .realtime-section h2, .fluid_platform-section .box1 h2, .holistic-section .box1 h2 { font-size: 3.9rem; line-height: 4.5rem; }
+	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.7rem; margin-top: 1.8rem; line-height: 2.9rem; padding-right: 1rem; letter-spacing: 0.14rem; }
+
+	/* Real-Time Section */
+	.realtime-section, .holistic-section, .success-section { padding-top: 0 !important; }
+	.realtime-section .box1, .fluid_platform-section .box1 { width: auto !important; margin: 3rem 3rem 0 4.5rem; line-height: 2.3rem; }
+	.realtime-section img { position: relative; top: -1.5rem; right: -1.9rem; max-width: 110%; }
+
+	/* Fluid-platform Section */
+	.fluid_platform-section { margin-top: 4rem !important; padding-top: 4rem !important; }
+	.fluid_platform-section img { position: relative; top: -2rem; left: -5.3rem; max-width: 98%; }
+	.fluid_platform-section .box1 { margin: 4rem 1rem 0 -3rem !important; }
+
+	
 }
