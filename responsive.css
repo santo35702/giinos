@@ -261,7 +261,7 @@
 	.contact-section .card .card-body .card-title { font-size: 3rem !important; padding-bottom: .8rem !important; line-height: 3rem !important; margin-top: 2rem; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: .8rem !important; line-height: 2.2rem !important; }
 	/* Footer Section */
-	.footer-section { padding-top: 35rem !important; padding-bottom: 2rem !important; margin-bottom: 0 !important; }
+	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; margin-bottom: 0 !important; }
 	.footer-section .nav > .nav-item { margin-left: 1rem !important; margin-top: 1rem !important; }
 	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 14px !important; }
 	.footer-section .row h5.h4 { margin-left: 52px !important; font-size: 15px; }
