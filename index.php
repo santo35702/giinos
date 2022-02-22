@@ -251,7 +251,7 @@
 
         <!-- start holistic section-->
         <section class="holistic-section">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-6 box1">
                         <h2><?php echo $holisticContent[$ln]['title'] ?></h2>

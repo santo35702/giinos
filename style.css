@@ -91,7 +91,7 @@ header {
 
 }
 .navbar-brand {
-  margin-left: 3rem;
+    margin-left: 3rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     float: left;
@@ -132,7 +132,7 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 .nav-item.input-group {
-  margin-right: 6rem;
+  /* margin-right: 6rem; */
 }
 /*===================== */
 /* customer section */
@@ -149,7 +149,6 @@ header {
     font-weight: 700;
     font-size: 2.2rem;
     text-align: center;
-    letter-spacing: 2%;
 }
 .customer-section h3 {
     color: #06193E;
@@ -158,7 +157,6 @@ header {
     font-weight: 700;
     font-size: 4rem;
     text-align: center;
-    letter-spacing: 2%;
     line-height: 4.8rem;
 }
 /*===================== */
@@ -261,8 +259,7 @@ header {
     margin-top: 3rem;
 }
 .fluid-section .box1 {
-    Width: 60.4rem;
-    Height: 35.9 rem;
+    width: 60.4rem;
     margin-left: 8rem;
     line-height: 2.8rem;
     margin-top: 5rem;
@@ -301,7 +298,7 @@ header {
     color: #14142B;
 }
 .realtime-section .box1 {
-    Width: 60.4rem;
+    width: 60.4rem;
     Height: 35.9 rem;
     margin-left: 7.8rem;
     line-height: 2.8rem;
@@ -311,11 +308,6 @@ header {
 /*===================== */
 /* fluid platform section */
 /*===================== */
-.col-3 {
-  flex: 0 0 auto;
-  width: 37%;
-    margin-top: 3rem;
-}
 .fluid_platform-section h2 {
     font-size: 4.2rem;
     color: black;
@@ -397,7 +389,6 @@ header {
 .success-section {
     text-align: center;
     display: block;
-
 }
 .success-section h2 {
     color: #96A1B8;
@@ -405,7 +396,6 @@ header {
     font-weight: 700;
     font-size: 2.2rem;
     text-align: center;
-    letter-spacing: 2%;
 }
 .success-section h3 {
     color: #06193E;
@@ -471,7 +461,6 @@ header {
     font-weight: 700;
     font-size: 4rem;
     text-align: center;
-    letter-spacing: 2%;
 }
 .team-section h3::after {
     content: "";
