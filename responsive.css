@@ -393,7 +393,7 @@
 
 	/* Hiring Section */
 	.hiring-section { margin-bottom: 0 !important; }
-	.hiring-section .container .row { border-radius: 5rem; }
+	.hiring-section .container .row { border-radius: 5rem; max-width: 91rem;}
 	.hiring-section .container .row > .col p { font-size: 1.24rem; line-height: 1.9rem; }
 	.hiring-section .container-fluid .row .box { margin: 1.5rem; padding-bottom: 2rem; min-height: 40rem;}
 	.hiring-section .container-fluid .box .heading-box { margin: -0.7rem -0.7rem 0; min-height: 35.2rem; }
@@ -402,12 +402,12 @@
 
 /* from here need */
 	.img-box { margin-top: 2rem; font-size: 0.6rem;}
-	.img-box .col-1 { width: 12.6%; }
+	.img-box .col-1 { width: 8.6%; }
 	.img-box .col-1 img { max-width: 60%; }
 	.img-box .col-1 p { font-size: 1rem; line-height: 1.4rem; }
 	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; margin-bottom: 1rem !important; }
-	.contact-box { min-height: 24rem !important; }
-	.sm-col-5 { width: 45%; }
+	.contact-box { min-height: 24rem !important; margin-right: 1rem;}
+	.sm-col-5 { width: 40%; margin-left: 7rem;}
 	.sm-col-2 { width: 21.6666667%; }
 	.contact-box h5 { font-size: 2.5rem; line-height: 2.5rem; margin-bottom: 1rem; }
 	.contact-box h7 { font-size: 1.8rem; line-height: 2.5rem; }
@@ -418,16 +418,17 @@
 	.speech-section { margin-top: 0 !important; padding-top: 5rem !important; }
 	.speech-section p { line-height: 3.5rem !important; font-size: 2.6rem !important; }
 	.speech-section p span.colon { position: relative; font-size: 8rem; }
-	.speech-section p span.first { top: 15px !important; left: 0 !important; }
-	.speech-section p span.second { top: 30px !important; right: -5px !important; }
-	.speech-section img.w-33 { width: 55% !important; }
+	.speech-section p span.first { top: 1.5rem !important; left: 0 !important; }
+	.speech-section p span.second { top: 3rem !important; right: -.5rem !important; }
+	.speech-section img.w-33 { width: 33% !important; }
 	/* Contact Section */
 	.contact-section .card .card-body .card-title { font-size: 3rem !important; padding-bottom: .8rem !important; line-height: 3rem !important; margin-top: 2rem; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: .8rem !important; line-height: 2.2rem !important; }
+    .contact-section .card .card-body .btn.btn-primary {height: 3rem; font-size: 1.5rem;}
 	/* Footer Section */
 	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; margin-bottom: 0 !important; }
 	.footer-section .nav > .nav-item { margin-left: 1rem !important; margin-top: 1rem !important; }
-	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 14px !important; }
-	.footer-section .row h5.h4 { margin-left: 52px !important; font-size: 15px; }
+	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 1.4rem !important; }
+	.footer-section .row h5.h4 { margin-left: 30.1rem !important; font-size: 1.5rem; }
 	.footer-section hr { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
 }
