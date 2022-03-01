@@ -432,3 +432,7 @@
 	.footer-section .row h5.h4 { margin-left: 30.1rem !important; font-size: 1.5rem; }
 	.footer-section hr { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
 }
+  @media (min-width: 1400px)
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1416px;
+}

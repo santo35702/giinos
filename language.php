@@ -183,14 +183,14 @@
             'description' => '<strong class="ps-5">At Giinos, we apply these principles to every aspect of working together…<br></strong>
             <strong>TRUST</strong>:We trust each other, we assign and leave the task to you. So, you will be pushed to the max at certain point…don’t forget to “trust yourself” as well.<br>
             <strong>OPEN</strong>: We communicate, raise concerns, asking for support openly here at Giinos. By having “maximizing holistic value” mindsets, so we “open” for that things...<br>
-            <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. So, whatever challenges we faced with these fundamental principles let us achive it always.',
+            <strong>EMPATHY</strong>: we empathize with our customers, platform we built, and everyone in team. <br><span class="team"> So, whatever challenges we faced with these fundamental principles let us achive it always.</span>',
             ],
         'th' => [
             'title' => 'ทีมและวัฒนธรรม',
-            'description' => '<strong class="ps-5">ที่ Giinos เราใช้หลักการเหล่านี้กับทุกแง่มุมของการทำงานร่วมกัน...</strong><br>
-            <strong>เชื่อมั่น</strong>: เราไว้วางใจซึ่งกันและกัน เรามอบหมายงานและฝากงานไว้ให้คุณ ดังนั้นคุณจะถูกผลักดันให้ถึงจุดหนึ่ง…อย่าลืมที่จะ "เชื่อใจในตัวเอง" เช่นกัน<br>
-            <strong>เปิด</strong>: เราสื่อสาร แจ้งข้อกังวล ขอการสนับสนุนอย่างเปิดเผยที่ Giinos การมีกรอบความคิดแบบ “เพิ่มมูลค่าให้สูงสุด” เราจึง “เปิดกว้าง” สำหรับสิ่งนั้น...<br>
-            <strong>ความเข้าอกเข้าใจ</strong>: เราเอาใจใส่ลูกค้า แพลตฟอร์มที่เราสร้างขึ้น และทุกคนในทีม ดังนั้น ไม่ว่าความท้าทายใด ๆ ที่เราประสบกับหลักการพื้นฐานเหล่านี้ ทำให้เราบรรลุเป้าหมายได้เสมอ',
+            'description' => '<strong class="ps-5">ที่ Giinos เราใช้หลักการเหล่านี้กับทุกแง่มุมของการทำงานร่วมกัน…<br></strong>
+            <strong>ความไว้วางใจ</strong>:เราไว้วางใจซึ่งกันและกัน เรามอบหมายและมอบงานให้กับคุณ ดังนั้นคุณจะถูกผลักดันให้ถึงจุดหนึ่ง…อย่าลืม "เชื่อมั่นในตัวเอง" ด้วยเช่นกัน<br>
+            <strong>เปิด</strong>: เราสื่อสาร แจ้งข้อกังวล ขอการสนับสนุนอย่างเปิดเผยที่ Giinos การมีกรอบความคิด “เพิ่มมูลค่าสูงสุด” เราจึง “เปิดกว้าง” สำหรับสิ่งนั้น...<br>
+            <strong>ความเอาใจใส่</strong>: เราเข้าใจลูกค้า แพลตฟอร์มที่เราสร้างขึ้น และทุกคนในทีม <br><span class="team"> ดังนั้น ไม่ว่าความท้าทายใดที่เราเผชิญกับหลักการพื้นฐานเหล่านี้ ทำให้เราบรรลุเป้าหมายได้เสมอ</span>',
             ],
     );
 

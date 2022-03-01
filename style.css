@@ -1,15 +1,20 @@
 /*===================== */
 /* Basic Setup */
 /*===================== */
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1416px;
+    padding-left:2rem;
+    padding-right:2rem;
+}
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 html, body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
+
 }
 html {
     font-size: 62.5%;
@@ -22,17 +27,19 @@ body {
     text-rendering: optimizeLegibility;
     line-height: 1.3rem;
     font-size: 1.6rem;
+    
 }
-/* .row {
+ .row {
     max-width: 144.3rem;
     margin: 0 2rem;
-} */
+} 
 section {
-    padding: 10rem 0;
+    padding: 4rem 2rem;
     /*    max-width: 144.3rem;*/
 }
 .box {
     padding: 1%;
+    min-height: 33.9rem;
 }
 .little-description {
     font-size: 2.4rem;
@@ -91,7 +98,7 @@ header {
 
 }
 .navbar-brand {
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     float: left;
@@ -107,6 +114,10 @@ header {
     margin-left: .5rem;
     margin-right: .7rem;
     text-align: center;
+}
+.navbar-nav {
+	padding-left: 11rem;
+	list-style: none;
 }
 .nav-item li:first-child {
     margin-left: 0rem;
@@ -133,6 +144,11 @@ header {
 }
 .nav-item.input-group {
   /* margin-right: 6rem; */
+}
+
+.input-group {
+  margin-top: 2rem;
+  margin-right: 7rem;
 }
 /*===================== */
 /* customer section */
@@ -164,11 +180,11 @@ header {
 /*===================== */
 .mission {
     text-align: center;
-    border: .1rem solid #ccc;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0rem .4rem 2.7rem rgba(47, 17, 96, 0.14);
     padding: 4rem;
     border-radius: 1.6rem;
     margin: 1.5rem;
+    padding-bottom: 2rem;
 }
 .mission-section .col1 h2 {
     font-size: 5rem;
@@ -210,8 +226,8 @@ header {
     align-items: center;
 }
 .flex-container {
-    width: 90%;
-    min-height: 30rem;
+    width: 100%;
+    min-height: 32rem;
     margin: 0 auto;
     display: -webkit-flex;
     /* Safari */
@@ -250,12 +266,12 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
-.fluid-section p {
+.fluid-section .realtime-section .fluid_platform-section .holistic-section p {
     text-align: left;
     color: #14142B;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-top: 3rem;
 }
 .fluid-section .box1 {
@@ -289,18 +305,11 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
-.realtime-section p {
-    text-align: left;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    color: #14142B;
-}
+
 .realtime-section .box1 {
     width: 60.4rem;
     Height: 35.9 rem;
-    margin-left: 7.8rem;
+    margin-left: 5.8rem;
     line-height: 2.8rem;
     margin-top: 7rem;
     margin-right: 15rem;
@@ -328,14 +337,7 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
-.fluid_platform-section p {
-    text-align: left;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    color: #14142B;
-}
+
 .fluid_platform-section .box1 {
     Width: 60.4rem;
     Height: 35.9 rem;
@@ -368,21 +370,25 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
-.holistic-section p {
-    text-align: left;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    color: #14142B;
-}
+
 .holistic-section .box1 {
     line-height: 2.8rem;
+     margin-left: 5.8rem;
+ 
 }
 .holistic-section img {
     margin-left: -27rem;
+    width: 70%;
 }
-
+.col-6 {
+	flex: 0 0 auto;
+	width: 46%;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 34%;
+    margin-top: 5rem;
+}
 /*===================== */
 /* success section */
 /*===================== */
@@ -493,12 +499,15 @@ header {
 
 .team-section span.coma.first{
     left: 3%;
-    top: 10%;
+    top: 8%;
 }
 
 .team-section span.coma.last{
     left: 0;
-    top: 12%;
+    top: 8%;
+}
+span.team{
+    font-weight: 300;
 }
 /*===================== */
 /* hiring section */
@@ -526,19 +535,23 @@ header {
     font-style: normal;
     margin-bottom: 3rem;
 }
+.mb-5.pb-4 {
+    margin-left: 24rem;
+    margin-right: 24rem;
+}
 
 .row.row-cols-8{
   background: #4B05BC;
   color: white;
-  padding-top: 1rem;
+  padding-bottom: -2rem;
   border-radius: 6rem;
   font-size: 1.09rem;
 }
 
 .hiring-section .box {
     border-radius: 4rem;
-    min-height: 43rem;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    min-height: 47rem;
+    0rem .647rem 3.2rem rgba(41, 28, 63, 0.11);
     margin: 2rem 1rem;
     padding-bottom: 3rem;
 }
@@ -547,8 +560,8 @@ header {
     padding: 2.5rem 3rem;
     border-radius: 3rem;
     margin:-.85rem -.85rem 0 -.85rem;
-    min-height: 33.3rem;
-    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    min-height: 39.3rem;
+    box-shadow: 0rem .647rem 3.2rem rgba(41, 28, 63, 0.11);
 }
 
 .contact-box {
@@ -558,7 +571,12 @@ header {
 }
 
 .col{
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
+}
+.col-4 {
+  flex: 0 0 auto;
+  width: 31.333%;
+  margin-left: 1rem;
 }
 .hiring-section .flex-containter h5 {
     text-align: left;
@@ -574,12 +592,14 @@ header {
 }
 .img-box{
     color: white;
-    font-size: .8rem;
     text-align: center;
-    margin-top: 2rem;
-
-
+    margin-top: 3rem;
 }
+.img-box .col-1 { width: 15%; margin-left: -2rem;}
+	.img-box .col-1 img { max-width: 70%; }
+	.img-box .col-1 p { font-size: 1rem; text-align: center; line-height: 1.4rem; }
+	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; margin-bottom: 1rem !important; }
+
 .hiring-section h6 {
     color: #929EB7;
     line-height: 2.4rem;
@@ -649,11 +669,13 @@ h7{
     line-height: 2.3rem;
     font-size: 1.6rem;
 }
-.list-group-item.border-0.d-flex.justify-content-start.align-items-center.bg-transparent{
-    color: white;
-    line-height: 2.3rem;
-    font-size: 1.6rem;
-}
+.sm-col-5 { width: 40%; margin-left: 7rem;}
+	.sm-col-2 { width: 21.6666667%; }
+	.contact-box h5 { font-size: 3.5rem; line-height: 3.5rem; margin-bottom: 2rem; }
+	.contact-box h7 { font-size: 1.8rem; line-height: 2.7rem; }
+	.contact-box li.list-group-item { color: white; line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
+	.contact-box li.list-group-item img { max-width: 70% !important; }
+	.contact-box li.list-group-item p { font-size: 1.8rem; line-height: 2.7rem; }
 /*===================== */
 /* contact section */
 /*===================== */
@@ -661,9 +683,12 @@ h7{
   background: white;
   max-height: 52rem;
 }
-.card{
-    padding-left: 2rem;
-    padding-right: 2rem;
+.card {
+  padding-left: 4rem;
+  padding-right: 0rem;
+  border-radius: 3rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
 }
 .form .card-title::after {
     content: "";
@@ -688,12 +713,15 @@ label {
   color: black;
   font-size: 1.4rem;
 }
-.card {
-  border-radius: 3rem;
+.ps-4 {
+  padding-left: 2.7rem !important;
+  padding-top: 2rem !important;  
 }
 .btn.btn-primary {
   border-radius: 1.3rem;
   background: #610BEF;
+  height: 3rem; 
+  font-size: 1.5rem;
 }
 /*===================== */
 /* speech section */
@@ -734,3 +762,4 @@ label {
     margin-left: 3rem !important;
     margin-top: 4rem;
 }
+.footer-section .row h5.h4 { margin-left: 30.1rem !important; font-size: 1.5rem; }

@@ -97,7 +97,7 @@
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
         <!-- Font-Awesome Free CSS -->
         <link rel="stylesheet" href="node_modules/fontawesome-free/css/all.css">
         <!-- Bootstrap CSS -->
@@ -322,7 +322,7 @@
                     <h3 class="display-6"><?php echo $hiringContent[$ln]['heading']['display2'] ?></h3>
                 </div>
             </div>
-            <div class="container mb-5 pb-4">
+            <div class=" mb-5 pb-4">
                 <div class="row row-cols-8 justify-content-center mx-auto">
                     <div class="col text-center">
                         <img src="resource/img/Group%204393.png" alt="">
