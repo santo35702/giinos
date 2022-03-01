@@ -676,6 +676,9 @@ h7{
 	.contact-box li.list-group-item { color: white; line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
 	.contact-box li.list-group-item img { max-width: 70% !important; }
 	.contact-box li.list-group-item p { font-size: 1.8rem; line-height: 2.7rem; }
+.col-2.sm-col-2 {
+    padding-left: 3rem;
+}
 /*===================== */
 /* contact section */
 /*===================== */
