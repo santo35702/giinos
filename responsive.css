@@ -6,6 +6,7 @@
 	html, body { width: 100vw !important; }
 	.navbar form.d-flex .input-group { width: 35% !important; margin-left: 20rem !important;}
 	section { padding: 3rem 0;}
+    .row {margin: 0;}
 	#home_content { padding-left: 3rem; }
 	h1 { font-size: 2.3rem !important; line-height: 3rem !important; }
 	::after { width: 7.8rem !important; height: 0.5rem !important; margin-top: 1rem !important; }
@@ -15,9 +16,9 @@
 	.customer-section { margin-top: 2rem; }
 	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 1.7rem !important; }
 	.customer-section h3, .success-section h3 { margin-top: 1rem; margin-bottom: 3rem; font-size: 2rem; line-height: 2.8rem; }
-	.mission-section h2 { font-size: 2.2rem !important; line-height: 3rem !important; }
+	.mission-section h2 { font-size: 2rem !important; line-height: 3rem !important; }
 	.mission-section h2::after { width: 7rem !important; }
-	h5.little-description { font-size: 2rem; }
+	h5.little-description { font-size: 1.5rem; line-height: 1.7rem; }
 	.mission { margin: 0.5rem; }
 	.mission-section .mission img.services-icon { height: 7rem; margin-bottom: 1.8rem; }
 	.fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 4rem; }
@@ -25,9 +26,9 @@
 	.fluid-section h2, .realtime-section h2, .fluid_platform-section .box1 h2, .holistic-section .box1 h2 { font-size: 2rem; line-height: 3rem; letter-spacing: 0.07rem; }
 	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.3rem; margin-top: 2rem; line-height: 2rem; }
 	.realtime-section, .holistic-section, .success-section { padding-top: 0 !important; }
-	.realtime-section .box1, .fluid_platform-section .box1 { width: auto !important; margin: 3rem 3rem 0 3rem; line-height: 2rem; }
+	.realtime-section .box1, .fluid_platform-section .box1 { width: auto !important; margin: 3rem 3rem 0 1rem; line-height: 2rem; }
 	.fluid_platform-section .box1 { margin-left: 0 !important; margin-right: 1rem !important; }
-	.holistic-section .box1 { padding-left: 3rem !important; }
+	.holistic-section .box1 { padding-left:0rem; margin-left: 1.5rem !important; }
 	.success-section h3 { margin-bottom: 2rem !important; }
 	.success-section h4, .hiring-section h3 { line-height: 2.969rem; margin-bottom: 2rem; }
 	.success-section .flex-container h2 { font-size: 1rem; line-height: 1.7rem; margin: 1rem auto !important; }
@@ -40,28 +41,34 @@
 	.team-section span.last { left: 1% !important; top: 10% !important; bottom: 0 !important; }
 	.hiring-section h2 { margin-bottom: auto !important; }
 	.hiring-section .container { padding-bottom: 1rem !important; margin-bottom: 1rem !important; }
-	.hiring-section .container .row { padding-top: 1rem; border-radius: 5rem; font-size: 0.95rem; }
+	.hiring-section .container .row { padding-top: 1rem; border-radius: 5rem; font-size: 0.9rem; }
 	.hiring-section .container .row .col { padding: 0; }
-	.hiring-section .container .row > .col img { width: 40%; }
+	.hiring-section .container .row > .col img { width: 22%; }
 	.hiring-section .container-fluid .row { margin-bottom: 2rem; }
 	.hiring-section .container-fluid:last-child .row:last-child > * { padding-left: 0 !important; }
 	.hiring-section .container-fluid .row .box { border-radius: 2rem; margin: 1rem; padding-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h5 { font-size: 1.8rem; line-height: 2rem; margin-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h6 { font-size: 1.5rem; line-height: 1.9rem; margin-bottom: 1rem; padding-bottom: 1rem; }
 	.hiring-section .container-fluid .box .heading-box { padding: 2rem; border-radius: 2rem; margin: -0.3rem -0.3rem 0 -0.3rem; min-height: 58rem; }
-	.img-box { margin-top: 1.5rem; font-size: 0.5rem;}
-	.img-box .col-1 { width: 12.5%; }
-	.img-box .col-1 img { max-width: 85%;}
-	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; }
-	.contact-box { overflow: auto; min-height: 20rem !important; }
-	.contact-box h5 { font-size: 2rem; line-height: 2rem; margin-bottom: 1rem; }
-	.contact-box h7 { font-size: 1.4rem; line-height: 2.6rem; }
-	.contact-box li.list-group-item { line-height: 1.8rem !important; font-size: 1.3rem !important; padding: .2rem .5rem !important; margin-left: -0.5rem !important; }
-	.contact-box li.list-group-item p { margin: 0 0 0 -0.5rem !important; vertical-align: middle;}
+    .hiring-section .mb-5.pb-4 { margin-left: 1rem; margin-right: 1rem;padding-top: 1rem; font-size: .9rem; line-height: 1rem;}
+    .row.row-cols-8 {font-size: .9rem;}
+    .hiring-section .row.row-cols-8 img {max-width: 65%;}
+	.img-box { margin-top: 1.5rem; font-size: 0.2rem !important}
+	.img-box .col-1 { width: 12.5%; margin-left: 0; }
+	.img-box .col-1 img { max-width: 70%;}
+    .img-box .col-1 p {font-size: .7rem;}
+	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -11% !important; margin-right: 0% !important; }
+	.sm-col-5 { width: 30%;width: 40%;margin-left: 5rem; }
+    .col-4 {width: 28.333%; line-height: 1rem;}
+	.sm-col-2 { width: 20.6666667%;   padding-left: 1rem;}
+	.contact-box { overflow: auto; min-height: 18rem !important; }
+	.contact-box h5 { font-size: 1.5rem; line-height: 2rem; margin-bottom: 1rem; }
+	.contact-box h7 { font-size: 1rem; line-height: 2rem; }
+	.contact-box li.list-group-item { line-height: 1rem !important; font-size: .9rem !important; padding: .2rem .5rem !important; margin-left: -0.5rem !important; }
+	.contact-box li.list-group-item p { margin: 0 0 0 -0.5rem !important; vertical-align: middle; font-size: .9rem;}
 	.contact-box li.list-group-item img { max-width: 50% !important; }
 	.contact-box img { max-width: 100%; }
-	.sm-col-5 { width: 40%; }
-	.sm-col-2 { width: 26.66666667%; }
+	
 	.speech-section { padding-top: 5rem !important; }
 	.speech-section p { line-height: 2.5rem !important; font-size: 1.5rem !important; }
 	.speech-section p span.colon { position: relative; font-size: 7rem; }
@@ -69,10 +76,12 @@
 	.speech-section p span.second { top: 35px !important; right: -10px !important; }
 	.speech-section img.w-33 { width: 33% !important; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.2rem !important; padding-bottom: .8rem !important; line-height: 2rem !important; }
+   .contact-section .card .col-6 {width: 50%;margin-left: -3rem;margin-top: 2rem;margin-right: 3rem;}
+    label {font-size: 1rem;}
 	.footer-section { padding-top: 25rem !important; padding-bottom: 2rem !important; }
 	.footer-section .nav > .nav-item { margin-left: 0 !important; margin-top: 0.5rem !important; }
 	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 10px !important; }
-	.footer-section .row h5.h4 { margin-left: 14px !important; font-size: 12px; }
+	.footer-section .row h5.h4 { margin-left: 5.4rem !important; font-size: 12px; }
 	.footer-section .footer-logo { position: relative; top: 10px; left: 5px; }
 	.footer-section hr { margin-top: 2rem !important; margin-bottom: 2rem !important; }
 }
@@ -83,7 +92,7 @@
 	.navbar form.d-flex .input-group { width: 15rem; margin: 1.5rem 28rem 0 auto; }
 	section { padding: 3rem 0; }
 	#home_content { padding-top: 1.5rem; }
-	#home_content .container, .team-section .container, .hiring-section .container-fluid, .footer-section .container { max-width: 90% !important; margin-left: auto; margin-right: auto; }
+	#home_content .container, .team-section .container, .hiring-section .container-fluid, .footer-section .container { max-width: 100% !important; margin-left: auto; margin-right: auto; }
 	h1 { font-size: 2.2rem !important; line-height: 2.5rem !important; }
 	::after { width: 7.8rem !important; height: 0.5rem !important; margin-top: 1rem !important; }
 	p.hero-description { font-size: 2rem !important; line-height: 3rem !important; }
@@ -108,7 +117,7 @@
 	.realtime-section img { margin-top: 1rem !important; }
 	.fluid_platform-section img { position: relative; top: 0; left: -60px; max-width: 120%; }
 	.fluid_platform-section .box1 { margin: 4rem 1rem 0 0 !important; }
-	.holistic-section img { max-width: 140%; position: relative; top: auto; right: -110px !important; }
+	.holistic-section img { max-width: 140%; position: relative; top: -41rem; right: -33.5rem !important; }
 	.success-section h4 { line-height: 2.969rem !important; margin-bottom: 2rem; }
 	.column { border-radius: 1rem !important; }
 	.success-section h2 { line-height: 2.2rem !important; margin: 1rem 0.5rem !important; }
@@ -117,12 +126,13 @@
 	.team-section .box2 { border-radius: 3.5rem; height: auto !important; padding: 3rem !important; margin-top: 2.5rem; }
 	.team-section .box3 { font-size: 1.8rem; line-height: 2.95rem; }
 	.team-section span.coma { font-size: 9rem; position: relative; }
-	.team-section span.first { left: 3% !important; top: 10% !important; }
-	.team-section span.last { left: 1% !important; top: 10% !important; }
+	.team-section span.first { left: 3% !important; top: 9% !important; }
+	.team-section span.last { left: 1% !important; top: 9% !important; }
 	.hiring-section h2 { margin-bottom: auto !important; }
 	.hiring-section h3 { line-height: 1.6rem !important; }
 	.hiring-section .container { padding-bottom: 1rem !important; margin-bottom: 1rem !important; }
 	.hiring-section .container .row { padding: 1rem 10px auto 10px !important; border-radius: 5rem; font-size: 0.95rem; }
+    .hiring-section .mb-5.pb-4 { margin-left: 8rem;margin-right: 8rem;padding-top: 1rem;}
 	.hiring-section .container .row .col { padding: 0; }
 	.hiring-section .container .row > .col img { width: 50%; }
 	.hiring-section .container-fluid .row { margin-bottom: 2.5rem; }
@@ -130,25 +140,28 @@
 	.hiring-section .container-fluid .box .heading-box { padding: 2rem; border-radius: 2rem; margin: -0.3rem -0.3rem 0 -0.3rem; min-height: 51rem; }
 	.hiring-section .container-fluid .row .box h5 { font-size: 2.2rem; line-height: 2.5rem; margin-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h6 { font-size: 1.5rem; line-height: 1.9rem; margin-bottom: 1rem; padding-bottom: 1rem; }
-	.img-box { margin-top: 1.5rem; font-size: 0.5rem;}
-	.img-box .col-1 { width: 12.5%; }
-	.img-box .col-1 img { max-width: 85%;}
-	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; }
+	.img-box { margin-top: 1.5rem; font-size: 0.2rem !important}
+	.img-box .col-1 { width: 12.5%; margin-left: 0; }
+	.img-box .col-1 img { max-width: 75%;}
+    .img-box .col-1 p {font-size: .7rem;}
+	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -11% !important; margin-right: 2% !important; }
 	.contact-box { min-height: 20.5rem !important; }
-	.sm-col-5 { width: 40%; }
-	.sm-col-2 { width: 26.6666667%; }
+	.sm-col-5 { width: 38%; }
+	.sm-col-2 { width: 19.6666667%;   padding-left: 1rem;}
 	.contact-box h5 { font-size: 2rem; line-height: 2rem; margin-bottom: 1rem; }
-	.contact-box h7 { font-size: 1.8rem; line-height: 2.8rem; }
-	.contact-box li.list-group-item { line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
+	.contact-box h7 { font-size: 1.2rem; line-height: 2.2rem; }
+	.contact-box li.list-group-item p { line-height: 1.5rem !important; font-size: 1rem !important; padding: .2rem .5rem !important; }
 	.contact-box li.list-group-item img { max-width: 60% !important; }
-	.contact-box img { max-width: 100% !important; }
+	.contact-box img { max-width: 90% !important; }
 	.speech-section { padding-top: 5rem !important; }
 	.speech-section p { line-height: 3rem !important; font-size: 2.15rem !important; }
 	.speech-section p span.colon { position: relative; font-size: 7rem; }
 	.speech-section p span.first { top: 15px !important; left: 0 !important; }
 	.speech-section p span.second { top: 30px !important; right: -5px !important; }
-	.speech-section img.w-33 { width: 45% !important; }
-	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: .8rem !important; line-height: 2.2rem !important; }
+	.speech-section img.w-33 { width: 52% !important; }
+	.contact-section .card .card-body .card-subtitle { font-size: 1.2rem !important; padding-bottom: .8rem !important; line-height: 2rem !important; }
+   .contact-section .card .col-6 {width: 50%;margin-left: -3rem;margin-top: 2rem;margin-right: 3rem;}
+    label {font-size: 1rem;}
 	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; }
 	.footer-section .nav > .nav-item { margin-left: 0.5rem !important; margin-top: 1rem !important; }
 	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 12px !important; }
@@ -159,7 +172,9 @@
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (min-width: 767.99px) and (max-width: 991.98px) {
 	html, body { width: 100%; }
-	h1 { font-size: 5rem; line-height: 5.5rem; }
+    section { padding: 3rem 0; }
+    .col-5 {margin-left: 0;}
+	h1 { margin-top: 1rem; font-size: 6rem; line-height: 5.5rem; }
 	h2 { font-size: 4.5rem; line-height: 5rem; }
 	h3 { font-size: 4rem; line-height: 4.5rem; }
 	h4 { font-size: 3.5rem; line-height: 4rem; }
@@ -167,16 +182,16 @@
 	h6 { font-size: 2.8rem; line-height: 3.2rem; }
 	h7 { font-size: 2.5rem; line-height: 2.5rem; }
 	::after { width: 8.8rem !important; height: 0.8rem !important; margin-top: 1.2rem !important; }
-	p { font-size: 2.1rem; line-height: 3rem; }
+	p { font-size: 2rem; line-height: 3rem; }
 	img, .img-fluid, svg { max-width: 100%; }
-	.container { max-width: 85% !important; margin-left: auto; margin-right: auto; }
-	.container-fluid { max-width: 90% !important; margin-left: auto; margin-right: auto; }
+	.container { max-width: 98% !important; margin-left: auto; margin-right: auto; }
+	.container-fluid { max-width: 100% !important; margin-left: auto; margin-right: auto; }
 	section { margin: 3rem 0 !important; padding: 3rem 0 !important; }
-
+    .input-group {margin-right: 5rem;margin-left: 4rem;}
 	/* Navbar */
 	.navbar-brand { margin-left: 2rem !important; margin-top: 1rem !important; margin-bottom: 1rem !important; }
 	.navbar .navbar-nav > .nav-item { margin-top: 1rem; margin-left: 1.5rem; font-size: 1.5rem; }
-	#language { font-size: 1.4rem; }
+	#language { font-size: 1.2rem; }
 	.navbar form.d-flex { width: 15%; margin-right: auto; }
 	/* Home Section */
 	#home_content h1 { font-size: 3rem !important; line-height: 3.8rem !important; }
@@ -185,15 +200,15 @@
 	#home_content img { position: relative !important; top: -10px !important; left: 0px !important; max-width: 120%; overflow-x: hidden; }
 	/* Customer Section */
 	.customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 2rem !important; }
-	.customer-section h3, .success-section h3, .mission-section h3 { margin-top: 0rem; margin-bottom: 2rem; font-size: 2.5rem; line-height: 3.8rem; }
+	.customer-section h3, .success-section h3, .mission-section h3 { margin-top: 0rem; margin-bottom: 2rem; font-size: 2rem; line-height: 3.8rem; }
 	/* Mission Section */
 	.mission-section h2 { font-size: 3.5rem !important; line-height: 4.5rem !important; }
 	.mission-section h2::after { width: 8.8rem !important; height: 0.8rem; margin-top: 1rem; margin-bottom: 1.5rem !important; }
 	h5.little-description { font-size: 2rem; width: auto; line-height: 2.8rem; }
 	.mission { margin: 0.5rem; }
 	.mission-section .mission img.services-icon { height: 8.5rem; margin-bottom: 2rem; }
-	.mission-section h3 { line-height: 3rem !important; }
-	.mission-section .mission p { font-size: 1.6rem; line-height: 2rem; }
+	.mission-section h3 { line-height: 2rem !important; }
+	.mission-section .mission p { font-size: 1.2rem; line-height: 2rem; }
 	/* Fluid Section */
 	.fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 3rem; }
 	.fluid-section .box1 { margin-left: 2rem; line-height: 2rem; margin-top: 2rem; width: auto !important; }
@@ -207,8 +222,8 @@
 	.fluid_platform-section img { position: relative; top: 0; left: -5.9rem; max-width: 100%; }
 	.fluid_platform-section .box1 { margin: 4rem 1rem 0 0 !important; }
 	/* Holistic Section */
-	.holistic-section .box1 { margin-top: 2rem !important; }
-	.holistic-section img { max-width: 125%; position: relative; top: auto; right: -15rem !important; }
+	.holistic-section .box1 { margin-top: 2rem; margin-left: 2rem;!important; }
+	.holistic-section img { max-width: 125%; position: relative; top: auto; right: -5rem !important; }
 	/* Success Section */
 	.success-section h2 { line-height: 2.5rem !important; margin: 1rem auto !important; }
 	.success-section h4 { line-height: 3.2rem !important; margin-bottom: 2.2rem; }
@@ -217,11 +232,11 @@
 	.success-section .column p { text-indent: 1.2rem; font-size: 1.4rem; line-height: 1.9rem; margin: 1rem 0.5rem !important; }
 	/* Team Section */
 	.team-section h3, .hiring-section h2 { margin-bottom: 2.5rem; font-size: 3rem; }
-	.team-section .box2 { border-radius: 3.8rem; height: auto !important; padding: 3rem 3rem 0 !important; margin-top: 3rem; }
+	.team-section .box2 { border-radius: 3.8rem; height: auto !important; padding: 3rem 4rem 2rem !important; margin-top: 3rem; }
 	.team-section .box3 { font-size: 1.9rem; line-height: 3rem; }
 	.team-section span.coma { font-size: 9rem; position: relative; }
 	.team-section span.first { left: 4% !important; top: 10% !important; }
-	.team-section span.last { left: 97% !important; top: -2% !important; }
+	.team-section span.last { left: -2% !important; top: -2% !important; }
 	/* Hiring Section */
 	.hiring-section { margin-bottom: 0 !important; }
 	.hiring-section h2 { margin-bottom: auto !important; }
@@ -230,32 +245,34 @@
 	.hiring-section .container .row { padding: 1rem 10px auto 10px !important; border-radius: 4rem; font-size: 0.95rem; }
 	.hiring-section .container .row .col { padding: 0.5rem; }
 	.hiring-section .container .row > .col img { width: 60%; }
-	.hiring-section .container .row > .col p { font-size: 1.1rem; line-height: 1.2rem; }
+	.hiring-section .container .row > .col p { font-size: .9rem; line-height: 1rem; }
 	.hiring-section .container-fluid .row { margin-bottom: 3rem; }
 	.hiring-section .container-fluid .row .box { border-radius: 3rem; margin: 1rem; padding-bottom: 1rem; min-height: 51rem;}
 	.hiring-section .container-fluid .box .heading-box { padding: 2rem; border-radius: 3rem; margin: -0.5rem -0.5rem 0; min-height: 42rem; }
 	.hiring-section .container-fluid .row .box h5 { font-size: 2.4rem; line-height: 2.8rem; margin-bottom: 1rem; }
 	.hiring-section .container-fluid .row .box h6 { font-size: 1.7rem; line-height: 2rem; margin-bottom: 1rem; padding-bottom: 1rem; }
-	.img-box { margin-top: 2rem; font-size: 0.6rem;}
-	.img-box .col-1 { width: 12.6%; }
-	.img-box .col-1 img { max-width: 60%; }
-	.img-box .col-1 p { font-size: 1rem; line-height: 1.4rem; }
+    .mb-5.pb-4 { margin-left: 7rem;margin-right: 7rem;}
+    .row.row-cols-8.justify-content-center.mx-auto p {font-size: 1rem;line-height: 1rem;}
+    .img-box { margin-top: 1.5rem; font-size: 0.2rem !important}
+	.img-box .col-1 { width: 12.5%; margin-left: 0; }
+	.img-box .col-1 img { max-width: 75%;}
+    .img-box .col-1 p {font-size: .7rem;}
 	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; margin-bottom: 1rem !important; }
 	.contact-box { min-height: 24rem !important; }
-	.sm-col-5 { width: 45%; }
-	.sm-col-2 { width: 21.6666667%; }
-	.contact-box h5 { font-size: 2.5rem; line-height: 2.5rem; margin-bottom: 1rem; }
-	.contact-box h7 { font-size: 1.8rem; line-height: 2.5rem; }
-	.contact-box li.list-group-item { line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
-	.contact-box li.list-group-item img { max-width: 70% !important; }
-	.contact-box li.list-group-item p { font-size: 1.6rem; line-height: 2.5rem; }
+	.sm-col-5 { width: 38%; }
+	.sm-col-2 { width: 19.6666667%;   padding-left: 1rem;}
+	.contact-box h5 { font-size: 2.2rem; line-height: 2rem; margin-bottom: 1rem; }
+	.contact-box h7 { font-size: 1.5rem; line-height: 2.2rem; }
+	.contact-box li.list-group-item p { line-height: 1.5rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
+	.contact-box li.list-group-item img { max-width: 60% !important; }
+	.contact-box img { max-width: 90% !important; }
 	/* Speech Section */
 	.speech-section { margin-top: 0 !important; padding-top: 5rem !important; }
 	.speech-section p { line-height: 3.5rem !important; font-size: 2.6rem !important; }
 	.speech-section p span.colon { position: relative; font-size: 8rem; }
 	.speech-section p span.first { top: 15px !important; left: 0 !important; }
 	.speech-section p span.second { top: 30px !important; right: -5px !important; }
-	.speech-section img.w-33 { width: 55% !important; }
+	.speech-section img.w-33 { width: 40% !important; }
 	/* Contact Section */
 	.contact-section .card .card-body .card-title { font-size: 3rem !important; padding-bottom: .8rem !important; line-height: 3rem !important; margin-top: 2rem; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: .8rem !important; line-height: 2.2rem !important; }
@@ -263,30 +280,38 @@
 	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; margin-bottom: 0 !important; }
 	.footer-section .nav > .nav-item { margin-left: 1rem !important; margin-top: 1rem !important; }
 	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 14px !important; }
-	.footer-section .row h5.h4 { margin-left: 52px !important; font-size: 15px; }
+	.footer-section .row h5.h4 { margin-left: 9.4rem !important; font-size: 1.5rem; }
 	.footer-section hr { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (min-width: 991.99px) and (max-width: 1199.98px) {
 	.col-lg-1-5 { width: 12.6% !important; }
-	p { font-size: 1.4rem !important; }
+	p { font-size: 1.7rem !important; }
 	section { padding: 7rem 0 !important; }
 	.navbar-nav { margin-left: 0 !important; }
 	.nav-item { margin-top: 1rem !important; margin-left: 4rem !important; }
 	form.d-flex { margin-top: 10px; margin-right: 15px; }
 	h1 { font-size: 4.5rem !important; line-height: 6rem !important; letter-spacing: 0.08rem !important; }
-	p.hero-description { font-size: 3rem !important; line-height: 4rem !important; letter-spacing: 0.07rem !important; }
+	p.hero-description { font-size: 3rem !important; line-height: 4rem !important; letter-spacing: 0.07rem !important; }\
+    .customer-section h2, .success-section h2, .success-section h4, .hiring-section h3 { font-size: 2.2rem !important; }
+	.customer-section h3, .success-section h3 { margin-top: 0rem; margin-bottom: 4rem; font-size: 3rem; line-height: 4.8rem; }
+    .fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 1rem; }
+	.fluid-section .box1 { margin-left: 4rem; line-height: 2rem; margin-top: 3rem; width: auto !important; padding-right: 8rem; }
+	.fluid-section h2, .realtime-section h2, .fluid_platform-section .box1 h2, .holistic-section .box1 h2 { line-height: 5rem; }
+	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.8rem; margin-top: 2rem; line-height: 2.5rem; padding-right: 1rem; letter-spacing: 0.12rem; }
 	.customer-section { margin-top: 5rem !important; }
 	.customer-section h2 { font-size: 2rem !important; }
 	.customer-section h3 { margin-bottom: 3rem; font-size: 3.5rem; line-height: 4.5rem; }
+    .mission-section .mission p { font-size: 1.5rem; line-height: 2rem; padding: 0 1.4rem 1.5rem; text-align: left; }
 	.realtime-section { padding-top: 1rem !important; }
 	.realtime-section .box1 { margin: 6rem 10rem auto 6rem !important; }
+    
 	.fluid_platform-section { padding-top: 3rem !important; }
 	.fluid_platform-section .box1 { margin-left: 8rem !important; }
-	.holistic-section .box1 { padding-left: 7rem !important; padding-right: 7rem !important; }
+	.holistic-section .box1 {margin: 5rem 1rem auto 6rem !important;} 
 	.holistic-section .box1 h2 { font-size: 4.2rem !important; line-height: 5rem !important; }
-	.holistic-section img { position: relative; top: 50px; right: -95px; max-width: 130%; }
+	.holistic-section img { max-width: 105%; position: relative; top: auto; right: -1rem;}
 	.success-section h3.display-3 { margin-bottom: 3rem !important; }
 	.team-section .box2 { height: 43rem !important; line-height: 4rem !important; }
 	.team-section .box3 { font-size: 2rem !important; line-height: 4rem !important; }
@@ -301,17 +326,23 @@
 	.row.row-cols-2.justify-content-center { margin-bottom: 3rem; }
 	.hiring-section .contact-box { padding-right: 2rem !important; }
 	.hiring-section .contact-box h7 { font-size: 2rem !important; line-height: 3.1rem !important; }
+    .mb-5.pb-4 { margin-left: 22rem;margin-right: 22rem;}
+    .row.row-cols-8.justify-content-center.mx-auto p {font-size: 1rem;line-height: 1.1rem;}
+    .img-box { margin-top: 1.5rem; font-size: 0.5rem !important}
+	.img-box .col-1 { width: 12.5%; margin-left: 0; }
+	.img-box .col-1 img { max-width: 75%;}
+    .img-box .col-1 p {font-size: .7rem;}
 	.speech-section { padding-top: 5rem !important; }
 	.speech-section p { line-height: 3rem !important; font-size: 2rem !important; }
 	.speech-section p span.colon { position: relative; }
-	.speech-section p span.first { top: 20px !important; }
-	.speech-section p span.second { top: 35px !important; right: -10px !important; }
+	.speech-section p span.first { top: 2rem !important; }
+	.speech-section p span.second { top: 3.5rem !important; right: -10px !important; }
 	.speech-section img.w-33 { width: 33% !important; }
 	.contact-section .card .card-body .card-subtitle { font-size: 1.5rem !important; padding-bottom: 1rem !important; }
 	.footer-section { padding-top: 35rem !important; padding-bottom: 2rem !important; }
 	.footer-section .nav > .nav-item { margin-left: 2.4rem !important; margin-top: 2rem !important; }
-	.footer-section .nav > .nav-item .nav-link { font-size: 14px !important; }
-	.footer-section .row h5.h4 { margin-left: 80px !important;	}
+	.footer-section .nav > .nav-item .nav-link { font-size: 1.4rem !important; }
+	.footer-section .row h5.h4 { margin-left: 21.2rem !important;	}
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
@@ -325,14 +356,14 @@
 	h6 { font-size: 2.8rem; line-height: 3.2rem; }
 	h7 { font-size: 2.5rem; line-height: 2.5rem; }
 	::after { width: 10.8rem !important; height: 0.9rem !important; margin-top: 2rem !important; }
-	p { font-size: 2.3rem; line-height: 3.2rem; }
+	p { font-size: 2rem; line-height: 3.2rem; }
 	img, .img-fluid, svg { max-width: 100%; }
 	section { margin: 3rem 0 !important; padding: 3rem 0 !important; }
 
 	/* Navbar */
 	.navbar-brand { margin-left: 2rem !important; margin-top: 2rem !important; margin-bottom: 1rem !important; }
 	.navbar-nav { margin-left: auto !important; }
-	.navbar .navbar-nav > .nav-item { margin-top: 1rem; margin-left: 2rem; font-size: 2rem; }
+	.navbar .navbar-nav > .nav-item { margin-top: 1rem; margin-left: 2rem; font-size: 1.7rem; }
 	.navbar form.d-flex { width: 15%; margin-right: 2rem; }
 	.navbar form.d-flex .input-group-text { font-size: 1.2rem !important; }
 	#language { font-size: 1.6rem; }
@@ -352,14 +383,14 @@
 	h5.little-description { width: auto; line-height: 3rem; }
 	.mission { margin: 1rem; }
 	.mission-section .mission img.services-icon { margin-bottom: 2rem; }
-	.mission-section h3 { font-size: 3rem !important; margin-bottom: 2rem !important; line-height: 3.5rem !important; }
-	.mission-section .mission p { font-size: 1.4rem; line-height: 2.1rem; padding: 0 1.4rem 1.5rem; text-align: left; }
+	.mission-section h3 { font-size: 2.7rem !important; margin-bottom: 2rem !important; line-height: 3.5rem !important; }
+	.mission-section .mission p { font-size: 1.8rem; line-height: 2.1rem; padding: 0 1.4rem 1.5rem; text-align: left; }
 
 	/* Fluid Section */
 	.fluid-section img, .realtime-section img, .holistic-section img { max-width: inherit; margin-top: 1rem; }
 	.fluid-section .box1 { margin-left: 4rem; line-height: 2rem; margin-top: 3rem; width: auto !important; padding-right: 8rem; }
 	.fluid-section h2, .realtime-section h2, .fluid_platform-section .box1 h2, .holistic-section .box1 h2 { line-height: 5rem; }
-	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.5rem; margin-top: 2rem; line-height: 2.5rem; padding-right: 1rem; letter-spacing: 0.12rem; }
+	.fluid-section p, .realtime-section p, .fluid_platform-section p, .holistic-section .box1 p { font-size: 1.8rem; margin-top: 2rem; line-height: 2.5rem; padding-right: 1rem; letter-spacing: 0.12rem; }
 
 	/* Real-Time Section */
 	.realtime-section { padding-top: 0 !important; }
@@ -374,7 +405,7 @@
 
 	/* Holistic Section */
 	.holistic-section .box1 { margin-top: 2rem !important; padding-left: 7rem; }
-	.holistic-section img { max-width: 105%; position: relative; top: auto; right: -10rem; }
+	.holistic-section img { max-width: 105%; position: relative; top: auto; right: -1rem; }
 
 	/* Success Section */
 	.success-section h2 { margin: 1rem auto !important; }
@@ -399,6 +430,13 @@
 	.hiring-section .container-fluid .box .heading-box { margin: -0.7rem -0.7rem 0; min-height: 35.2rem; }
 	.hiring-section .container-fluid .row .box h5 { font-size: 2.8rem; }
 	.hiring-section .container-fluid .row .box h6 { font-size: 1.695rem; line-height: 2.3rem; margin-bottom: 1rem; padding-bottom: 1rem; }
+    .mb-5.pb-4 { margin-left: 22rem;margin-right: 22rem;}
+    .row.row-cols-8.justify-content-center.mx-auto p {font-size: 1.1rem;line-height: 1.1rem;}
+    .img-box { margin-top: 1.5rem; font-size: 0.5rem !important}
+	.img-box .col-1 { width: 12.5%; margin-left: 0; }
+	.img-box .col-1 img { max-width: 75%;}
+    .img-box .col-1 p {font-size: .7rem;}
+    
 
 /* from here need */
 	.img-box { margin-top: 2rem; font-size: 0.6rem;}
@@ -429,10 +467,10 @@
 	.footer-section { padding-top: 30rem !important; padding-bottom: 2rem !important; margin-bottom: 0 !important; }
 	.footer-section .nav > .nav-item { margin-left: 1rem !important; margin-top: 1rem !important; }
 	.footer-section .nav > .nav-item .nav-link, p.copyright { font-size: 1.4rem !important; }
-	.footer-section .row h5.h4 { margin-left: 30.1rem !important; font-size: 1.5rem; }
+	.footer-section .row h5.h4 { margin-left: 45.1rem !important; font-size: 1.5rem; }
 	.footer-section hr { margin-top: 2.5rem !important; margin-bottom: 2.5rem !important; }
 }
-  @media (min-width: 1400px)
+@media (min-width: 1400px)
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
   max-width: 1416px;
 }

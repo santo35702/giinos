@@ -206,6 +206,8 @@ header {
 .mission-section h3 {
     text-align: center;
     line-height: 1.7rem;
+    font-size: 2rem;
+    font-weight: 600;
 }
 .mission-section p {
     color: #929EB7;
@@ -243,9 +245,9 @@ header {
     flex: 1;
     /* Standard syntax */
 }
-/*===================== */
+/*==================== */
 /* fluid section */
-/*===================== */
+/*==================== */
 .fluid-section h2 {
     font-size: 4.2rem;
     color: black;
