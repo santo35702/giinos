@@ -105,7 +105,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="Normalize.css">
+    
 </head>
 
 <body>
@@ -653,7 +653,7 @@
                     </div>
                     <div class="col-6">
                         <div class="card-body form ps-4 pe-3 mb-5">
-                            <h1 class="card-title text-start"><?php echo $contactContent[$ln]['title'] ?></h1>
+                            <h2 class="card-title text-start"><?php echo $contactContent[$ln]['title'] ?></h2>
                             <h6 class="card-subtitle text-start"><?php echo $contactContent[$ln]['subtitle'] ?></h6>
                             <!-- <h3 class="card-subtitle text-center">Some error here</h3> -->
                             <?php echo $status ?>

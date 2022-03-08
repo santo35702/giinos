@@ -1,25 +1,35 @@
 /*===================== */
 /* Basic Setup */
 /*===================== */
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-  max-width: 1416px;
-    padding-left:2rem;
-    padding-right:2rem;
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1416px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
+
 * {
     margin: 0;
     box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
 
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 body {
     background-image: url(resource/img/Rectangle%20420.png);
     background-size: cover;
@@ -27,25 +37,30 @@ body {
     text-rendering: optimizeLegibility;
     line-height: 1.3rem;
     font-size: 1.6rem;
-    
+
 }
- .row {
+
+.row {
     max-width: 144.3rem;
     margin: 0 2rem;
-} 
+}
+
 section {
     padding: 4rem 2rem;
     /*    max-width: 144.3rem;*/
 }
+
 .box {
     padding: 1%;
     min-height: 33.9rem;
 }
+
 .little-description {
     font-size: 2.4rem;
     width: 60%;
     line-height: 3rem;
 }
+
 /* header */
 h1 {
     font-size: 5.5rem;
@@ -55,6 +70,7 @@ h1 {
     letter-spacing: .082rem;
 
 }
+
 h1::after {
     content: "";
     background: #610BEF;
@@ -66,9 +82,11 @@ h1::after {
     margin-left: 0;
     border-radius: .5rem;
 }
+
 h1 span.fluid {
     color: #F9A826;
 }
+
 .row .hero-description {
     font-weight: 400;
     font-size: 3.5rem;
@@ -76,9 +94,11 @@ h1 span.fluid {
     letter-spacing: .075rem;
     font-style: normal;
 }
+
 span.hero-p {
     color: #6A10FF;
 }
+
 .clearfix::after {
     content: "";
     display: table;
@@ -97,31 +117,37 @@ header {
     padding-bottom: 10rem;
 
 }
+
 .navbar-brand {
     margin-left: 4rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     float: left;
 }
+
 .nav-item {
     text-align: center;
     margin-top: 2rem;
     margin-left: 5rem;
 
 }
+
 .nav-item li {
     display: inline-block;
     margin-left: .5rem;
     margin-right: .7rem;
     text-align: center;
 }
+
 .navbar-nav {
-	padding-left: 11rem;
-	list-style: none;
+    padding-left: 11rem;
+    list-style: none;
 }
+
 .nav-item li:first-child {
     margin-left: 0rem;
 }
+
 .nav-item li a:link,
 .nav-item li a:visited {
     color: black;
@@ -134,22 +160,26 @@ header {
     font-size: 1.6rem;
     transition: .3s;
 }
+
 .nav-item li:hover a:link,
 .nav-item li:hover a:visited {
     background: rgba(182, 194, 217, 1);
 }
+
 #language {
-  font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
 }
+
 .nav-item.input-group {
-  /* margin-right: 6rem; */
+    /* margin-right: 6rem; */
 }
 
 .input-group {
-  margin-top: 2rem;
-  margin-right: 7rem;
+    margin-top: 2rem;
+    margin-right: 7rem;
 }
+
 /*===================== */
 /* customer section */
 /*===================== */
@@ -159,6 +189,7 @@ header {
     text-align: center;
     display: block;
 }
+
 .customer-section h2 {
     color: #96A1B8;
     margin: auto;
@@ -166,6 +197,7 @@ header {
     font-size: 2.2rem;
     text-align: center;
 }
+
 .customer-section h3 {
     color: #06193E;
     margin-top: 1rem;
@@ -175,6 +207,7 @@ header {
     text-align: center;
     line-height: 4.8rem;
 }
+
 /*===================== */
 /* mission section */
 /*===================== */
@@ -186,11 +219,13 @@ header {
     margin: 1.5rem;
     padding-bottom: 2rem;
 }
+
 .mission-section .col1 h2 {
     font-size: 5rem;
     line-height: 6rem;
     font-weight: 700;
 }
+
 .mission-section .col1 h2::after {
     content: "";
     background: #610BEF;
@@ -203,12 +238,14 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
+
 .mission-section h3 {
     text-align: center;
     line-height: 1.7rem;
     font-size: 2rem;
     font-weight: 600;
 }
+
 .mission-section p {
     color: #929EB7;
     font-weight: 400;
@@ -216,17 +253,20 @@ header {
     font-size: 1.3rem;
     line-height: 1.9rem;
 }
+
 .mission-section h5 {
     font-size: 2.3rem;
     font-weight: 400;
     font-style: normal;
 
 }
+
 .mission-section .mission .services-icon {
     height: 10rem;
     margin-bottom: 3.5rem;
     align-items: center;
 }
+
 .flex-container {
     width: 100%;
     min-height: 32rem;
@@ -236,6 +276,7 @@ header {
     display: flex;
     /* Standard syntax */
 }
+
 .flex-container .column {
     padding: 1rem;
     -webkit-flex: 1;
@@ -245,6 +286,7 @@ header {
     flex: 1;
     /* Standard syntax */
 }
+
 /*==================== */
 /* fluid section */
 /*==================== */
@@ -256,6 +298,7 @@ header {
     letter-spacing: .078rem;
 
 }
+
 .fluid-section h2::after {
     content: "";
     background: #610BEF;
@@ -268,6 +311,7 @@ header {
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
+
 .fluid-section .realtime-section .fluid_platform-section .holistic-section p {
     text-align: left;
     color: #14142B;
@@ -276,6 +320,7 @@ header {
     font-size: 2rem;
     margin-top: 3rem;
 }
+
 .fluid-section .box1 {
     width: 60.4rem;
     margin-left: 8rem;
@@ -295,6 +340,7 @@ header {
     letter-spacing: .078rem;
 
 }
+
 .realtime-section h2::after {
     content: "";
     background: #22BFBF;
@@ -316,6 +362,7 @@ header {
     margin-top: 7rem;
     margin-right: 15rem;
 }
+
 /*===================== */
 /* fluid platform section */
 /*===================== */
@@ -327,6 +374,7 @@ header {
     letter-spacing: .078rem;
 
 }
+
 .fluid_platform-section h2::after {
     content: "";
     background: #F5406C;
@@ -360,6 +408,7 @@ header {
     letter-spacing: .078rem;
 
 }
+
 .holistic-section h2::after {
     content: "";
     background: #22BFBF;
@@ -375,22 +424,26 @@ header {
 
 .holistic-section .box1 {
     line-height: 2.8rem;
-     margin-left: 5.8rem;
- 
+    margin-left: 5.8rem;
+
 }
+
 .holistic-section img {
     margin-left: -27rem;
     width: 70%;
 }
+
 .col-6 {
-	flex: 0 0 auto;
-	width: 46%;
+    flex: 0 0 auto;
+    width: 46%;
 }
+
 .col-3 {
     flex: 0 0 auto;
     width: 34%;
     margin-top: 5rem;
 }
+
 /*===================== */
 /* success section */
 /*===================== */
@@ -398,6 +451,7 @@ header {
     text-align: center;
     display: block;
 }
+
 .success-section h2 {
     color: #96A1B8;
     margin: auto;
@@ -405,6 +459,7 @@ header {
     font-size: 2.2rem;
     text-align: center;
 }
+
 .success-section h3 {
     color: #06193E;
     margin-top: 1rem;
@@ -415,6 +470,7 @@ header {
     letter-spacing: 2%;
     line-height: 4.8rem;
 }
+
 .success-section h3::after {
     content: "";
     background: #7863FF;
@@ -425,6 +481,7 @@ header {
     border-radius: .5rem;
     text-align: center;
 }
+
 .success-section h4 {
     color: #96A1B8;
     margin: auto;
@@ -434,9 +491,11 @@ header {
     letter-spacing: 2%;
     line-height: 3.969rem;
 }
+
 .success-section .flex-container img {
     width: 100%;
 }
+
 .success-section .flex-container h2 {
     color: #06193E;
     margin: auto;
@@ -448,6 +507,7 @@ header {
     line-height: 2.7rem;
     margin: 1rem;
 }
+
 .success-section .flex-container p {
     text-indent: 2rem;
     color: #96A1B8;
@@ -459,6 +519,7 @@ header {
     line-height: 2.1rem;
     margin: 1rem;
 }
+
 /*===================== */
 /* team section */
 /*===================== */
@@ -470,6 +531,7 @@ header {
     font-size: 4rem;
     text-align: center;
 }
+
 .team-section h3::after {
     content: "";
     background: #F9A826;
@@ -480,18 +542,21 @@ header {
     border-radius: .5rem;
     text-align: center;
 }
+
 .team-section .box2 {
     background: #FFD978;
     border-radius: 4.9rem;
     height: 53rem;
     padding: 5rem !important;
 }
+
 .team-section .box3 {
     font-weight: 400;
     font-size: 2.8rem;
     line-height: 4.95rem;
 }
-.team-section span.coma{
+
+.team-section span.coma {
     color: white;
     opacity: 23%;
     font-weight: 900;
@@ -499,18 +564,20 @@ header {
     position: relative;
 }
 
-.team-section span.coma.first{
+.team-section span.coma.first {
     left: 3%;
     top: 8%;
 }
 
-.team-section span.coma.last{
+.team-section span.coma.last {
     left: 0;
     top: 8%;
 }
-span.team{
+
+span.team {
     font-weight: 300;
 }
+
 /*===================== */
 /* hiring section */
 /*===================== */
@@ -537,17 +604,18 @@ span.team{
     font-style: normal;
     margin-bottom: 3rem;
 }
+
 .mb-5.pb-4 {
     margin-left: 24rem;
     margin-right: 24rem;
 }
 
-.row.row-cols-8{
-  background: #4B05BC;
-  color: white;
-  padding-bottom: -2rem;
-  border-radius: 6rem;
-  font-size: 1.09rem;
+.row.row-cols-8 {
+    background: #4B05BC;
+    color: white;
+    padding-bottom: -2rem;
+    border-radius: 6rem;
+    font-size: 1.09rem;
 }
 
 .hiring-section .box {
@@ -561,7 +629,7 @@ span.team{
 .hiring-section .box .heading-box {
     padding: 2.5rem 3rem;
     border-radius: 3rem;
-    margin:-.85rem -.85rem 0 -.85rem;
+    margin: -.85rem -.85rem 0 -.85rem;
     min-height: 39.3rem;
     box-shadow: 0rem .647rem 3.2rem rgba(41, 28, 63, 0.11);
 }
@@ -572,14 +640,16 @@ span.team{
     padding-bottom: 0;
 }
 
-.col{
+.col {
     padding: 1.5rem 1rem;
 }
+
 .col-4 {
-  flex: 0 0 auto;
-  width: 31.333%;
-  margin-left: 1rem;
+    flex: 0 0 auto;
+    width: 31.333%;
+    margin-left: 1rem;
 }
+
 .hiring-section .flex-containter h5 {
     text-align: left;
     color: black;
@@ -592,15 +662,33 @@ span.team{
 .hiring-section span.hiring {
     color: #F9A826;
 }
-.img-box{
+
+.img-box {
     color: white;
     text-align: center;
     margin-top: 3rem;
 }
-.img-box .col-1 { width: 15%; margin-left: -2rem;}
-	.img-box .col-1 img { max-width: 70%; }
-	.img-box .col-1 p { font-size: 1rem; text-align: center; line-height: 1.4rem; }
-	.hiring-section .container-fluid:last-child .row:last-child { margin-left: -5% !important; margin-right: -5% !important; margin-bottom: 1rem !important; }
+
+.img-box .col-1 {
+    width: 15%;
+    margin-left: -2rem;
+}
+
+.img-box .col-1 img {
+    max-width: 70%;
+}
+
+.img-box .col-1 p {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.hiring-section .container-fluid:last-child .row:last-child {
+    margin-left: -5% !important;
+    margin-right: -5% !important;
+    margin-bottom: 1rem !important;
+}
 
 .hiring-section h6 {
     color: #929EB7;
@@ -646,55 +734,94 @@ span.team{
 .col.span_3_of_6 h7 {
     color: white;
 }
-.row.row-cols-2.justify-content-center{
+
+.row.row-cols-2.justify-content-center {
     margin-bottom: 4rem;
 }
+
 .contact {
     width: 100%;
 }
+
 .contact-box.border-end {
-  color: white;
+    color: white;
 }
+
 h5 {
     font-size: 2.8rem;
     line-height: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
 }
-h7{
+
+h7 {
     color: white;
     font-size: 2.2rem;
     line-height: 3.6rem;
 }
-.list-group-item.border-0.d-flex.justify-content-start.align-items-start.bg-transparent{
+
+.list-group-item.border-0.d-flex.justify-content-start.align-items-start.bg-transparent {
     color: white;
     line-height: 2.3rem;
     font-size: 1.6rem;
 }
-.sm-col-5 { width: 40%; margin-left: 7rem;}
-	.sm-col-2 { width: 21.6666667%; }
-	.contact-box h5 { font-size: 3.5rem; line-height: 3.5rem; margin-bottom: 2rem; }
-	.contact-box h7 { font-size: 1.8rem; line-height: 2.7rem; }
-	.contact-box li.list-group-item { color: white; line-height: 2rem !important; font-size: 1.4rem !important; padding: .2rem .5rem !important; }
-	.contact-box li.list-group-item img { max-width: 70% !important; }
-	.contact-box li.list-group-item p { font-size: 1.8rem; line-height: 2.7rem; }
+
+.sm-col-5 {
+    width: 40%;
+    margin-left: 7rem;
+}
+
+.sm-col-2 {
+    width: 21.6666667%;
+}
+
+.contact-box h5 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-box h7 {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.contact-box li.list-group-item {
+    color: white;
+    line-height: 2rem !important;
+    font-size: 1.4rem !important;
+    padding: .2rem .5rem !important;
+}
+
+.contact-box li.list-group-item img {
+    max-width: 70% !important;
+}
+
+.contact-box li.list-group-item p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
 .col-2.sm-col-2 {
     padding-left: 3rem;
 }
+
 /*===================== */
 /* contact section */
 /*===================== */
 .contact-section {
-  background: white;
-  max-height: 52rem;
+    background: white;
+    max-height: 52rem;
 }
+
 .card {
-  padding-left: 4rem;
-  padding-right: 0rem;
-  border-radius: 3rem;
-  margin-left: 3rem;
-  margin-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 0rem;
+    border-radius: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
 }
+
 .form .card-title::after {
     content: "";
     background: none;
@@ -704,30 +831,41 @@ h7{
     margin: 0 !important;
     border-radius: 0;
 }
+
 .contact-section .card h6.card-subtitle {
-  font-size: 1.8rem;
-  color: black;
-  font-weight: 400;
-  line-height: 4rem;
-  padding-bottom: 2rem;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 400;
+    line-height: 4rem;
+    padding-bottom: 2rem;
 }
-#name, #company, #email, #number, #subject, #message {
-  border-radius: 1.3rem;
+
+#name,
+#company,
+#email,
+#number,
+#subject,
+#message {
+    border-radius: 1.3rem;
 }
+
 label {
-  color: black;
-  font-size: 1.4rem;
+    color: black;
+    font-size: 1.4rem;
 }
+
 .ps-4 {
-  padding-left: 2.7rem !important;
-  padding-top: 2rem !important;  
+    padding-left: 2.7rem !important;
+    padding-top: 2rem !important;
 }
+
 .btn.btn-primary {
-  border-radius: 1.3rem;
-  background: #610BEF;
-  height: 3rem; 
-  font-size: 1.5rem;
+    border-radius: 1.3rem;
+    background: #610BEF;
+    height: 3rem;
+    font-size: 1.5rem;
 }
+
 /*===================== */
 /* speech section */
 /*===================== */
@@ -755,6 +893,7 @@ label {
     font-size: 8rem;
     font-weight: 800;
 }
+
 /*===================== */
 /* footer section */
 /*===================== */
@@ -763,8 +902,13 @@ label {
     padding-top: 40rem;
     padding-bottom: 2rem;
 }
+
 .footer-section .nav > .nav-item {
     margin-left: 3rem !important;
     margin-top: 4rem;
 }
-.footer-section .row h5.h4 { margin-left: 30.1rem !important; font-size: 1.5rem; }
+
+.footer-section .row h5.h4 {
+    margin-left: 30.1rem !important;
+    font-size: 1.5rem;
+}
