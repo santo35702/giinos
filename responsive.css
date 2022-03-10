@@ -24,6 +24,7 @@
 
     #home_content {
         padding-left: 3rem;
+        margin: 0;
     }
 
     h1 {
@@ -46,8 +47,8 @@
 
     #home_content img {
         position: relative !important;
-        top: -35px !important;
-        left: -15px !important;
+        top: 1.6rem !important;
+        left: -1.5rem !important;
     }
 
     .customer-section,
@@ -59,11 +60,14 @@
     .customer-section {
         margin-top: 2rem;
     }
+    .mission-section p{
+        font-size: 1.2rem;
+    }
 
     .customer-section h2,
     .success-section h4,
     .hiring-section h3 {
-        font-size: 1.4rem !important;
+        font-size: 1.2rem !important;
     }
     .mission-section h3{
         margin-top: 1rem;
@@ -72,8 +76,7 @@
         line-height: 1.8rem;
     }
     .customer-section h3,
-    .success-section h3
-{
+    .success-section h3{
         margin-top: 1rem;
         margin-bottom: 3rem;
         font-size: 1.4rem;
@@ -99,7 +102,7 @@
     }
 
     .mission-section .mission img.services-icon {
-        height: 7rem;
+        height: 5rem;
         margin-bottom: 1.8rem;
     }
 
@@ -108,7 +111,7 @@
     .fluid_platform-section img,
     .holistic-section img {
         max-width: inherit;
-        margin-top: 14rem;
+        margin-top: 15rem;
     }
 
     .fluid-section .box1 {
@@ -122,8 +125,8 @@
     .realtime-section h2,
     .fluid_platform-section .box1 h2,
     .holistic-section .box1 h2 {
-        font-size: 2rem;
-        line-height: 3rem;
+        font-size:1.8rem;
+        line-height: 2rem;
         letter-spacing: 0.07rem;
     }
 
@@ -131,14 +134,15 @@
     .realtime-section p,
     .fluid_platform-section p,
     .holistic-section .box1 p {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         margin-top: 2rem;
         line-height: 1.7rem;
     }
 
     .realtime-section,
     .holistic-section,
-    .success-section {
+    .success-section,
+    .fluid_platform-section{
         padding-top: 0 !important;
     }
 
@@ -214,8 +218,8 @@
     }
 
     .team-section span.last {
-        left: 1% !important;
-        top: 10% !important;
+        left: 85% !important;
+        top: -15% !important;
         bottom: 0 !important;
     }
 
@@ -309,6 +313,7 @@
 
     .img-box .col-1 p {
         font-size: .5rem;
+        line-height: .8rem;
     }
 
     .hiring-section .container-fluid:last-child .row:last-child {
@@ -323,14 +328,15 @@
     }
 
     .col-4 {
-        width: 33.333%;
+        width: 40.333%;
         line-height: .5rem;
-        padding-left: 1rem;
+        padding-left: 0;
         padding-right: 1rem;
+        margin-left: 0;
     }
 
     .sm-col-2 {
-        width: 22.6666667%;
+        width: 18.6666667%;
         padding-left: 1rem;
     }
 
@@ -353,19 +359,19 @@
     .contact-box li.list-group-item {
         line-height: .7rem !important;
         font-size: .9rem !important;
-        padding: .2rem .5rem !important;
-        margin-left: 0rem !important;
+        padding: .2rem 1rem !important;
+        margin-left: -1rem !important;
     }
 
     .contact-box li.list-group-item p {
         margin: 0 0 0 -0.5rem !important;
         vertical-align: middle;
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 1rem !important
     }
 
     .contact-box li.list-group-item img {
-        max-width: 50% !important;
+        max-width: 20% !important;
     }
 
     .contact-box img {
@@ -391,8 +397,8 @@
     }
 
     .speech-section p span.second {
-        top: 3.5rem !important;
-        right: -1rem !important;
+        top: -1.5rem !important;
+        right: 8rem !important;
     }
 
     .speech-section img.w-33 {
@@ -413,7 +419,7 @@
     }
 
     .contact-section .card .card-body .card-subtitle {
-        font-size: 1rem !important;
+        font-size: .7rem !important;
         padding-bottom: .8rem !important;
         line-height: 1rem !important;
     }
@@ -431,8 +437,10 @@
 
     #subject {
         font-size: .7rem;
-        ;
     }
+    .btn.btn-primary {
+	font-size: 1rem;
+}
     .footer-section {
         padding-top: 25rem !important;
         padding-bottom: 2rem !important;
@@ -2238,11 +2246,3 @@
     }
 }
 
-@media (min-width: 1400px) .container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-    max-width: 1416px;
-}

@@ -27,15 +27,15 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "tonima.ece130929@gmail.com";
-    $mail->Password = "password";
+    $mail->Username = "giinos@ajuuhost.com";
+    $mail->Password = "giinos@123";
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
 
     // Email Settings
     $mail->isHTML(true);
     $mail->setFrom($email, $name);
-    $mail->addAddress("tonima.ece130929@gmail.com");
+    $mail->addAddress("your email");
     $mail->Subject = "$subject";
     $mail->Body = "Hi My name is: $name.<br/>Company Name: $company.<br/>Phone Number: $number.<br/>Subject: $subject.<br/>Message: $message";
 
