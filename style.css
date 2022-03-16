@@ -232,9 +232,7 @@ header {
     width: 10.8rem;
     height: .9rem;
     display: block;
-    margin: auto;
     margin-top: 2rem;
-    margin-left: 0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
@@ -305,9 +303,8 @@ header {
     width: 10.8rem;
     height: .9rem;
     display: block;
-    margin: auto;
+   
     margin-top: 2rem;
-    margin-left: 0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
@@ -349,7 +346,6 @@ header {
     display: block;
     margin: auto;
     margin-top: 2rem;
-    margin-left: 0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
@@ -383,7 +379,6 @@ header {
     display: block;
     margin: auto;
     margin-top: 2rem;
-    margin-left: 0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
@@ -417,15 +412,12 @@ header {
     display: block;
     margin: auto;
     margin-top: 2rem;
-    margin-left: 0;
     border-radius: .5rem;
     margin-bottom: 2rem;
 }
 
 .holistic-section .box1 {
     line-height: 2.8rem;
-    margin-left: 5.8rem;
-
 }
 
 .holistic-section img {
@@ -457,7 +449,7 @@ header {
     margin: auto;
     font-weight: 700;
     font-size: 2.2rem;
-    text-align: center;
+    
 }
 
 .success-section h3 {
@@ -502,7 +494,6 @@ header {
     font-weight: 700;
     font-size: 1.8rem;
     font-style: normal;
-    text-align: left;
     letter-spacing: 2%;
     line-height: 2.7rem;
     margin: 1rem;
@@ -648,7 +639,9 @@ span.team {
     flex: 0 0 auto;
     width: 31.333%;
     margin-left: 1rem;
+    border-right: white solid .1rem;
 }
+
 
 .hiring-section .flex-containter h5 {
     text-align: left;
@@ -743,9 +736,6 @@ span.team {
     width: 100%;
 }
 
-.contact-box.border-end {
-    color: white;
-}
 
 h5 {
     font-size: 2.8rem;
@@ -769,6 +759,7 @@ h7 {
 .sm-col-5 {
     width: 40%;
     margin-left: 7rem;
+    border-right: white solid .1rem;
 }
 
 .sm-col-2 {
@@ -779,6 +770,7 @@ h7 {
     font-size: 3.5rem;
     line-height: 3.5rem;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .contact-box h7 {
@@ -800,10 +792,6 @@ h7 {
 .contact-box li.list-group-item p {
     font-size: 1.8rem;
     line-height: 2.7rem;
-}
-
-.col-2.sm-col-2 {
-    padding-left: 3rem;
 }
 
 /*===================== */
@@ -903,9 +891,14 @@ label {
     padding-bottom: 2rem;
 }
 
+.col-1.footer-menu {
+	width: 82.88%;
+}
+
 .footer-section .nav > .nav-item {
     margin-left: 3rem !important;
     margin-top: 4rem;
+    display: flex;
 }
 
 .footer-section .row h5.h4 {

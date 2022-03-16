@@ -86,7 +86,7 @@
         }
     }
  ?>
-
+ 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -217,6 +217,7 @@
                 <div class="col box1">
                     <h2><?php echo $fluidContent[$ln]['title'] ?></h2>
                     <p><?php echo $fluidContent[$ln]['description'] ?></p>
+                    <button id="Read-more" class="Read-more" data-target="firstTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
             </div>
         </div>
@@ -229,6 +230,7 @@
                 <div class="col box1">
                     <h2><?php echo $realtimeContent[$ln]['title'] ?></h2>
                     <p><?php echo $realtimeContent[$ln]['description'] ?></p>
+                    <button class="Read-more" data-target="secondTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
                 <div class="col-3">
                     <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid">
@@ -247,21 +249,25 @@
                 <div class="col span_1_of_3 box1">
                     <h2><?php echo $platformContent[$ln]['title'] ?></h2>
                     <p><?php echo $platformContent[$ln]['description'] ?></p>
+                    <button class="Read-more" data-target="thirdTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- start holistic section-->
+    
     <section class="holistic-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6 box1">
+                <div class="col-6 box1 post">
+                
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
-                    <p><?php echo $holisticContent[$ln]['description'] ?></p>
+                    <p class="content"><?php echo $holisticContent[$ln]['description'] ?></p>
+                    <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
-                <div class="col-6">
-                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end ">
                 </div>
             </div>
         </div>
@@ -362,7 +368,7 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row row-cols-2 justify-content-center">
+            <div class="row row-cols-lg-2 justify-content-center">
                 <div class="col">
                     <div class="box bg-primary">
                         <div class="heading-box bg-white">
@@ -395,6 +401,7 @@
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
                                     </div>
                                 </div>
+                                
                                 <div class="col-1">
                                     <div class="java text-center">
                                         <img src="resource/img/Group%207031.png" alt="" class="img-fluid">
@@ -589,13 +596,13 @@
 
             <div class="row px-5">
                 <div class="col-6 sm-col-5">
-                    <div class="contact-box border-end">
+                    <div class="contact-box">
                         <h5><?php echo $contactBox[$ln]['heading'] ?></h5>
                         <h7><?php echo $contactBox[$ln]['description'] ?></h7>
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="contact-box border-end">
+                    <div class="contact-box ">
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
                                 <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
@@ -704,9 +711,9 @@
                 <div class="col-2">
                     <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                 </div>
-                <div class="col">
+                <div class="col-1 footer-menu">
                     <h5 class="text-white h4 fw-bolder">Menu</h5>
-                    <ul class="nav justify-content-end text-center">
+                    <ul class="nav justify-content-end text-center-lg">
                         <li class="nav-item">
                             <a href="#home" class="nav-link text-white"><?php echo $footerContent[$ln][0] ?></a>
                         </li>
@@ -727,6 +734,27 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-1 footer-menu2">
+                    <h5 class="text-white h4 fw-bolder">Social</h5>
+                    <ul class="nav justify-content-end text-center-lg">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">Youtube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">Twiter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">Qmatic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-white">iQTech</a>
+                        </li>
+                        
+                    </ul>
+                </div>
             </div>
             <hr class="my-5">
             <p class="text-center text-white copyright"><?php echo $footerContent[$ln][6] ?></p>
@@ -734,6 +762,7 @@
     </section>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" charset="utf-8"></script>
 

@@ -98,18 +98,21 @@
     $fluidContent = array(
         'en' => [
             'title' => 'Why Fluid Process Flow ?',
-            'description' => 'Establishing a well defined process flow is challenging mission itself. But today, in the world of rappid changes and unable to predicted challenges, you need not only a well defined one , but abilities to adjust / change dynamically also.This is why at Giinos, we are always focusing to invent the way how can we make process flow “fluid” that can immediately help our customers, especially in health sectors, responde to changes quickly over the night or even within a few hours in order to adapt to threat like COVID-19 pandemics. That’s where, everything have to be combined together starting from domain-specific problem understanding, provlem solving skills, experiences, skills to choose the right technologies, platform building and visions and apply AI or machine learning / data analytics to make it “intelligent fluid”.',
+            'description' => 'Establishing a well defined process flow is challenging mission itself. But today, in the world of rappid changes and unable to predicted challenges, you need not only a <span id="firstTarget" class="extra-content"> well defined one , but abilities to adjust / change dynamically also.This is why at Giinos, we are always focusing to invent the way how can we make process flow “fluid” that can immediately help our customers, especially in health sectors, responde to changes quickly over the night or even within a few hours in order to adapt to threat like COVID-19 pandemics. That’s where, everything have to be combined together starting from domain-specific problem understanding, provlem solving skills, experiences, skills to choose the right technologies, platform building and visions and apply AI or machine learning / data analytics to make it “intelligent fluid”.</span>',
+            'btn'=> 'Read more...',
             ],
         'th' => [
             'title' => 'ทำไมต้อง Fluid Process Flow',
             'description' => 'การสร้างโฟลว์กระบวนการที่กำหนดไว้อย่างชัดเจนถือเป็นภารกิจที่ท้าทาย แต่วันนี้ ในโลกของการเปลี่ยนแปลงอย่างรวดเร็วและไม่สามารถคาดเดาความท้าทายได้ คุณไม่เพียงต้องการสิ่งที่กำหนดมาอย่างดีเท่านั้น แต่ยังต้องมีความสามารถในการปรับเปลี่ยน/เปลี่ยนแปลงแบบไดนามิกด้วย ด้วยเหตุนี้ที่ Giinos เราจึงมุ่งเน้นที่จะคิดค้นวิธีที่เราจะทำได้อย่างไร ทำให้การไหลของกระบวนการเป็น "ของเหลว" ที่สามารถช่วยลูกค้าของเราได้ทันที โดยเฉพาะอย่างยิ่งในภาคสุขภาพ ตอบสนองต่อการเปลี่ยนแปลงอย่างรวดเร็วในชั่วข้ามคืนหรือแม้กระทั่งภายในไม่กี่ชั่วโมงเพื่อปรับตัวให้เข้ากับภัยคุกคาม เช่น การระบาดใหญ่ของ COVID-19 นั่นคือที่ที่ทุกอย่างต้องรวมเข้าด้วยกันโดยเริ่มจากการเข้าใจปัญหาเฉพาะโดเมน ทักษะการแก้ปัญหา ประสบการณ์ ทักษะในการเลือกเทคโนโลยีที่เหมาะสม การสร้างแพลตฟอร์มและวิสัยทัศน์ และใช้ AI หรือการเรียนรู้ของเครื่อง / การวิเคราะห์ข้อมูลเพื่อทำให้เป็น “ของเหลวอัจฉริยะ” .',
+            
             ],
     );
 
     $realtimeContent = array(
         'en' => [
             'title' => 'Realtime Insights & <br>Adapt-to-change Awareness.',
-            'description' => 'Fluid Process Flow starts from “knowing where should be adjusted or changed”. Otherwise we just change workflow blindly and unable to measure the result of changes.<br>Our customers connected with insights via various channels started from realtime-insights-delivery mobile app for top management, sophisticated data analytics report, department-level mission-based dashboard and warroom dashboard for operation team. <br>We heavily putting our efforts to laydown platform design to achive realtime insights since the day one. With Realtime Insights, we are ready to convince ours customer to have Adapt-to-change Awareness which is big obstrucle in most organization who want to transform into digital organization.',
+            'description' => 'Fluid Process Flow starts from “knowing where should be adjusted or changed”. Otherwise we just change workflow blindly and unable to measure the result of <span id="secondTarget" class="extra-content">changes.<br>Our customers connected with insights via various channels started from realtime-insights-delivery mobile app for top management, sophisticated data analytics report, department-level mission-based dashboard and warroom dashboard for operation team. <br>We heavily putting our efforts to laydown platform design to achive realtime insights since the day one. With Realtime Insights, we are ready to convince ours customer to have Adapt-to-change Awareness which is big obstrucle in most organization who want to transform into digital organization.</span>',
+            'btn'=> 'Read more...',
             ],
         'th' => [
             'title' => 'ข้อมูลเชิงลึกแบบเรียลไทม์ & <br>Adapt-to-change Awareness',
@@ -120,7 +123,9 @@
     $platformContent = array(
         'en' => [
             'title' => 'Intelligent Fluid Platform & <br>Way ahead.',
-            'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers. Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone.<br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.',
+            'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers.<span id="thirdTarget" class="extra-content"> Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone.<br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.</span>',
+            'btn'=> 'Read more...',
+           
             ],
         'th' => [
             'title' => 'แพลตฟอร์มของไหลอัจฉริยะ & <br>ทางข้างหน้า.',
@@ -132,11 +137,12 @@
     $holisticContent = array(
         'en' => [
             'title' => 'Holistic Value, value for everyone.',
-            'description' => 'At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.',
+            'description' => 'At Giinos, we love word “Holistic”. It’s always guides you to see big picture, as a whole picture, long term and specially it’s “empty yourself.”. This let you start thinking for <span id="forthTarget" class="extra-content"> everyone and leave yourself for the last.<br>We apply same philosophy into our platform & solutions. “Maxinmizing value for everyone who get involved with”. Insights could not be trust by top management if frontline users could not see the importance of every single click they do.<br> Our ecosystem is not only for focus on application for users, but we also focus for supporting tools, operational assisting applications like system alerts that keep 24/7 operations run smoothly.</span>',
+            'btn'=> 'Read more...',
             ],
         'th' => [
             'title' => 'คุณค่าแบบองค์รวม คุณค่าสำหรับทุกคน',
-            'description' => 'ที่ Giinos เรารักคำว่า "แบบองค์รวม" มันมักจะแนะนำให้คุณมองภาพใหญ่ในภาพรวม ในระยะยาว และโดยเฉพาะอย่างยิ่ง มันคือ "การทำให้ตัวเองว่างเปล่า" วิธีนี้ช่วยให้คุณเริ่มคิดเพื่อทุกคนและปล่อยให้ตัวเองเป็นคนสุดท้าย<br>เราใช้ปรัชญาเดียวกันในแพลตฟอร์มและโซลูชันของเรา “เพิ่มมูลค่าให้สูงสุดสำหรับทุกคนที่เกี่ยวข้อง” ผู้บริหารระดับสูงไม่อาจเชื่อถือข้อมูลเชิงลึกได้ หากผู้ใช้แนวหน้าไม่เห็นความสำคัญของทุก ๆ คลิกที่พวกเขาทำ<br>ระบบนิเวศของเราไม่ได้มุ่งเน้นที่แอปพลิเคชันสำหรับผู้ใช้เท่านั้น แต่เรายังมุ่งเน้นที่เครื่องมือสนับสนุน แอปพลิเคชันช่วยเหลือในการปฏิบัติงาน เช่น การแจ้งเตือนระบบที่ช่วยให้การทำงานตลอด 24 ชั่วโมงทุกวันไม่ขาดสาย',
+            'description' => 'ที่ Giinos เรารักคำว่า "แบบองค์รวม" มันมักจะแนะนำให้คุณมองภาพใหญ่ในภาพรวม ในระยะยาว และโดยฉพาะอย่างยิ่ง มันคือ "การทำให้ตัวเองว่างเปล่า" วิธีนี้ช่วยให้คุณเริ่มคิดเพื่อทุกคนและปล่อยให้ตัวเองเป็นคนสุดท้าย<br>เราใช้ปรัชญาเดียวกันในแพลตฟอร์มและโซลูชันของเรา “เพิ่มมูลค่าให้สูงสุดสำหรับทุกคนที่เกี่ยวข้อง” ผู้บริหารระดับสูงไม่อาจเชื่อถือข้อมูลเชิงลึกได้ หากผู้ใช้แนวหน้าไม่เห็นความสำคัญของทุก ๆ คลิกที่พวกเขาทำ<br>ระบบนิเวศของเราไม่ได้มุ่งเน้นที่แอปพลิเคชันสำหรับผู้ใช้เท่านั้น แต่เรายังมุ่งเน้นที่เครื่องมือสนับสนุน แอปพลิเคชันช่วยเหลือในการปฏิบัติงาน เช่น การแจ้งเตือนระบบที่ช่วยให้การทำงานตลอด 24 ชั่วโมงทุกวันไม่ขาดสาย',
             ],
     );
 
