@@ -170,7 +170,6 @@
     <!-- start customer section-->
     <section class="customer-section">
         <div class="container-fluid">
-            <h1>Abir test Git</h1>
             <div class="d-flex flex-column justify-content-center">
                 <h2><?php echo $customerContent[$ln]['h2'] ?></h2>
                 <h3><?php echo $customerContent[$ln]['h3'] ?></h3>
