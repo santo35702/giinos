@@ -1,0 +1,886 @@
+/*===================== */
+/* Basic Setup */
+/*===================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    background: url(/resource/img/Rectangle%20420.png);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    line-height: 1.3rem;
+    font-size: 1.6rem;
+}
+ul li {
+    list-style-type: none;
+}
+/* header */
+h1 {
+    font-size: 5.5rem;
+    color: black;
+    line-height: 7rem;
+    font-weight: 900;
+    letter-spacing: .082rem;
+
+}
+h1::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+}
+h1 span.fluid {
+    color: #F9A826;
+}
+.row .hero-description {
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    letter-spacing: .075rem;
+    font-style: normal;
+}
+span.hero-p {
+    color: #6A10FF;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+/*===================== */
+/* reuseable component*/
+/*===================== */
+.row {
+    max-width: 144.3rem;
+    margin: 0 2rem;
+}
+section {
+    padding: 10rem 0;
+    /*    max-width: 144.3rem;*/
+}
+.box {
+    padding: 1%;
+}
+.btn:link,
+.btn:visited .btn {
+    background: #76C8F2;
+    border-bottom: .3rem solid #66BCF2;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.6rem 6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: 3.3rem;
+    font-size: 1.6rem;
+}
+/* paragraph*/
+.little-description {
+    font-size: 2.4rem;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 3rem;
+}
+/*===================== */
+/* Header Section */
+/*===================== */
+header {
+    height: 85vh;
+    position: relative;
+    background-attachment: fixed;
+    padding-bottom: 10rem;
+
+}
+.logo {
+    margin-top: 4rem;
+    float: left;
+    margin-left: 3rem;
+}
+/*===================== */
+/* Header Section */
+/*===================== */
+.main-nav {
+    text-align: center;
+    margin-top: 6rem;
+
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: .5rem;
+    margin-right: .7rem;
+}
+.main-nav li:first-child {
+    margin-left: 0rem;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: rgba(182, 194, 217, 0);
+    padding: .6rem 1.6rem;
+    border-radius: .3rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited {
+    background: rgba(182, 194, 217, 1);
+}
+/*.active {
+    background: rgba(182, 194, 217, 1);
+    border-radius: .3rem;
+}*/
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding-top: -8rem;
+  font-size: 1.6rem;
+  border: none;
+  margin-left: 112rem;
+  margin-top: -3rem;
+    text-align: right;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+    text-align: right;
+    
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 2rem;
+  box-shadow: 0 .8rem 1.6rm 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 112rem;
+    text-align: right;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 1rem 1.6rem;
+  text-decoration: none;
+  display: block;
+    text-align: right;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #fff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #fff;} 
+.hero_img {
+    padding-left: 13rem;
+}
+/*===================== */
+/* customer section */
+/*===================== */
+
+.customer-section {
+    margin-top: 7rem;
+    background: #F9F9FD;
+    text-align: center;
+    display: block;
+
+}
+.customer-section h2 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.customer-section h3 {
+    color: #06193E;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 4.8rem;
+}
+/*===================== */
+/* mission section */
+/*===================== */
+.mission {
+    text-align: center;
+    border: .1rem solid #ccc;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    padding: 4rem;
+    border-radius: 1.6rem;
+}
+.mission-section .col1 h2 {
+    margin-left: 20%;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 700;
+}
+
+.mission-section .col1 h2::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.mission-section h3 {
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.mission-section p {
+    color: #929EB7;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
+.mission-section h5 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.mission-section .mission .services-icon {
+    height: 10rem;
+    margin-bottom: 3.5rem;
+    align-items: center;
+}
+
+.flex-container {
+    width: 80%;
+    min-height: 30rem;
+    margin: 0 auto;
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    /* Standard syntax */
+}
+
+.flex-container .column {
+    padding: 1rem;
+    -webkit-flex: 1;
+    /* Safari */
+    -ms-flex: 1;
+    /* IE 10 */
+    flex: 1;
+    /* Standard syntax */
+}
+
+/*===================== */
+/* fluid section */
+/*===================== */
+
+.fluid-section h2 {
+    font-size: 4.2rem;
+    color: black;
+    line-height: 6rem;
+    font-weight: 700;
+    letter-spacing: .078rem;
+
+}
+
+.fluid-section h2::after {
+    content: "";
+    background: #610BEF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.fluid-section p {
+    text-align: left;
+    color: #14142B;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+}
+
+.fluid-section .box1 {
+    Width: 60.4rem;
+    Height: 35.9 rem;
+    margin-left: 25rem;
+    line-height: 2.8rem;
+    margin-top: 7rem;
+}
+
+/*===================== */
+/* realtime section */
+/*===================== */
+
+.realtime-section h2 {
+    font-size: 4.2rem;
+    color: black;
+    line-height: 6rem;
+    font-weight: 700;
+    letter-spacing: .078rem;
+
+}
+
+.realtime-section h2::after {
+    content: "";
+    background: #22BFBF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.realtime-section p {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    color: #14142B;
+}
+
+.realtime-section .box1 {
+    Width: 60.4rem;
+    Height: 35.9 rem;
+    margin-left: 7.8rem;
+    line-height: 2.8rem;
+    margin-top: 7rem;
+}
+
+.realtime-section img {
+    margin-left: 18rem;
+}
+
+/*===================== */
+/* fluid platform section */
+/*===================== */
+
+.fluid_platform-section h2 {
+    font-size: 4.2rem;
+    color: black;
+    line-height: 6rem;
+    font-weight: 700;
+    letter-spacing: .078rem;
+
+}
+.fluid_platform-section h2::after {
+    content: "";
+    background: #F5406C;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+.fluid_platform-section p {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    color: #14142B;
+}
+.fluid_platform-section .box1 {
+    Width: 60.4rem;
+    Height: 35.9 rem;
+    margin-left: 25rem;
+    line-height: 2.8rem;
+    margin-top: 7rem;
+}
+
+/*===================== */
+/* holistic section */
+/*===================== */
+
+.holistic-section h2 {
+    font-size: 4.2rem;
+    color: black;
+    line-height: 6rem;
+    font-weight: 700;
+    letter-spacing: .078rem;
+
+}
+.holistic-section h2::after {
+    content: "";
+    background: #22BFBF;
+    width: 10.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+.holistic-section p {
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    color: #14142B;
+}
+.holistic-section .box1 {
+    Width: 60.4rem;
+    Height: 35.9 rem;
+    margin-left: 7.8rem;
+    line-height: 2.8rem;
+    margin-top: 7rem;
+}
+.holistic-section img {
+    margin-left: 18rem;
+}
+
+/*===================== */
+/* success section */
+/*===================== */
+.success-section {
+    text-align: center;
+    display: block;
+
+}
+.success-section h2 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.success-section h3 {
+    color: #06193E;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 4.8rem;
+}
+.success-section h3::after {
+    content: "";
+    background: #7863FF;
+    width: 37.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 54.9rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.success-section h4 {
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 400;
+    font-size: 2.6rem;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 3.969rem;
+}
+.success-section .flex-container {
+    box-shadow: 0rem 5.5rem 4.476243209838867rem 0rem #395FCB12 7%;
+}
+.success-section .flex-container img {
+    width: 100%;
+}
+.success-section .flex-container h2 {
+    color: #06193E;
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 2%;
+    line-height: 2.7rem;
+    margin: 1rem;
+}
+.success-section .flex-container p {
+    text-indent: 2rem;
+    color: #96A1B8;
+    margin: auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: left;
+    letter-spacing: 2%;
+    line-height: 2.1rem;
+    margin: 1rem;
+}
+/*===================== */
+/* team section */
+/*===================== */
+.team-section h3 {
+    color: #06193E;
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 2%;
+}
+.team-section h3::after {
+    content: "";
+    background: #F9A826;
+    width: 30.8rem;
+    height: .9rem;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    margin-left: 56.9rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.team-section .box2 {
+    background: #FFD978;
+    border-radius: 4.9rem;
+    margin-left: 11rem;
+    height: 53rem;
+    width: 128.4rem;
+}
+.team-section .box4 {
+    padding: 5rem;
+}
+.team-section .box3 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 4.95rem;
+}
+.team-section span.coma{
+    color: white;
+    opacity: 23%;
+    font-weight: 900;
+    font-size: 10rem;
+}
+/*===================== */
+/* hiring section */
+/*===================== */
+.hiring-section {
+background: #7E6AFF;
+}
+
+.hiring-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+.hiring-section h3 {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    font-style: normal;
+    margin-bottom: 3rem;
+}
+
+.hiring-section .row4 {
+    border-radius: 5.85rem;
+    width: 83rem;
+    height: 11.7rem;
+    margin-left: 34rem;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.09rem;
+    text-align: center;
+    background: #4B05BC;
+}
+
+.col.span_1_of_2.box {
+    background: white;
+    border: .1rem solid #ccc;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    padding-left: 0;
+    border-radius: 4rem;
+    margin-top: 4rem;
+}
+
+.hiring-section .flex-containter h5 {
+    text-align: left;
+    color: black;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-left: -2rem;
+}
+
+h5 {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hiring-section span.hiring {
+    color: #F9A826;
+}
+.col.span_1_of_8{
+    color: white;
+    font-size: .8rem;
+    padding-right: 1rem;
+    text-align: center;
+    
+}
+.hiring-section.col.span_1_of_8.p{
+    text-align: center;
+}
+.col.span_1_of_9{
+    color: white;
+    font-size: .8rem;
+    padding-right: 1rem;
+    text-align: center;
+    
+}
+.hiring-section h7 {
+    color: #929EB7;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.hiring-section span.Frontend {
+    color: #22BFBF;
+}
+
+.hiring-section span.sre {
+    color: #F5406C;
+}
+
+.hiring-section span.qa {
+    color: #6A10FF;
+}
+
+.col.span_1_of_1.box {
+    background: white;
+    border: .1rem solid #ccc;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    padding-left: 0;
+    border-radius: 4rem;
+    margin-top: 4rem;
+    width: 57rem;
+    margin-left: 30rem;
+
+}
+
+.hiring-section span.Insights {
+    color: #6A10FF;
+}
+
+.col.span_1_of_2.box2 {
+    background: #610BEF;
+}
+
+.col.span_3_of_6 h5 {
+    color: white;
+}
+
+.col.span_3_of_6 h7 {
+    color: white;
+}
+
+.contact {
+    width: 100%;
+}
+
+.col.span_2_of_6.box {
+    border: solid white;
+    border-top: .1rem;
+    border-bottom: .1rem;
+}
+
+/*===================== */
+/* speech section */
+/*===================== */
+.speech-section {
+    background: #735EFF;
+    color: white;
+    text-align: center;
+}
+
+.speech-section h2 {
+    font-size: 4rem;
+    line-height: 7.31rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.speech-section h2 span.speech {
+    font-weight: 900;
+}
+
+.speech-section h2::after {
+    content: "";
+    background: #ffff;
+    width: 100;
+    height: .1rem;
+    display: block;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.speech-section h2 span.colon {
+    color: #6A10FF;
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+.speech-section img{
+    margin-left: 90rem;
+}
+/*===================== */
+/* contact section */
+/*===================== */
+.contact-section{
+    background: white;
+    height: 52rem;
+    overflow:inherit;
+}
+.col.span_1_of_1.mission{
+    align-content: center;
+    margin-left: 10rem;
+}
+.contact-section.col.span_1_of_2.img{
+    max-width:90% ;
+}
+.col.span_1_of_2.form{
+    padding-left: 8rem;
+}
+.col.span_1_of_2 h6{
+    text-align: left;
+    font-size: 5rem;
+    margin-top: 2rem;
+    color: #06193E;
+}
+h8{
+    text-align: left;
+    margin-top: 2rem;
+    color: #06193E;
+    font-size: 1.8rem;
+    padding-left: -1rem;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 1.5rem; /* Some padding */ 
+  border: .1rem solid #ccc; /* Gray border */
+  border-radius: 1.3rem; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: .8rem; /* Add a top margin */
+  margin-bottom: 1.6rem; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #610BEF;
+  color: white;
+  padding: 1.2rem 2rem;
+  border: none;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  width: 100%;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #610BEF;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: .5rem;
+  background-color: #ffff;
+  padding: 2rem;
+}
+.footer-section{
+    background: #610BEF; 
+    max-height: 57rem;
+    color: white;
+}
+.footer-logo {
+    margin-top: 4rem;
+    float: left;
+    margin-left: 3rem;
+}
+ul.footer{
+    text-align: right;
+    color: white;
+    list-style-type: none;
+    margin-left: .5rem;
+    margin-right: .7rem;
+    padding-top: 41rem;
+    text-decoration: none;
+}
+ul.footer li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    text-decoration: none;
+    color: white;
+}
+ul.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
