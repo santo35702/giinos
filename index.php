@@ -269,7 +269,7 @@
                 <div class="col-6 box1 post">
 
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
-                    <p><?php echo $holisticContent[$ln]['description'] ?></p>
+                    <p class="content"><?php echo $holisticContent[$ln]['description'] ?></p>
                     <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -373,16 +373,13 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid d-none d-xl-block d-xxl-none">
             <div class="row row-cols-lg-2 justify-content-center">
                 <div class="col">
                     <div class="box bg-primary">
                         <div class="heading-box bg-white">
                             <h5><?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?></h5>
-                            <!-- <button type="button" class="collapsible"><i class="fa fa-plus"></i></button> -->
-                            <!-- <div class="content"> -->
                             <h6><?php echo $hiringContent[$ln]['box1']['heading-box']['description'] ?></h6>
-                            <!-- </div> -->
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
@@ -602,7 +599,257 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="container-fluid d-block d-sm-none">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <?php echo $hiringContent[$ln]['box1']['heading-box']['description'] ?>
+                        </div>
+                        <div class="img-box">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="col-1">
+                                    <div class="rust text-center">
+                                        <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box1']['img-box']['img1'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="node text-center">
+                                        <img src="resource/img/Group%207028.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box1']['img-box']['img2'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="docker text-center">
+                                        <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box1']['img-box']['img3'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="kubernetes text-center">
+                                        <img src="resource/img/Group%207030.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-1">
+                                    <div class="java text-center">
+                                        <img src="resource/img/Group%207031.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box1']['img-box']['img5'] ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <?php echo $hiringContent[$ln]['box2']['heading-box']['title'] ?>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <?php echo $hiringContent[$ln]['box2']['heading-box']['description'] ?>
+                      </div>
+                      <div class="img-box">
+                          <div class="d-flex flex-row justify-content-start">
+                              <div class="col-1">
+                                  <div class="web text-center">
+                                      <img src="resource/img/Group%207032.png" alt="" class="img-fluid">
+                                      <p><?php echo $hiringContent[$ln]['box2']['img-box']['img1'] ?></p>
+                                  </div>
+                              </div>
+                              <div class="col-1">
+                                  <div class="web1 text-center">
+                                      <img src="resource/img/Group%207033.png" alt="" class="img-fluid">
+                                      <p><?php echo $hiringContent[$ln]['box2']['img-box']['img2'] ?></p>
+                                  </div>
+                              </div>
+                              <div class="col-1">
+                                  <div class="flutter text-center">
+                                      <img src="resource/img/Group%207034.png" alt="" class="img-fluid">
+                                      <p><?php echo $hiringContent[$ln]['box2']['img-box']['img3'] ?></p>
+                                  </div>
+                              </div>
+                              <div class="col-1">
+                                  <div class="ionic text-center">
+                                      <img src="resource/img/Group%207035.png" alt="" class="img-fluid">
+                                      <p><?php echo $hiringContent[$ln]['box2']['img-box']['img4'] ?></p>
+                                  </div>
+                              </div>
+                              <div class="col-1">
+                                  <div class="angular text-center">
+                                      <img src="resource/img/Group%207036.png" alt="" class="img-fluid">
+                                      <p><?php echo $hiringContent[$ln]['box2']['img-box']['img5'] ?></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <?php echo $hiringContent[$ln]['box3']['heading-box']['title'] ?>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <?php echo $hiringContent[$ln]['box3']['heading-box']['description'] ?>
+                        </div>
+                        <div class="img-box">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="col-1">
+                                    <div class="python text-center">
+                                        <img src="resource/img/Group%207037.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img1'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="shell text-center">
+                                        <img src="resource/img/Group%207038.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img2'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img3'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="prometheus text-center">
+                                        <img src="resource/img/Group%207040.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img4'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="grafana text-center">
+                                        <img src="resource/img/Group%207041.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img5'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="ansible text-center">
+                                        <img src="resource/img/Group%207042.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img6'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="gitlab text-center">
+                                        <img src="resource/img/Group%207043.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img7'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="jenkin text-center">
+                                        <img src="resource/img/Group%207044.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box3']['img-box']['img8'] ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <?php echo $hiringContent[$ln]['box4']['heading-box']['title'] ?>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <?php echo $hiringContent[$ln]['box4']['heading-box']['description'] ?>
+                        </div>
+                        <div class="img-box">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="col-1">
+                                    <div class="cypress text-center">
+                                        <img src="resource/img/Group%207045.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box4']['img-box']['img1'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="robot text-center">
+                                        <img src="resource/img/Group%207046.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box4']['img-box']['img2'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box4']['img-box']['img3'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="excel text-center">
+                                        <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box4']['img-box']['img4'] ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="headingFive">
+                            <?php echo $hiringContent[$ln]['box5']['heading-box']['title'] ?>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <?php echo $hiringContent[$ln]['box5']['heading-box']['description'] ?>
+                        </div>
+                        <div class="img-box">
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="col-1">
+                                    <div class="excel text-center">
+                                        <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box5']['img-box']['img1'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="markdown text-center">
+                                        <img src="resource/img/Group%207051.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box5']['img-box']['img2'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="tableau text-center">
+                                        <img src="resource/img/Group%207052.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box5']['img-box']['img3'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="power text-center">
+                                        <img src="resource/img/Group%207053.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box5']['img-box']['img4'] ?></p>
+                                    </div>
+                                </div>
+                                <div class="col-1">
+                                    <div class="sql text-center">
+                                        <img src="resource/img/Group%207054.png" alt="" class="img-fluid">
+                                        <p><?php echo $hiringContent[$ln]['box5']['img-box']['img5'] ?></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
             <div class="row px-5">
                 <div class="col-6 sm-col-5">
                     <div class="contact-box">
@@ -637,78 +884,6 @@
                         <img src="resource/img/QR%20Code.png" alt="">
                     </div>
                 </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid d-none d-xl-block d-xxl-none">
-            <div class="row row-cols-lg-2 justify-content-center">
-                <div class="col">
-                    <div class="box bg-primary">
-                         <p><?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?>Backend Platform Software
-Engineer</p> 
-                         
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid d-block d-sm-none">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item my-4">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Accordion Item #1
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item my-4">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accordion Item #2
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                </div>
-                <div class="accordion-item my-4"></div>
-                <div class="accordion-item my-4"></div>
             </div>
         </div>
     </section>
