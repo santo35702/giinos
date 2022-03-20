@@ -269,7 +269,7 @@
                 <div class="col-6 box1 post">
 
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
-                    <p class="content"><?php echo $holisticContent[$ln]['description'] ?></p>
+                    <p><?php echo $holisticContent[$ln]['description'] ?></p>
                     <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -645,7 +645,9 @@
             <div class="row row-cols-lg-2 justify-content-center">
                 <div class="col">
                     <div class="box bg-primary">
-                        <p>Test Collumn with accordion</p>
+                         <p><?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?>Backend Platform Software
+Engineer</p> 
+                         
                     </div>
                 </div>
 
