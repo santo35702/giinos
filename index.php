@@ -227,13 +227,16 @@
     <section class="realtime-section">
         <div class="container-fluid">
             <div class="row">
+               <div class="col-sm-3">
+                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid  image">
+                </div>
                 <div class="col box1">
                     <h2><?php echo $realtimeContent[$ln]['title'] ?></h2>
                     <p><?php echo $realtimeContent[$ln]['description'] ?></p>
                     <button class="Read-more" data-target="secondTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
-                <div class="col-3">
-                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid">
+                <div class="col-3 ">
+                    <img src="resource/img/undraw_conversation_re_c26v%201.png" alt="realtime" class="img-fluid image-bg">
                 </div>
             </div>
         </div>
@@ -260,6 +263,9 @@
     <section class="holistic-section">
         <div class="container-fluid">
             <div class="row">
+               <div class=" col-sm-3">
+                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end ">
+                </div>
                 <div class="col-6 box1 post">
                 
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
@@ -267,7 +273,7 @@
                     <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end ">
+                    <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end image-bg ">
                 </div>
             </div>
         </div>
@@ -373,7 +379,10 @@
                     <div class="box bg-primary">
                         <div class="heading-box bg-white">
                             <h5><?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?></h5>
+                            <button type="button" class="collapsible"><i class="fa fa-plus"></i></button>
+                            <div class="content">
                             <h6><?php echo $hiringContent[$ln]['box1']['heading-box']['description'] ?></h6>
+                            </div>
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">

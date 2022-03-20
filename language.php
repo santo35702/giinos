@@ -219,6 +219,7 @@
             'box1' => [
                 'heading-box' => [
                     'title' => '<span class="hiring">Backend</span> Platform Software<br> Engineer',
+                    'button' => '<button type="button" class="collapsible"></button>',
                     'description' => 'The most challenging for this position is building platform base on our visions and business requirements together. They have to identify platform architecture characteristics, such as performance, security, scalability,
                         etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
                         team or operation team also are able to do thier own jobs very well via platform support tools that Backend Platform Software Engineer has provided.',

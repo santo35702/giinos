@@ -664,18 +664,26 @@
     .realtime-section .box1,
     .fluid_platform-section .box1 {
         width: auto !important;
-        margin: 17rem 3rem 0 0rem;
+        margin:-5rem 3rem 0 0rem;
         line-height: 2.3rem;
     }
-  
-    .realtime-section img {
-        margin: -97rem 5rem 7rem 6rem !important;
-        max-width: 206%;
+    .realtime-section .col-sm-3 img{
+        position: relative;
+        max-width: 66%;
+        margin: 0rem 3rem 4rem 4rem;
     }
+    .holistic-section .col-sm-3 img{
+        max-width: 140%;
+        position: relative;
+        margin: 3rem 5rem -11rem -5rem;
+    }
+   .image-bg {
+      visibility: hidden;
+    }
+    
     .fluid_platform-section img {
         position: relative;
-        top: -8.6rem;
-        left: -1.2rem;
+        margin: -16rem 2rem 7rem -1rem;
         max-width: 103%;
     }
 
@@ -683,12 +691,7 @@
         margin: 4rem 1rem 0 0 !important;
     }
     
-    .holistic-section img {
-        max-width: 140%;
-        position: relative;
-        margin-top: -50rem;
-        margin-right: 5rem;
-    }
+  
     h2::after {
         margin-left: 7rem;
     }
@@ -858,11 +861,28 @@
         margin: 2rem;
         border-right: none;
     }
-
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+    .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+    
     .sm-col-2 {
         width: 27.6666667%;
-        padding-left: 1rem;
-        padding-top: 5rem;
+        padding-left: 0rem;
+        padding-top: -5rem;
     }
 
     .contact-box h5 {
@@ -872,10 +892,11 @@
         color: white;
     }
     .col-4 {
-	flex: 0 0 auto;
-	width: 69.333%;
-	margin-left: 1rem;
-    border-right: none;
+        flex: 0 0 auto;
+        width: 69.333%;
+        margin-left: 1rem;
+        border-right: none;
+        margin-top: -10rem;
     }
     .contact-box h7 {
         font-size: 1.2rem;
@@ -1832,6 +1853,10 @@
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1199.99px) and (max-width: 1499.98px) {
+    .realtime-section .col-sm-3, .holistic-section .col-sm-3{
+      visibility: hidden;
+      max-width: 0;    
+    }
 
     html,
     body {
