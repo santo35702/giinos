@@ -86,7 +86,7 @@
         }
     }
  ?>
- 
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -105,7 +105,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    
+
 </head>
 
 <body>
@@ -259,7 +259,7 @@
     </section>
 
     <!-- start holistic section-->
-    
+
     <section class="holistic-section">
         <div class="container-fluid">
             <div class="row">
@@ -267,7 +267,7 @@
                     <img src="resource/img/undraw_programming_re_kg9v%201.png" alt="realtime" class="img-fluid float-end ">
                 </div>
                 <div class="col-6 box1 post">
-                
+
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
                     <p class="content"><?php echo $holisticContent[$ln]['description'] ?></p>
                     <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
@@ -379,10 +379,10 @@
                     <div class="box bg-primary">
                         <div class="heading-box bg-white">
                             <h5><?php echo $hiringContent[$ln]['box1']['heading-box']['title'] ?></h5>
-                            <button type="button" class="collapsible"><i class="fa fa-plus"></i></button>
-                            <div class="content">
+                            <!-- <button type="button" class="collapsible"><i class="fa fa-plus"></i></button> -->
+                            <!-- <div class="content"> -->
                             <h6><?php echo $hiringContent[$ln]['box1']['heading-box']['description'] ?></h6>
-                            </div>
+                            <!-- </div> -->
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
@@ -410,7 +410,7 @@
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-1">
                                     <div class="java text-center">
                                         <img src="resource/img/Group%207031.png" alt="" class="img-fluid">
@@ -639,6 +639,76 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="container-fluid d-none d-xl-block d-xxl-none">
+            <div class="row row-cols-lg-2 justify-content-center">
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="box bg-primary">
+                        <p>Test Collumn with accordion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid d-block d-sm-none">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-4"></div>
+                <div class="accordion-item my-4"></div>
+            </div>
+        </div>
     </section>
 
     <!-- start speech section-->
@@ -761,7 +831,7 @@
                         <li class="nav-item">
                             <a href="" class="nav-link text-white">iQTech</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
