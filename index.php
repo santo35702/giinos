@@ -337,7 +337,7 @@
                 <h3 class="display-6"><?php echo $hiringContent[$ln]['heading']['display2'] ?></h3>
             </div>
         </div>
-        <div class=" mb-5 pb-4">
+        <div class="mb-5 pb-4">
             <div class="row row-cols-8 justify-content-center mx-auto">
                 <div class="col text-center">
                     <img src="resource/img/Group%204393.png" alt="">
@@ -615,32 +615,32 @@
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="rust text-center">
                                         <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img1'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="node text-center">
                                         <img src="resource/img/Group%207028.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img2'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="docker text-center">
                                         <img src="resource/img/Group%207027.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img3'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="kubernetes text-center">
                                         <img src="resource/img/Group%207030.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img4'] ?></p>
                                     </div>
                                 </div>
 
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="java text-center">
                                         <img src="resource/img/Group%207031.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box1']['img-box']['img5'] ?></p>
@@ -662,31 +662,31 @@
                       </div>
                       <div class="img-box">
                           <div class="d-flex flex-row justify-content-start">
-                              <div class="col-1">
+                              <div class="col-2">
                                   <div class="web text-center">
                                       <img src="resource/img/Group%207032.png" alt="" class="img-fluid">
                                       <p><?php echo $hiringContent[$ln]['box2']['img-box']['img1'] ?></p>
                                   </div>
                               </div>
-                              <div class="col-1">
+                              <div class="col-2">
                                   <div class="web1 text-center">
                                       <img src="resource/img/Group%207033.png" alt="" class="img-fluid">
                                       <p><?php echo $hiringContent[$ln]['box2']['img-box']['img2'] ?></p>
                                   </div>
                               </div>
-                              <div class="col-1">
+                              <div class="col-2">
                                   <div class="flutter text-center">
                                       <img src="resource/img/Group%207034.png" alt="" class="img-fluid">
                                       <p><?php echo $hiringContent[$ln]['box2']['img-box']['img3'] ?></p>
                                   </div>
                               </div>
-                              <div class="col-1">
+                              <div class="col-2">
                                   <div class="ionic text-center">
                                       <img src="resource/img/Group%207035.png" alt="" class="img-fluid">
                                       <p><?php echo $hiringContent[$ln]['box2']['img-box']['img4'] ?></p>
                                   </div>
                               </div>
-                              <div class="col-1">
+                              <div class="col-2">
                                   <div class="angular text-center">
                                       <img src="resource/img/Group%207036.png" alt="" class="img-fluid">
                                       <p><?php echo $hiringContent[$ln]['box2']['img-box']['img5'] ?></p>
@@ -708,49 +708,51 @@
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="python text-center">
                                         <img src="resource/img/Group%207037.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img1'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="shell text-center">
                                         <img src="resource/img/Group%207038.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img2'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="markdown text-center">
                                         <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img3'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="prometheus text-center">
                                         <img src="resource/img/Group%207040.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img4'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                            </div>
+                            <div class="d-flex flex-row justify-content-start">
+                                <div class="col-2">
                                     <div class="grafana text-center">
                                         <img src="resource/img/Group%207041.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img5'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="ansible text-center">
                                         <img src="resource/img/Group%207042.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img6'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="gitlab text-center">
                                         <img src="resource/img/Group%207043.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img7'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="jenkin text-center">
                                         <img src="resource/img/Group%207044.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box3']['img-box']['img8'] ?></p>
@@ -772,25 +774,25 @@
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="cypress text-center">
                                         <img src="resource/img/Group%207045.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box4']['img-box']['img1'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="robot text-center">
                                         <img src="resource/img/Group%207046.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box4']['img-box']['img2'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="markdown text-center">
                                         <img src="resource/img/Group%207039.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box4']['img-box']['img3'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="excel text-center">
                                         <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box4']['img-box']['img4'] ?></p>
@@ -812,31 +814,31 @@
                         </div>
                         <div class="img-box">
                             <div class="d-flex flex-row justify-content-start">
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="excel text-center">
                                         <img src="resource/img/Group%207050.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box5']['img-box']['img1'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="markdown text-center">
                                         <img src="resource/img/Group%207051.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box5']['img-box']['img2'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="tableau text-center">
                                         <img src="resource/img/Group%207052.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box5']['img-box']['img3'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="power text-center">
                                         <img src="resource/img/Group%207053.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box5']['img-box']['img4'] ?></p>
                                     </div>
                                 </div>
-                                <div class="col-1">
+                                <div class="col-2">
                                     <div class="sql text-center">
                                         <img src="resource/img/Group%207054.png" alt="" class="img-fluid">
                                         <p><?php echo $hiringContent[$ln]['box5']['img-box']['img5'] ?></p>
@@ -969,14 +971,14 @@
                 </div>
                 <hr class="my-5 social-menu">
                 <div class="col-1 social-menu justify-content-center" >
-                    <ul class="list-unstyled d-flex">
+                    <!-- <ul class="list-unstyled d-flex">
                         <li>
                             <a href="#" class="link-dark">
                                 <img src="resource/img/Facebook_white.png" alt="">
                             </a>
                         </li>
-                    </ul>
-                    <!-- <ul class="nav justify-content-center ">
+                    </ul> -->
+                    <ul class="nav justify-content-center ">
                         <li class="nav-item2">
                             <img src="resource/img/Facebook_white.png" alt="">
                         </li>
@@ -984,10 +986,12 @@
                              <img src="resource/img/Twitter_white.png" alt="">
                         </li>
                         <li class="nav-item2">
-                             <img src="resource/img/Youtube_white.png" alt=""></li>
+                             <img src="resource/img/Youtube_white.png" alt="">
+                        </li>
                         <li class="nav-item2">
-                             <img src="resource/img/Mail_white.png" alt=""></li>
-                    </ul> -->
+                             <img src="resource/img/Mail_white.png" alt="">
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-1 footer-menu">
                     <h5 class="text-white h4 fw-bolder">Menu</h5>

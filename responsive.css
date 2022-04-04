@@ -451,7 +451,7 @@
 
     .img-box {
         margin-top: 1.5rem;
-        font-size: 0.2rem !important;
+        font-size: 1rem !important;
         background-color: #610BEF;
         border-bottom-left-radius: 2rem;
         border-bottom-right-radius: 2rem;
@@ -613,13 +613,14 @@
     .nav.justify-content-center {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
-	margin-left: 5rem;
+	margin-left: auto !important;
+    margin-right: auto !important;
     }
     .nav-link.text-white {
 	margin-left: -2rem;
     }
     .footer-section .nav > .nav-item {
-        margin-left: 1rem !important;
+        margin-left: 2rem !important;
         margin-top: 1rem !important;
     }
     .nav-item2 {
@@ -630,7 +631,7 @@
         font-weight: 200;
     }
     .justify-content-end {
-	justify-content: center;
+	justify-content: space-between !important;
     }
 
     .footer-section .nav > .nav-item .nav-link,
