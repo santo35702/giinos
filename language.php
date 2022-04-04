@@ -218,7 +218,7 @@
                 ],
             'box1' => [
                 'heading-box' => [
-                    'title' => '<span class="hiring">Backend</span> Platform Software<br> Engineer',
+                    'title' => '<span class="hiring"> Backend </span> Platform Software Engineer',
                     'button' => '<button type="button" class="collapsible"></button>',
                     'description' => 'The most challenging for this position is building platform base on our visions and business requirements together. They have to identify platform architecture characteristics, such as performance, security, scalability,
                         etc., that should take into account on particular module they’re working on. Not only that, in order to maximize holistic value, they have to make sure that on support side such as frontline technical staff, implementation
@@ -234,7 +234,7 @@
                 ],
             'box2' => [
                 'heading-box' => [
-                    'title' => '<span class="frontend">Frontend</span> Platform Software <br>Engineer',
+                    'title' => '<span class="frontend">Frontend</span> Platform Software Engineer',
                     'description' => 'To build platform to support “fluid” process flow characteristics. Frontend platform software engineer need to design and see beyond what customer want. Ability to make system configurable is main responsibility for this role. UX/UI skills are essential here in order to maximize holistic value to whom who interacts with the platform. Web application or mobile application we built is main channel to delivery such a huge value to everyone…including our team',
                     ],
                 'img-box' => [
@@ -247,7 +247,7 @@
                 ],
             'box3' => [
                 'heading-box' => [
-                    'title' => 'Platform <span class="sre">DevOps & SRE</span>',
+                    'title' => 'Platform <span class="sre"> DevOps & SRE</span>',
                     'description' => 'Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our customers...<br> They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker mindsets to fullfill the missions.',
                     ],
                 'img-box' => [
@@ -278,7 +278,7 @@
                 ],
             'box5' => [
                 'heading-box' => [
-                    'title' => 'Holistic Value Data Analytics & <span class="Insights"><br>Insights Delivery</span>',
+                    'title' => 'Holistic Value Data Analytics & <span class="insights"> Insights Delivery</span>',
                     'description' => 'Keeping the system up & running smoothly is basic responsibility of this role. But keeping things “fluid” and able to delivery “holistic value” is the most fun and challenging parts for this position. We combinded Dev/Ops and SRE (Site Reliability Enginerr) with our core philosophy to make sure that “Platform Ops & Site Reliability Engineer” is one of our main component to really make “fluid process flow platform” emering in front of our customers...<br>They will start from provisioning infrastructure from the ground up, working with platform engineer on deployment process by applying automation tools, keeping monitor platform using sophistiated tools and care tacker mindsets to fullfill the missions.',
                     ],
                 'img-box' => [

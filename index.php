@@ -181,7 +181,7 @@
     <!-- start mission section-->
     <section class="mission-section" id="service">
         <div class="container">
-            <div class="row">
+            <div class="row2">
                 <div class="col">
                     <div class="col1">
                         <h2><?php echo $missionContent[$ln]['mission']['title'] ?></h2>
@@ -269,7 +269,7 @@
                 <div class="col-6 box1 post">
 
                     <h2><?php echo $holisticContent[$ln]['title'] ?></h2>
-                    <p class="content"><?php echo $holisticContent[$ln]['description'] ?></p>
+                    <p><?php echo $holisticContent[$ln]['description'] ?></p>
                     <button class="Read-more" data-target="forthTarget"><?php echo $fluidContent[$ln]['btn'] ?></button>
                 </div>
                 <div class="col-lg-6 col-sm-12">
@@ -373,7 +373,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-none d-xl-block d-xxl-none">
+        <div class="container-fluid d-none d-xl-block d-sm-block d-xxl-block">
             <div class="row row-cols-lg-2 justify-content-center">
                 <div class="col">
                     <div class="box bg-primary">
@@ -967,9 +967,25 @@
                 <div class="col-2">
                     <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                 </div>
+                <hr class="my-5 social-menu">
+                <div class="col-1 social-menu justify-content-center" >
+                    
+                    <ul class="nav justify-content-center ">
+                        <li class="nav-item2">
+                            <img src="resource/img/Facebook_white.png" alt="">
+                        </li>
+                        <li class="nav-item2">
+                             <img src="resource/img/Twitter_white.png" alt="">
+                        </li>
+                        <li class="nav-item2">
+                             <img src="resource/img/Youtube_white.png" alt=""></li>
+                        <li class="nav-item2">
+                             <img src="resource/img/Mail_white.png" alt=""></li>
+                    </ul>
+                </div>
                 <div class="col-1 footer-menu">
                     <h5 class="text-white h4 fw-bolder">Menu</h5>
-                    <ul class="nav justify-content-end text-center-lg">
+                    <ul class="nav justify-content-end justify-content-center-md text-center-lg">
                         <li class="nav-item">
                             <a href="#home" class="nav-link text-white"><?php echo $footerContent[$ln][0] ?></a>
                         </li>
@@ -990,27 +1006,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-1 footer-menu2">
-                    <h5 class="text-white h4 fw-bolder">Social</h5>
-                    <ul class="nav justify-content-end text-center-lg">
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">Facebook</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">Youtube</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">Twiter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">Qmatic</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text-white">iQTech</a>
-                        </li>
-
-                    </ul>
-                </div>
+               
             </div>
             <hr class="my-5">
             <p class="text-center text-white copyright"><?php echo $footerContent[$ln][6] ?></p>

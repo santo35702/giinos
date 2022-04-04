@@ -1,456 +1,15 @@
 /* `xs` returns only a ruleset and no media query */
 /* ... {  } */
 
-@media (min-width: 0.99px) and (max-width: 374.98px) {
-
-    html,
-    body {
-        width: 100vw !important;
-        overflow-x: hidden;
-    }
-
-    .navbar form.d-flex .input-group {
-        width: 15rem;
-        margin: 1.5rem 28rem 0 auto;
-    }
-
-    section {
-        padding: 3rem 0;
-    }
-
-    #home_content {
-        padding-top: 1.5rem;
-    }
-
-    #home_content .container,
-    .team-section .container,
-    .hiring-section .container-fluid,
-    .footer-section .container {
-        max-width: 100% !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .col-5 {
-	width: 100%;
-	text-align: center;
-    }
-    h1 {
-        font-size: 2.2rem !important;
-        line-height: 2.5rem !important;
-    }
-
-    ::after {
-        visibility: hidden;
-    }
-
-    #home_content p.hero-description {
-        font-size: 1.6rem !important;
-        line-height: 2rem !important;
-        margin-top: -2rem;
-        margin-bottom: 3rem;
-}
-
-
-    #home_content img {
-        position: relative !important;
-        top: -20px !important;
-    }
-    #home_content .img-fluid {
-	max-width: 174%;
-	height: auto;
-     }
-    .customer-section {
-        margin-top: 2.5rem;
-    }
-
-    .customer-section .container-fluid,
-    .holistic-section .container,
-    .speech-section .container,
-    .contact-section .container {
-        max-width: 100% !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .customer-section h2,
-    .success-section h2,
-    .success-section h4,
-    .hiring-section h3 {
-        font-size: 1.5rem !important;
-    }
-
-    .customer-section h3,
-    .success-section h3 {
-        margin-top: 0.8rem;
-        margin-bottom: 2rem;
-        font-size: 1.7rem;
-        line-height: 2rem;
-    }
-
-    .mission-section .container {
-        max-width: 95% !important;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .mission-section .col {
-    padding: 0;
-    }
-    .mission-section h2 {
-        font-size: 3rem !important;
-        line-height: 4rem !important;
-        text-align: center;
-    }
-
-    .mission-section h2::after {
-        width: 7rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-
-    h5.little-description {
-        font-size: 1.7rem;
-        width: auto;
-        line-height: 2.3rem;
-    }
-
-    .mission {
-        margin: 0.5rem;
-    }
-
-    .mission-section .mission img.services-icon {
-        height: 7rem;
-        margin-bottom: 1.8rem;
-    }
-
-    .mission-section .mission p {
-        font-size: 1.6rem;
-        line-height: 2rem;
-    }
-
-    .fluid-section img,
-    .realtime-section img,
-    .holistic-section img {
-        max-width: inherit;
-        margin-top: 3rem;
-    }
-
-    .fluid-section .box1 {
-        margin-left: 1rem;
-        line-height: 2rem;
-        margin-top: 1rem;
-        width: auto !important;
-    }
-
-    .fluid-section h2,
-    .realtime-section h2,
-    .fluid_platform-section .box1 h2,
-    .holistic-section .box1 h2 {
-        font-size: 2.4rem;
-        line-height: 3rem;
-        letter-spacing: 0.0753rem;
-    }
-
-    .fluid-section p,
-    .realtime-section p,
-    .fluid_platform-section p,
-    .holistic-section .box1 p {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-        line-height: 2.2rem;
-        padding-right: 1.5rem;
-    }
-
-    .realtime-section,
-    .holistic-section,
-    .success-section {
-        padding-top: 0 !important;
-    }
-
-    .realtime-section .box1,
-    .fluid_platform-section .box1 {
-        width: auto !important;
-        margin: 3rem 3rem 0 4rem;
-        line-height: 2.3rem;
-    }
-
-    .realtime-section img {
-        margin-top: 1rem !important;
-    }
-
-    .fluid_platform-section img {
-        position: relative;
-        top: 0;
-        left: -60px;
-        max-width: 120%;
-    }
-
-    .fluid_platform-section .box1 {
-        margin: 4rem 1rem 0 0 !important;
-    }
-
-    .holistic-section img {
-        max-width: 140%;
-        position: relative;
-        top: -41rem;
-        right: -33.5rem !important;
-    }
-
-    .success-section h4 {
-        line-height: 2.969rem !important;
-        margin-bottom: 2rem;
-    }
-
-    .column {
-        border-radius: 1rem !important;
-    }
-
-    .success-section h2 {
-        line-height: 2.2rem !important;
-        margin: 1rem 0.5rem !important;
-    }
-
-    .success-section .flex-container p {
-        text-indent: 1rem;
-        font-size: 1.3rem;
-        line-height: 1.8rem;
-        margin: 1rem 0.5rem !important;
-    }
-
-    .team-section h3,
-    .hiring-section h2 {
-        margin-bottom: 2rem;
-        font-size: 2.8rem;
-    }
-
-    .team-section .box2 {
-        border-radius: 3.5rem;
-        height: auto !important;
-        padding: 3rem !important;
-        margin-top: 2.5rem;
-    }
-
-    .team-section .box3 {
-        font-size: 1.8rem;
-        line-height: 2.95rem;
-    }
-
-    .team-section span.coma {
-        font-size: 9rem;
-        position: relative;
-    }
-
-    .team-section span.first {
-        left: 3% !important;
-        top: 9% !important;
-    }
-
-    .team-section span.last {
-        left: 1% !important;
-        top: 9% !important;
-    }
-
-    .hiring-section h2 {
-        margin-bottom: auto !important;
-    }
-
-    .hiring-section h3 {
-        line-height: 1.6rem !important;
-    }
-
-    .hiring-section .container {
-        padding-bottom: 1rem !important;
-        margin-bottom: 1rem !important;
-    }
-
-    .hiring-section .container .row {
-        padding: 1rem 10px auto 10px !important;
-        border-radius: 5rem;
-        font-size: 0.95rem;
-    }
-
-    .hiring-section .mb-5.pb-4 {
-        margin-left: 8rem;
-        margin-right: 8rem;
-        padding-top: 1rem;
-    }
-
-    .hiring-section .container .row .col {
-        padding: 0;
-    }
-
-    .hiring-section .container .row > .col img {
-        width: 50%;
-    }
-
-    .hiring-section .container-fluid .row {
-        margin-bottom: 2.5rem;
-    }
-
-    .hiring-section .container-fluid .row .box {
-        border-radius: 2rem;
-        margin: 1rem;
-        padding-bottom: 1rem;
-        min-height: 60rem;
-    }
-
-    .hiring-section .container-fluid .box .heading-box {
-        padding: 2rem;
-        border-radius: 2rem;
-        margin: -0.3rem -0.3rem 0 -0.3rem;
-        min-height: 51rem;
-    }
-
-    .hiring-section .container-fluid .row .box h5 {
-        font-size: 2.2rem;
-        line-height: 2.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .hiring-section .container-fluid .row .box h6 {
-        font-size: 1.5rem;
-        line-height: 1.9rem;
-        margin-bottom: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .img-box {
-        margin-top: 1.5rem;
-        font-size: 0.2rem !important
-    }
-
-    .img-box .col-1 {
-        width: 12.5%;
-        margin-left: 0;
-    }
-
-    .img-box .col-1 img {
-        max-width: 75%;
-    }
-
-    .img-box .col-1 p {
-        font-size: .7rem;
-    }
-
-    .hiring-section .container-fluid:last-child .row:last-child {
-        margin-left: -11% !important;
-        margin-right: 2% !important;
-    }
-
-    .contact-box {
-        min-height: 20.5rem !important;
-    }
-
-    .sm-col-5 {
-        width: 38%;
-    }
-
-    .sm-col-2 {
-        width: 19.6666667%;
-        padding-left: 1rem;
-    }
-
-    .contact-box h5 {
-        font-size: 2rem;
-        line-height: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .contact-box h7 {
-        font-size: 1.2rem;
-        line-height: 2.2rem;
-    }
-
-    .contact-box li.list-group-item p {
-        line-height: 1.5rem !important;
-        font-size: 1rem !important;
-        padding: .2rem .5rem !important;
-    }
-
-    .contact-box li.list-group-item img {
-        max-width: 60% !important;
-    }
-
-    .contact-box img {
-        max-width: 90% !important;
-    }
-
-    .speech-section {
-        padding-top: 5rem !important;
-    }
-
-    .speech-section p {
-        line-height: 3rem !important;
-        font-size: 2.15rem !important;
-    }
-
-    .speech-section p span.colon {
-        position: relative;
-        font-size: 7rem;
-    }
-
-    .speech-section p span.first {
-        top: 15px !important;
-        left: 0 !important;
-    }
-
-    .speech-section p span.second {
-        top: 30px !important;
-        right: -5px !important;
-    }
-
-    .speech-section img.w-33 {
-        width: 52% !important;
-    }
-
-    .contact-section .card .card-body .card-subtitle {
-        font-size: 1.2rem !important;
-        padding-bottom: .8rem !important;
-        line-height: 2rem !important;
-    }
-
-    .contact-section .card .col-6 {
-        width: 50%;
-        margin-left: -3rem;
-        margin-top: 2rem;
-        margin-right: 3rem;
-    }
-
-    label {
-        font-size: 1rem;
-    }
-
-    .footer-section {
-        padding-top: 30rem !important;
-        padding-bottom: 2rem !important;
-    }
-
-    .footer-section .nav > .nav-item {
-        margin-left: 0.5rem !important;
-        margin-top: 1rem !important;
-    }
-
-    .footer-section .nav > .nav-item .nav-link,
-    p.copyright {
-        font-size: 12px !important;
-    }
-
-    .footer-section .row h5.h4 {
-        margin-left: 20px !important;
-        font-size: 13px;
-    }
-
-    .footer-section hr {
-        margin-top: 2rem !important;
-        margin-bottom: 2rem !important;
-    }
-}
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (min-width: 374.99px) and (max-width: 811.98px) {
+@media (min-width: 0.99px) and (max-width: 766.98px) {
 
     html,
     body {
         width: 100vw !important;
         overflow-x: hidden;
+       
     }
 
     .navbar form.d-flex .input-group {
@@ -470,7 +29,7 @@
     .team-section .container,
     .hiring-section .container-fluid,
     .footer-section .container {
-        max-width: 100% !important;
+        max-width: 90% !important;
         margin-left: auto;
         margin-right: auto;
     }
@@ -505,6 +64,7 @@
      }
     .customer-section {
         margin-top: 2.5rem;
+        padding: 2rem;
     }
 
     .customer-section .container-fluid,
@@ -527,7 +87,7 @@
     .success-section h3 {
         margin-top: 0.8rem;
         margin-bottom: 2rem;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 2rem;
     }
 
@@ -548,7 +108,7 @@
     }
 
     .mission-section h2::after {
-        width: 7rem !important;
+        width: 9rem !important;
         margin-bottom: 1.5rem !important;
 
     }
@@ -573,6 +133,7 @@
     .mission-section .mission p {
         font-size: 1.6rem;
         line-height: 2rem;
+        margin-top: 2rem;
     }
     span.extra-content{
         display: none;
@@ -586,7 +147,7 @@
         will-change: auto;
     }
     .Read-more {
-	margin-left: 1rem;
+	margin-left: 3rem;
 	margin-bottom: 2rem;
 	background: black;
 	width: 25rem;
@@ -596,7 +157,7 @@
 	height: 4rem;
     }
     .holistic-section .Read-more {
-        margin-left: 3rem;
+        margin-left: 5rem;
     }
     .fluid-section .col,
     .realtime-section .col,
@@ -660,7 +221,9 @@
     .success-section {
         padding-top: 1rem !important;
     }
-
+    .success-section{
+        margin-top: -22rem;
+    }
     .realtime-section .box1,
     .fluid_platform-section .box1 {
         width: auto !important;
@@ -670,10 +233,10 @@
     .realtime-section .col-sm-3 img{
         position: relative;
         max-width: 66%;
-        margin: 0rem 3rem 4rem 4rem;
+        margin: 0rem 3rem 4rem 5rem;
     }
     .holistic-section .col-sm-3 img{
-        max-width: 140%;
+        max-width: 69%;
         position: relative;
         margin: 3rem 5rem -11rem -5rem;
     }
@@ -693,10 +256,10 @@
 
 
     h2::after {
-        margin-left: 7rem;
+        margin:auto;
     }
     .col.column.mission {
-	margin: 0 4.5rem 0 4.5rem;
+	margin: 0 4rem 4rem 4rem;
      }
     .success-section h4 {
         line-height: 1.969rem !important;
@@ -735,7 +298,7 @@
         margin: 1rem auto 0;
     }
     .team-section .box2 {
-        border-radius: 3.5rem;
+        border-radius: 1.5rem;
         height: auto !important;
         padding: 3rem !important;
         margin-top: 2.5rem;
@@ -750,7 +313,7 @@
         font-size: 9rem;
         position: relative;
     }
-
+ 
     .team-section span.first {
         left: 3% !important;
         top: 9% !important;
@@ -760,7 +323,10 @@
         left: 1% !important;
         top: 9% !important;
     }
+    .row.row-cols-8 {
+        border-radius: 2rem;
 
+    }
     .hiring-section h2 {
         margin-bottom: auto !important;
     }
@@ -786,9 +352,46 @@
         padding-top: 1rem;
     }
     .hiring-section .col.text-center {
-	padding: 2em 3rem 1rem 3rem;
+	    padding: 2em 3rem 1rem 3rem;
     }
-
+    .accordion-item {
+        border-radius: 2rem;
+        padding: 1.2rem;
+    }
+    .accordion-button{
+        font-size: 1.8rem;
+        font-weight: bold;
+        display: grid;
+        line-height: 3rem;
+       
+    }
+    .accordion-item:first-of-type {
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+    }
+    .accordion-item:last-of-type {
+	border-bottom-right-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+    .accordion-button.collapsed {
+	    border-radius: 2rem;
+        color: black;
+    }
+    .accordion-button:not(.collapsed) {
+      background-color: #fff;
+      border-top-right-radius: 2rem;
+      border-top-left-radius: 2rem;
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,0);
+      color: black;
+    }
+    .accordion-body {
+        font-size: 1.4rem;
+        color: #929EB7;
+        line-height: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        margin-bottom: 2rem;
+    }
     .hiring-section .container .row .col {
         padding: 10rem;
     }
@@ -830,7 +433,12 @@
 
     .img-box {
         margin-top: 1.5rem;
-        font-size: 0.2rem !important
+        font-size: 0.2rem !important;
+        background-color: #610BEF;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        padding: 1rem;
+        margin: -1.3rem;
     }
 
     .img-box .col-1 {
@@ -861,26 +469,10 @@
         margin: 2rem;
         border-right: none;
     }
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-    .content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
+  
 
     .sm-col-2 {
-        width: 27.6666667%;
+        width: 22.6666667%;
         padding-left: 0rem;
         padding-top: -5rem;
     }
@@ -919,6 +511,7 @@
 
     .speech-section {
         padding-top: 3rem !important;
+        margin-top: -10rem;
     }
 
     .speech-section p {
@@ -948,8 +541,7 @@
         padding-left: 2rem;
         padding-right: 0rem;
         border-radius: 3rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin:-1.5rem;
     }
     .contact-section .card .card-body .card-subtitle {
         font-size: 1.2rem !important;
@@ -971,33 +563,45 @@
     }
 
     .footer-section {
-        padding-top: 54rem !important;
+        padding-top: 58rem !important;
         padding-bottom: 2rem !important;
     }
     .img-fluid.footer-logo {
         max-width: 255%;
     }
     .col-1.footer-menu {
-        width: 43.88%;
-        margin-top: 5rem;
-        margin-left: -6rem;
+        width: 100%;
+        margin-left: -1rem;
     }
-    .col-1.footer-menu2 {
-        width: 47.88%;
-        margin-top: 5rem;
-        margin-left: 3rem;
+    .col-1.social-menu {
+	padding-top: 8rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+    display: contents;
+    }
+    .nav.justify-content-center {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 5rem;
+    }
+    .nav-link.text-white {
+	margin-left: -2rem;
     }
     .footer-section .nav > .nav-item {
-        margin-left: 0rem !important;
+        margin-left: 1rem !important;
         margin-top: 1rem !important;
     }
+    .nav-item2 {
+	margin-left: 1rem;
+}
     .nav-item {
         font-size: 1rem;
         font-weight: 200;
     }
-    .footer-section .nav {
-        display: inline-grid;
+    .justify-content-end {
+	justify-content: center;
     }
+    
     .footer-section .nav > .nav-item .nav-link,
     p.copyright {
         font-size: 12px !important;
@@ -1006,6 +610,7 @@
     .footer-section .row h5.h4 {
         margin-left: 1rem !important;
         font-size: 1.3rem;
+        display: none;
     }
 
     .footer-section hr {
@@ -1026,23 +631,28 @@
 
 }
 
-
 /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (min-width: 812.99px) and (max-width: 991.98px) {
+@media (min-width: 766.99px) and (max-width: 991.98px) {
 
     html,
     body {
         width: 100%;
     }
-
-    section {
-        padding: 3rem 0;
+    .col-sm-3 {
+	visibility: collapse;
+    }
+      .realtime-section .col-sm-3, .holistic-section .col-sm-3{
+      visibility: hidden;
+      max-width: 0;
+    }
+    .col-1.social-menu {
+	  visibility: hidden;
     }
 
     .col-5 {
         margin-left: 0;
     }
-    .read-more{
+    .Read-more{
         display: none;
     }
     h1 {
@@ -1110,10 +720,7 @@
         margin-right: auto;
     }
 
-    section {
-        margin: 3rem 0 !important;
-        padding: 3rem 0 !important;
-    }
+   
 
     .input-group {
         margin-right: 5rem;
@@ -1218,8 +825,7 @@
 
     /* Fluid Section */
     .fluid-section img,
-    .realtime-section img,
-    .holistic-section img {
+    .realtime-section img{
         max-width: inherit;
         margin-top: 3rem;
     }
@@ -1256,8 +862,7 @@
         padding-top: 0 !important;
     }
 
-    .realtime-section .box1,
-    .fluid_platform-section .box1 {
+    .realtime-section .box1 {
         width: auto !important;
         margin: 3rem 3rem 0 2rem;
         line-height: 2.3rem;
@@ -1274,9 +879,9 @@
         left: -5.9rem;
         max-width: 100%;
     }
-
+     
     .fluid_platform-section .box1 {
-        margin: 4rem 1rem 0 0 !important;
+        margin: -4rem 1rem 0 0 !important;
     }
 
     /* Holistic Section */
@@ -1287,9 +892,9 @@
     }
 
     .holistic-section img {
-        max-width: 125%;
+        max-width: 61%;
         position: relative;
-        top: auto;
+        margin-top:  -39rem;
         right: -5rem !important;
     }
 
@@ -1575,14 +1180,19 @@
         width: 82.88%;
         max-height: 0;
     }
-
-    .col-1.footer-menu2 {
-        visibility: collapse;
+    .realtime-section .col-sm-3,
+    .holistic-section .col-sm-3 {
+      visibility: hidden;
+      max-width: 0;
     }
-    p {
-        font-size: 1.7rem !important;
+    .Read-more{
+        visibility: hidden;
     }
-
+     .col-1.social-menu {
+	  visibility: hidden;
+    }
+    
+   
     section {
         padding: 7rem 0 !important;
     }
@@ -1593,7 +1203,7 @@
 
     .nav-item {
         margin-top: 1rem !important;
-        margin-left: 4rem !important;
+        margin-left: 1rem !important;
     }
 
     form.d-flex {
@@ -1613,7 +1223,6 @@
         letter-spacing: 0.07rem !important;
     }
 
-    \
  .customer-section h2,
     .success-section h2,
     .success-section h4,
@@ -1691,7 +1300,7 @@
     }
 
     .realtime-section .box1 {
-        margin: 6rem 10rem auto 6rem !important;
+        margin: 6rem 7rem auto 3rem !important;
     }
 
     .fluid_platform-section {
@@ -1703,7 +1312,7 @@
     }
 
     .holistic-section .box1 {
-        margin: 5rem 1rem auto 6rem !important;
+        margin: 5rem 1rem auto 3rem !important;
     }
 
     .holistic-section .box1 h2 {
@@ -1714,12 +1323,17 @@
     .holistic-section img {
         max-width: 105%;
         position: relative;
-        top: auto;
-        right: -1rem;
+        top: -42rem;
+        right: -47rem;
     }
 
     .success-section h3.display-3 {
         margin-bottom: 3rem !important;
+    }
+    .success-section {
+    text-align: center;
+    display: block;
+    margin-top: -33rem;
     }
 
     .team-section .box2 {
@@ -1784,13 +1398,13 @@
     }
 
     .mb-5.pb-4 {
-        margin-left: 22rem;
-        margin-right: 22rem;
+    margin-left: 12rem;
+    margin-right: 9rem;
     }
 
     .row.row-cols-8.justify-content-center.mx-auto p {
         font-size: 1rem;
-        line-height: 1.1rem;
+        line-height: 1.2rem;
     }
 
     .img-box {
@@ -1810,9 +1424,9 @@
     .img-box .col-1 p {
         font-size: .7rem;
     }
-.col-2.sm-col-2 {
-    padding-left: 3rem;
-}
+    .col-2.sm-col-2 {
+        padding-left: 3rem;
+    }
     .speech-section {
         padding-top: 5rem !important;
     }
@@ -1848,7 +1462,10 @@
         padding-top: 35rem !important;
         padding-bottom: 2rem !important;
     }
-
+    .my-5.social-menu{
+        visibility: hidden;
+        max-height: 0;
+    }
     .footer-section .nav > .nav-item {
         margin-left: 2.4rem !important;
         margin-top: 2rem !important;
@@ -1864,12 +1481,26 @@
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (min-width: 1199.99px) and (max-width: 1499.98px) {
+@media (min-width: 1199.99px) {
+    .d-xxl-block {
+	margin-left: 4rem;
+    }
+    .success-section {
+    text-align: center;
+    display: block;
+    margin-top: -33rem;
+}
+    .my-5.social-menu{
+        visibility: hidden;
+        max-height: 0;
+    }
     .realtime-section .col-sm-3, .holistic-section .col-sm-3{
       visibility: hidden;
       max-width: 0;
     }
-
+    .col-1.social-menu {
+	  visibility: hidden;
+    }
     html,
     body {
         width: 100%;
@@ -1878,9 +1509,7 @@
       width: 82.88%;
     }
 
-.col-1.footer-menu2 {
-	visibility: collapse;
-}
+
     h1 {
         font-size: 5.5rem;
         line-height: 7rem;
@@ -2073,8 +1702,8 @@
         padding-right: 1rem;
         letter-spacing: 0.12rem;
     }
-    .read-more{
-        display: none;
+    .Read-more{
+        visibility: hidden;
     }
     /* Real-Time Section */
     .realtime-section {
@@ -2094,15 +1723,14 @@
 
     .realtime-section img {
         position: relative;
-        top: -1.5rem;
-        right: -1.5rem;
+        
         max-width: 110%;
     }
 
     /* Fluid-platform Section */
     .fluid_platform-section {
-        margin-top: 4rem !important;
-        padding-top: 4rem !important;
+        margin-top: 0 !important;
+       
     }
 
     .fluid_platform-section img {
@@ -2120,7 +1748,7 @@
     /* Holistic Section */
     .holistic-section .box1 {
         margin-top: 2rem !important;
-        padding-left: 7rem;
+        padding-left: 4rem;
         margin-left: 1.8rem;
     }
 
