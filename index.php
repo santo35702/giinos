@@ -858,7 +858,7 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="contact-box ">
+                    <div class="contact-box address">
                         <ul class="list-group">
                             <li class="list-group-item border-0 d-flex justify-content-start align-items-start bg-transparent">
                                 <img src="resource/img/Group%207055.png" alt="" class="me-3 img-fluid">
@@ -880,7 +880,7 @@
                     </div>
                 </div>
                 <div class="col-2 sm-col-2">
-                    <div class="contact-box">
+                    <div class="contact-box qr-code">
                         <img src="resource/img/QR%20Code.png" alt="">
                     </div>
                 </div>
@@ -908,7 +908,7 @@
 
     <!-- start contact section-->
     <section class="contact-section">
-        <div class="container">
+        <div class="container container-sm">
             <div class="card">
                 <div class="row">
                     <div class="col-6">
@@ -969,8 +969,14 @@
                 </div>
                 <hr class="my-5 social-menu">
                 <div class="col-1 social-menu justify-content-center" >
-                    
-                    <ul class="nav justify-content-center ">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href="#" class="link-dark">
+                                <img src="resource/img/Facebook_white.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- <ul class="nav justify-content-center ">
                         <li class="nav-item2">
                             <img src="resource/img/Facebook_white.png" alt="">
                         </li>
@@ -981,7 +987,7 @@
                              <img src="resource/img/Youtube_white.png" alt=""></li>
                         <li class="nav-item2">
                              <img src="resource/img/Mail_white.png" alt=""></li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="col-1 footer-menu">
                     <h5 class="text-white h4 fw-bolder">Menu</h5>
@@ -1006,7 +1012,7 @@
                         </li>
                     </ul>
                 </div>
-               
+
             </div>
             <hr class="my-5">
             <p class="text-center text-white copyright"><?php echo $footerContent[$ln][6] ?></p>

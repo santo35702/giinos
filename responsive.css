@@ -9,12 +9,25 @@
     body {
         width: 100vw !important;
         overflow-x: hidden;
-       
+
+    }
+
+    div.navbar-collapse {
+        overflow-x: hidden !important;
     }
 
     .navbar form.d-flex .input-group {
         width: 15rem;
-        margin: 1.5rem 28rem 0 auto;
+        margin: auto !important;
+    }
+
+    .navbar ul.navbar-nav {
+        padding-left: 0 !important;
+    }
+
+    .navbar ul.navbar-nav li.nav-item {
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 
     section {
@@ -74,6 +87,11 @@
         max-width: 100% !important;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .contact-section .container-sm {
+        max-width: 90% !important;
+        margin-top: 1rem !important;
     }
 
     .customer-section h2,
@@ -313,7 +331,7 @@
         font-size: 9rem;
         position: relative;
     }
- 
+
     .team-section span.first {
         left: 3% !important;
         top: 9% !important;
@@ -363,7 +381,7 @@
         font-weight: bold;
         display: grid;
         line-height: 3rem;
-       
+
     }
     .accordion-item:first-of-type {
 	border-top-left-radius: 2rem;
@@ -455,21 +473,23 @@
     }
 
     .hiring-section .container-fluid:last-child .row:last-child {
-        margin-left: -11% !important;
-        margin-right: 2% !important;
+        /* margin-left: -11% !important; */
+        /* margin-right: 2% !important; */
     }
 
     .contact-box {
-        min-height: 20.5rem !important;
+        min-height: 10rem !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .sm-col-5 {
         width: 100%;
         text-align: center;
-        margin: 2rem;
+        /* margin: 2rem; */
         border-right: none;
     }
-  
+
 
     .sm-col-2 {
         width: 22.6666667%;
@@ -486,13 +506,17 @@
     .col-4 {
         flex: 0 0 auto;
         width: 69.333%;
-        margin-left: 1rem;
+        margin-left: 0 !important;
         border-right: none;
-        margin-top: -10rem;
+        /* margin-top: -10rem; */
     }
     .contact-box h7 {
         font-size: 1.2rem;
         line-height: 2.2rem;
+    }
+
+    .contact-box.address {
+        margin-bottom: 8rem;
     }
 
     .contact-box li.list-group-item p {
@@ -505,8 +529,12 @@
         max-width: 60% !important;
     }
 
+    .qr-code img {
+        padding-top: 5rem;
+    }
+
     .contact-box img {
-        max-width: 120% !important;
+        max-width: 160% !important;
     }
 
     .speech-section {
@@ -566,6 +594,9 @@
         padding-top: 58rem !important;
         padding-bottom: 2rem !important;
     }
+    .footer-section .row {
+        margin: 0 !important;
+    }
     .img-fluid.footer-logo {
         max-width: 255%;
     }
@@ -601,7 +632,7 @@
     .justify-content-end {
 	justify-content: center;
     }
-    
+
     .footer-section .nav > .nav-item .nav-link,
     p.copyright {
         font-size: 12px !important;
@@ -618,7 +649,15 @@
         margin-bottom: 2rem !important;
     }
 
-
+.hiring-section .accordion-button:not(.collapsed)::after,
+.hiring-section .accordion-button::after {
+    background-position: center;
+    width: 10% !important;
+    position: relative;
+    top: -3.5rem;
+    right: -1rem;
+    background-size: auto;
+}
 
 .hiring-section .accordion-button:not(.collapsed)::after {
     background-image: url('resource/img/dash-square.svg') !important;
@@ -720,7 +759,7 @@
         margin-right: auto;
     }
 
-   
+
 
     .input-group {
         margin-right: 5rem;
@@ -879,7 +918,7 @@
         left: -5.9rem;
         max-width: 100%;
     }
-     
+
     .fluid_platform-section .box1 {
         margin: -4rem 1rem 0 0 !important;
     }
@@ -1191,8 +1230,8 @@
      .col-1.social-menu {
 	  visibility: hidden;
     }
-    
-   
+
+
     section {
         padding: 7rem 0 !important;
     }
@@ -1723,14 +1762,14 @@
 
     .realtime-section img {
         position: relative;
-        
+
         max-width: 110%;
     }
 
     /* Fluid-platform Section */
     .fluid_platform-section {
         margin-top: 0 !important;
-       
+
     }
 
     .fluid_platform-section img {
