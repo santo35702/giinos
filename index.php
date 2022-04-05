@@ -707,7 +707,7 @@
                           <?php echo $hiringContent[$ln]['box3']['heading-box']['description'] ?>
                         </div>
                         <div class="img-box">
-                            <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-evenly">
                                 <div class="col-2">
                                     <div class="python text-center">
                                         <img src="resource/img/Group%207037.png" alt="" class="img-fluid">
@@ -733,7 +733,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-row justify-content-evenly">
                                 <div class="col-2">
                                     <div class="grafana text-center">
                                         <img src="resource/img/Group%207041.png" alt="" class="img-fluid">
@@ -970,7 +970,7 @@
                     <img src="resource/img/Group%20499.png" alt="" class="img-fluid footer-logo">
                 </div>
                 <hr class="my-5 social-menu">
-                <div class="col-1 social-menu justify-content-center" >
+                <div class="col-1 social-menu justify-content-center">
                     <!-- <ul class="list-unstyled d-flex">
                         <li>
                             <a href="#" class="link-dark">
@@ -978,7 +978,7 @@
                             </a>
                         </li>
                     </ul> -->
-                    <ul class="nav justify-content-center ">
+                    <ul class="nav justify-content-center d-flex">
                         <li class="nav-item2">
                             <img src="resource/img/Facebook_white.png" alt="">
                         </li>

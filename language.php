@@ -104,7 +104,7 @@
         'th' => [
             'title' => 'ทำไมต้อง Fluid Process Flow',
             'description' => 'การสร้างโฟลว์กระบวนการที่กำหนดไว้อย่างชัดเจนถือเป็นภารกิจที่ท้าทาย แต่วันนี้ ในโลกของการเปลี่ยนแปลงอย่างรวดเร็วและไม่สามารถคาดเดาความท้าทายได้ คุณไม่เพียงต้องการสิ่งที่กำหนดมาอย่างดีเท่านั้น แต่ยังต้องมีความสามารถในการปรับเปลี่ยน/เปลี่ยนแปลงแบบไดนามิกด้วย ด้วยเหตุนี้ที่ Giinos เราจึงมุ่งเน้นที่จะคิดค้นวิธีที่เราจะทำได้อย่างไร ทำให้การไหลของกระบวนการเป็น "ของเหลว" ที่สามารถช่วยลูกค้าของเราได้ทันที โดยเฉพาะอย่างยิ่งในภาคสุขภาพ ตอบสนองต่อการเปลี่ยนแปลงอย่างรวดเร็วในชั่วข้ามคืนหรือแม้กระทั่งภายในไม่กี่ชั่วโมงเพื่อปรับตัวให้เข้ากับภัยคุกคาม เช่น การระบาดใหญ่ของ COVID-19 นั่นคือที่ที่ทุกอย่างต้องรวมเข้าด้วยกันโดยเริ่มจากการเข้าใจปัญหาเฉพาะโดเมน ทักษะการแก้ปัญหา ประสบการณ์ ทักษะในการเลือกเทคโนโลยีที่เหมาะสม การสร้างแพลตฟอร์มและวิสัยทัศน์ และใช้ AI หรือการเรียนรู้ของเครื่อง / การวิเคราะห์ข้อมูลเพื่อทำให้เป็น “ของเหลวอัจฉริยะ” .',
-            
+
             ],
     );
 
@@ -125,7 +125,7 @@
             'title' => 'Intelligent Fluid Platform & <br>Way ahead.',
             'description' => 'We keep our platform flexible and always see beyond what we can do now. We do R&D, co-ordinate with our partners to make sure that there is no deathend for customers.<span id="thirdTarget" class="extra-content"> Applying new technologies like machine learning, AI and Web3 is our scope & mission to seamlessly delivery “smooth people interactions” for everyone.<br>We do release roadmap & truly consult, planing and support them to apply new technologies, features from our roadmap to maximize value for our customers. So that the beautiful of platform building, “deliver value”.</span>',
             'btn'=> 'Read more...',
-           
+
             ],
         'th' => [
             'title' => 'แพลตฟอร์มของไหลอัจฉริยะ & <br>ทางข้างหน้า.',
@@ -432,7 +432,7 @@
     );
 
     $footerContent = array(
-        'en' => ['Home', 'What we do', 'Success Story', 'Team and Culture', 'We’re hiring', 'Contact Us', 'copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss'],
+        'en' => ['Home', 'What we do', 'Success Story', 'Team and Culture', 'We’re hiring', 'Contact Us', 'Copyright &copy; 2022 <i class="fa fa-heart text-danger"></i> by Giinoss'],
         'th' => ['บ้าน', 'เราทำอะไร', 'เรื่องราวความสำเร็จ', 'ทีมงานและวัฒนธรรม', 'เรากำลังจ้าง', 'ติดต่อเรา', '
 ลิขสิทธิ์ &คัดลอก; 2022 <i class="fa-heart text-danger"></i> โดย Giinos'],
     );

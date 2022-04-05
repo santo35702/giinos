@@ -624,7 +624,8 @@
         margin-top: 1rem !important;
     }
     .nav-item2 {
-	margin-left: 1rem;
+	margin-left: 1.3rem;
+    margin-right: 1.3rem;
 }
     .nav-item {
         font-size: 1rem;
